@@ -293,3 +293,5 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
 * The CDS annotation dictionaries provided by the users to `-C (--CDSdic)` should be consistent with the dictionaries provided in the nonCDSgwas.
 * The command `Nfilter` filters the windows that do not meet the p-value threshold or whose second lowest allele frequency <= 2. It keeps the windows with the lowest p-value in each non-coding region, and annotates its upstream and downstream neighboring genes that meet the distance threshold.
 
+# Citation
+Wang PY, Liang Z, Chen ZS, Bao YJ*, Castellino F*. compGWAS: a new GWAS tool allows revelation of the genetic architecture and risk stratification for the versatile pathogen Streptococcus pyogenes. Under review 2025. https://www.researchsquare.com/article/rs-5049272/v1.
