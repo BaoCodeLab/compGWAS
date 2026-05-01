@@ -113,9 +113,10 @@ LogisRre <- function(i) {
 
 	summary_ii <- summary(model_ii);
 	intercept_pVal <- summary_ii$coefficients[1,4];
+	intercept_pBH=p.adjust(intercept_pVal, method = "BH")
 	Null_deviance <- summary_ii$null.deviance;
 	Residual_deviance <- summary_ii$deviance;
-	out_i <- c(out_i, as.numeric(as.character(intercept_pVal)), as.numeric(as.character(Null_deviance)), as.numeric(as.character(Residual_deviance)));
+	out_i <- c(out_i, as.numeric(as.character(intercept_pVal)),as.numeric(as.character(intercept_pBH)), as.numeric(as.character(Null_deviance)), as.numeric(as.character(Residual_deviance)));
 	coeffi <- as.data.frame(summary_ii$coefficients);
 	coeffi$rownames <- rownames(coeffi);
 	for (j in 1:length(keyname)) {
