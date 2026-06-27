@@ -256,7 +256,7 @@ def gbk2seqGene(args):
         seq_file=args.seq
 
     if args.org == None:
-        logging.warning("No organism is provided, default NULL value will be used.")
+        logging.warning("No organism or strain name is provided, default NULL value will be used.")
         Org='-'
     else:
         Org = args.org
