@@ -23,7 +23,7 @@ if __name__ == "__main__":
             SNPmerge.SNPmerge(args)
             SNPCDSanno.SNPCDSanno(args)
     elif "FLAG" in dir(args) and args.FLAG == "LDprun":
-        args.info = glob.glob(args.outdir + "/" + args.prefix + r".*.Haploview.info")
+        args.info = glob.glob(args.outdir.rstrip('/') + "/" + args.prefix + r".*.Haploview.info")
         LDprun.LDprun(args)
         Block.Block(args)
         Screen.Screen(args)
