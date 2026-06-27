@@ -82,7 +82,7 @@ def gbkFormat(gbk_file,tab_file,seq_file,theOrg):
     file_seq=open(seq_file,'w')
     
 
-    file_out.write("strain\tr1\tr2\tr3\tr4\tcontig\tstart\tend\tlength\tstrand\tsymbol\tgeneID\tmol_type\tassemblyType\tprotID\tfunction\tcategory0\tcategory1\tcategory2\category3\n")
+    file_out.write("strain\tr1\tr2\tr3\tr4\tcontig\tstart\tend\tlength\tstrand\tsymbol\tgeneID\tmol_type\tassemblyType\tproductID\tfunction\tcategory0\tcategory1\tcategory2\category3\n")
     gbk0=''
     cunt=0
     org=theOrg
