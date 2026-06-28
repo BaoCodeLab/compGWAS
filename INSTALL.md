@@ -118,7 +118,7 @@ compGWAS <command> [options]
 
 ```bash
 # Prepare reference genome and annotation files
-compGWAS preGWAS -g input.gbk -o output_tab-delimited.txt -s reference_proteins.faa -r genome.fasta -p PREFIX
+compGWAS preGWAS -g input.gbk -o output_tab-delimited.txt -s reference_proteins.faa -r genome.fasta -t AP53 -p PREFIX
 
 # Run SNP GWAS analysis
 compGWAS SNPgwas -S /path/to/snps/ -c 0 1 6 \
