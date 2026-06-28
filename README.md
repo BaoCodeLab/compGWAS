@@ -71,17 +71,17 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
 #### {arguments}
     -h, --help                                  Show this help message and exit.
     -S ALLSNP, --allSNP ALLSNP                  The path of all strains' SNP annotation files, not include the files.
-    -c COLS COLS COLS, --cols COLS COLS COLS    Input the column index of RefName (Contig), Loc and Allele of the SNPs annotation files (start with 0, e.g first column = 0).                         
-    -p PHENO1 PHENO1, --pheno1 PHENO1 PHENO1    Input the file of phenotype1 strains' GCAs (only the number between GCA_ and .), and the name of the phenotype p.
-    -P PHENO0 PHENO0, --pheno0 PHENO0 PHENO0    Input the file of phenotype0 strains' GCAs (only the number between GCA_ and .), and the name of the phenotype P. 
-    -i INFO INFO INFO, --info INFO INFO INFO    Input the file of strains' covariates information, the covariates for logistic regression (seperated by ,), and the type of each covariate (f or n, f means factor and n means numeric, seperated by ,).
-    -f REF REF, --ref REF REF                   Input the reference strain's GCA (only the number between GCA_ and .) and its phenotype (p or P).
-    -t [THREAD], --thread [THREAD]              Input the thread used in 'CHI2distribution.R' and 'GWAS.R' (default: 1).
+    -c COLS COLS COLS, --cols COLS COLS COLS    Input the column index of RefName (Contig), Loc (Location) and Allele in the SNPs detection files (start with 0, e.g first column = 0). These information will be used for allele counts                         
+    -p PHENO1-IDs PHENO1-name, --pheno1 PHENO1-IDs PHENO1-name    Input the file of sample-IDs (e.g., GCAs) of phenotype1, and the phenotype name (e.g., INV).
+    -P PHENO0-IDs PHENO0-name, --pheno0 PHENO0-IDs PHENO0-name    Input the file of sample-IDs (e.g., GCAs) of phenotype0, and the phenotype name (e.g., SSTI). 
+    -i covariates_file covariate1,covariate2 covariate1-type,covariate2-type --info covariate1 covariate2 covariate3    Input the file of the samples' covariates information; the covariates for logistic regression (seperated by ,); and the type of each covariate (f or n, f means factor and n means numeric, seperated by ,).
+    -f  REF, --ref reference-ID reference-phenotype                   Provide the reference genome's ID (e.g., GCA) if it is included in the file of sample-IDs and its phenotype name (e.g., INV).
+    -t [THREAD], --thread [THREAD]              Provide the thread used for analysis (default: 1).
     -T [THRESHOLD], --threshold [THRESHOLD]     Input the Pvalue threshold of Allele used to filter logistic regression results (default: 0.05).
     -o [OUTDIR], --outdir [OUTDIR]              Output folder (default: .).
-    -O [PREFIX], --prefix [PREFIX]              Output filename prefix of SNP results (default: SNP.output).
-    -R RSCRIPT, --Rscript RSCRIPT               The path of Rscript, include 'Rscript'.
-    -r RSCRIPT, --rscript RSCRIPT               The path of the compGWAS package, include 'compGWAS'.
+    -O [PREFIX], --prefix [PREFIX]              Output filename prefix of analysis results (default: SNP.output).
+    -R /path/to/Rscript, --Rscript /path/to/Rscript               The installation path of Rscript (e.g., /usr/bin/Rscript).
+    -r /path/to/compGWAS, --rscript /path/to/compGWAS               The installation path of the compGWAS package (e.g., /home/tools/compGWAS).
 
 ### GWA analysis of the synergistic effect of SNPs/Indels in the coding regions
 #### Usage:&emsp;python compGWAS.py CDSgwas [-h] -D ALLDIP -S ALLSNP -c COLS COLS COLS COLS COLS COLS -C CDSDIC [CDSDIC ...] -g GENOME -p PHENO1 PHENO1 -P PHENO0 PHENO0 [-i INFO INFO INFO] [-f REF REF] -l LENGTH LENGTH LENGTH [-t [THREAD]] [-T [THRESHOLD]] [-o [OUTDIR]] [-O [PREFIX]] -R RSCRIPT -r RSCRIPT
