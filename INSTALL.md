@@ -5,11 +5,12 @@ A quick and easy installation guide for **compGWAS** - A Python toolkit for comp
 ## Prerequisites
 
 - **Python** > 3.7+
-- **R** > 3.5+
-- **Java** = 1.8 (for Haploview/LD analysis)
-- **numpy** > 1.16.0 (Python package manager)
+- **numpy** > 1.16.0
 - **pandas** >=0.24.0
+- **R** > 3.5+
 - **R packages**: "foreach", "doParallel", "BaylorEdPsych"
+- **Java** = 1.8
+- **Haploview** (for Haploview/LD analysis)
 
 ## Quick Start (5 Steps)
 
