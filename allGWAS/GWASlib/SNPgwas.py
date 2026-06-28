@@ -65,7 +65,7 @@ def SNPgwas(args):
     script2 = None
     if args.rscript != None:
         rsrc = args.rscript
-        # 1) If it looks like an installed package, try to resolve it via importlib
+        # 1) If it is an installed package, try to resolve via importlib
         try:
             spec = importlib.util.find_spec(rsrc)
         except Exception:
@@ -95,7 +95,7 @@ def SNPgwas(args):
         # 2) If not found as a package, or package lookup failed, treat as filesystem path
         if script1 is None or script2 is None:
             base = rsrc
-            # Try the common locations we expect the R scripts to live
+            # Try the common locations 
             candidate1 = os.path.join(base, "allGWAS", "GWASlib", "CHI2distribution.R")
             candidate2 = os.path.join(base, "allGWAS", "GWASlib", "GWAS.R")
             # Also accept when the user provided the direct script directory
