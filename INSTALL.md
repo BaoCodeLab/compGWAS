@@ -74,7 +74,7 @@ Haploview is needed for linkage disequilibrium analysis:
 ```bash
 mkdir -p ~/compgwas_tools
 cd ~/compgwas_tools
-wget https://www.broadinstitute.org/files/shared/diabetes/haploview/Haploview.jar
+wget https://www.broadinstitute.org/ftp/pub/mpg/haploview/Haploview.jar
 cd ..
 ```
 
@@ -130,72 +130,6 @@ See [README.md](README.md) for detailed usage documentation.
 
 ---
 
-## Troubleshooting
-
-### Issue: `command not found: compGWAS`
-
-**Solution:** Ensure the installation completed successfully:
-```bash
-pip3 install -e . --force-reinstall
-```
-
-Or use the full path:
-```bash
-python3 /path/to/compGWAS/compGWAS.py -h
-```
-
-### Issue: `ModuleNotFoundError: No module named 'pandas'`
-
-**Solution:**
-```bash
-pip3 install --upgrade pandas numpy
-```
-
-### Issue: `R package not found`
-
-**Solution:** Install R packages with proper repository:
-```bash
-Rscript -e "install.packages(c('foreach', 'doParallel', 'BaylorEdPsych'), repos='https://cloud.r-project.org')"
-```
-
-### Issue: `Rscript: command not found`
-
-**Solution:** Find the location of Rscript:
-```bash
-which Rscript
-```
-
-Then use the full path when running compGWAS:
-```bash
-compGWAS SNPgwas -R /usr/bin/Rscript [other arguments]
-```
-
-### Issue: `java: command not found`
-
-**Solution:** Install Java and verify:
-```bash
-# Ubuntu/Debian
-sudo apt-get install default-jdk
-
-# Check installation
-java -version
-```
-
-### Issue: Permission denied
-
-**Solution:**
-```bash
-chmod +x compGWAS.py
-```
-
-Or run with explicit Python:
-```bash
-python3 -m compGWAS [command] [arguments]
-```
-
----
-
-
 ## Uninstallation
 
 To remove compGWAS:
@@ -212,21 +146,11 @@ rm -rf ~/compGWAS
 
 ---
 
-## Getting Help
-
-- **View help:** `compGWAS -h`
-- **Module-specific help:** `compGWAS <command> -h`
-- **GitHub Issues:** https://github.com/BaoCodeLab/compGWAS/issues
-- **README:** See [README.md](README.md) for detailed documentation
-
----
-
-
 ## License
 
 compGWAS is released under the GNU General Public License v3.0. See [LICENSE](LICENSE) for details.
 
 ---
 
-**Last Updated:** June 2024  
+**Last Updated:** June 2026  
 **compGWAS Version:** 1.0.0+
