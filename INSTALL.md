@@ -2,6 +2,14 @@
 
 A quick and easy installation guide for **compGWAS** - A Python toolkit for comprehensive GWAS analysis of SNPs/Indels.
 
+## Prerequisites
+
+- **Python** 3.7+
+- **R** 3.5+
+- **Java** (for Haploview/LD analysis)
+- **pip** (Python package manager)
+- 
+
 ## Quick Start (3 Steps)
 
 ### Step 1: Clone the Repository
@@ -48,85 +56,7 @@ python3 setup.py install
 compGWAS -h
 ```
 
----
-
-## Detailed Installation Steps
-
-### Prerequisites
-
-compGWAS requires:
-
-- **Python** 3.7+
-- **R** 3.5+
-- **Java** (for Haploview/LD analysis)
-- **pip** (Python package manager)
-
-### 1. Install System Dependencies
-
-#### Ubuntu/Debian
-```bash
-sudo apt-get update
-sudo apt-get install -y \
-    python3 \
-    python3-pip \
-    python3-dev \
-    r-base \
-    r-base-dev \
-    default-jdk \
-    git
-```
-
-#### CentOS/RHEL
-```bash
-sudo yum install -y \
-    python3 \
-    python3-pip \
-    python3-devel \
-    R \
-    R-devel \
-    java-1.8.0-openjdk \
-    git
-```
-
-#### macOS
-```bash
-# Using Homebrew (install from https://brew.sh if needed)
-brew install python3 r openjdk git
-```
-
-#### Verify installations:
-```bash
-python3 --version
-R --version
-java -version
-```
-
-### 2. Clone compGWAS Repository
-
-```bash
-git clone https://github.com/BaoCodeLab/compGWAS.git
-cd compGWAS
-```
-
-### 3. Install Python Package Dependencies
-
-The setup.py automatically handles Python dependencies (numpy, pandas):
-
-```bash
-pip3 install -e .
-```
-
-Or with upgrade flag:
-```bash
-pip3 install -e . --upgrade
-```
-
-### 4. Install R Packages
-
-**Interactive installation:**
-```bash
-R
-```
+### Step 4. Install R Packages
 
 Inside R console:
 ```r
@@ -141,7 +71,7 @@ q()
 Rscript -e "install.packages(c('foreach', 'doParallel', 'BaylorEdPsych'), repos='http://cran.r-project.org')"
 ```
 
-### 5. Download Haploview (Optional but Recommended)
+### Step 5. Download Haploview (Optional but Recommended)
 
 Haploview is needed for linkage disequilibrium analysis:
 
@@ -157,13 +87,6 @@ cd -
 ## Installation Verification
 
 ### Test All Components
-
-```bash
-# Test Python packages
-python3 -c "import numpy, pandas; print('✓ Python packages OK')"
-
-# Test R packages
-Rscript -e "library(foreach); library(doParallel); library(BaylorEdPsych); print('R packages OK')"
 
 # Test Java
 java -version
@@ -224,55 +147,6 @@ compGWAS SNPgwas -S /path/to/snps/ -c 0 1 2 \
 See [README.md](README.md) for detailed usage documentation.
 
 ---
-
-## Advanced Installation Options
-
-### Using a Virtual Environment (Recommended)
-
-**Create and activate a virtual environment:**
-
-```bash
-# Python venv
-python3 -m venv compgwas_env
-source compgwas_env/bin/activate
-
-# Or with conda
-conda create -n compgwas python=3.9
-conda activate compgwas
-```
-
-**Then install compGWAS:**
-```bash
-pip3 install -e .
-```
-
-### Using Conda (Recommended for HPC)
-
-```bash
-# Create conda environment with all dependencies
-conda create -n compgwas python=3.9 r-base numpy pandas
-
-# Activate environment
-conda activate compgwas
-
-# Install R packages
-R --slave -e "install.packages(c('foreach', 'doParallel', 'BaylorEdPsych'))"
-
-# Install compGWAS
-pip3 install -e .
-```
-
-### Docker Installation
-
-**Build Docker image:**
-```bash
-docker build -t compgwas:latest .
-```
-
-**Run compGWAS in Docker:**
-```bash
-docker run --rm -v /path/to/data:/data compgwas:latest compGWAS -h
-```
 
 ---
 
@@ -341,53 +215,6 @@ python3 -m compGWAS [command] [arguments]
 
 ---
 
-## Installation on HPC Clusters
-
-### Using SLURM Module System
-
-**Create a batch script `run_compgwas.sh`:**
-
-```bash
-#!/bin/bash
-#SBATCH --job-name=compgwas
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=4
-#SBATCH --time=02:00:00
-#SBATCH --mem=16G
-
-# Load modules
-module load python/3.9
-module load r/4.0
-module load java/11
-
-# Activate virtual environment (if using one)
-source /path/to/compgwas_env/bin/activate
-
-# Run compGWAS
-compGWAS SNPgwas -S /data/snps/ -t 4 [other arguments]
-```
-
-**Submit job:**
-```bash
-sbatch run_compgwas.sh
-```
-
-### Using Conda on HPC
-
-```bash
-# Install miniconda if not available
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-
-# Create environment
-conda create -n compgwas python=3.9 r-base numpy pandas -c conda-forge
-
-# Activate and install
-conda activate compgwas
-pip3 install -e /path/to/compGWAS
-```
-
----
 
 ## Uninstallation
 
@@ -414,13 +241,6 @@ rm -rf ~/compGWAS
 
 ---
 
-## Citation
-
-If you use compGWAS in your research, please cite:
-
-> Wang PY, Liang Z, Chen ZS, Bao YJ*, Castellino F*. compGWAS: a new GWAS tool allows revelation of the genetic architecture and risk stratification for the versatile pathogen Streptococcus pyogenes.
-
----
 
 ## License
 
