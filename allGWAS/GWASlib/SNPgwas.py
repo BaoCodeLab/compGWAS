@@ -56,14 +56,33 @@ def SNPgwas(args):
     else:
         raise Exception("Please provide the path of Rscript!")
     
+    # args.rscript should be the path to the installed package root OR the directory
+    # that directly contains the two R scripts. Accept either a package root like
+    # /path/to/compGWAS/ or a scripts directory like /path/to/compGWAS/allGWAS/GWASlib/.
     if args.rscript != None:
-        script1 = args.rscript + "allGWAS/GWASlib/CHI2distribution.R"
-        script2 = args.rscript + "allGWAS/GWASlib/GWAS.R"
+        base = args.rscript
+        # Try the common locations we expect the R scripts to live
+        candidate1 = os.path.join(base, "allGWAS", "GWASlib", "CHI2distribution.R")
+        candidate2 = os.path.join(base, "allGWAS", "GWASlib", "GWAS.R")
+        # Also accept when the user provided the direct script directory
+        candidate_alt1 = os.path.join(base, "CHI2distribution.R")
+        candidate_alt2 = os.path.join(base, "GWAS.R")
+
+        if os.path.exists(candidate1) and os.path.exists(candidate2):
+            script1 = candidate1
+            script2 = candidate2
+        elif os.path.exists(candidate_alt1) and os.path.exists(candidate_alt2):
+            script1 = candidate_alt1
+            script2 = candidate_alt2
+        else:
+            tried = [candidate1, candidate2, candidate_alt1, candidate_alt2]
+            raise Exception("Cannot find required R scripts. Tried: {}. Please provide either the package root or the directory containing CHI2distribution.R and GWAS.R.".format(
+                ", ".join(tried)))
     else:
         raise Exception("Please provide the path of GWAS package!")
 
     logging.basicConfig(
-            format='%(asctime)s \tFile \"%(filename)s" %(levelname)s: \n %(message)s \n',
+            format='%(asctime)s \tFile "%(filename)s" %(levelname)s: \n %(message)s \n',
             datefmt='%a, %d %b %Y %H:%M:%S',
             filename=rootout+'.log', filemode="w", level=logging.INFO)
 
@@ -242,6 +261,5 @@ def SNPgwas(args):
     os.system('%s %s %s %s %s %s %s SNP %d %s' % (Rscr,script1,out3,colnames[2],colnames[3],colnames[4],colnames[5],thread,out2))
 
     os.system('%s %s %s %s %s SNP %d %f %s %s' % (Rscr,script2,out,Rcols,types,thread,threshold,out3,out4)) 
-
 
 
