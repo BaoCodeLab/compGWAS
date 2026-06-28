@@ -81,8 +81,6 @@ cd ..
 ## Test compGWAS
 
 ```
-### Test Individual Modules
-
 # List all available commands
 compGWAS -h
 
@@ -112,19 +110,20 @@ compGWAS <command> [options]
 - **LDprun** - Linkage disequilibrium pruning
 - **SCfilter** - Filter SNPs in coding regions
 - **SNfilter** - Filter SNPs in non-coding regions
-- **Cfilter** - Filter genes affected by variants
+- **Cfilter** - Filter genes truncated by variants
 - **Nfilter** - Filter windows in non-coding regions
 
 ### Example Usage
 
 ```bash
-# Prepare genomic data
+# Prepare reference genome and annotation files
 compGWAS preGWAS -g input.gbk -o output.txt -s sequences.fasta -r genome.fasta -p PREFIX
 
 # Run SNP GWAS analysis
-compGWAS SNPgwas -S /path/to/snps/ -c 0 1 2 \
-  -p pheno1.txt p1 -P pheno0.txt p0 \
-  -R /usr/bin/Rscript -r /path/to/compGWAS/ -t 4
+compGWAS SNPgwas -S /path/to/snps/ -c 0 1 6 \
+  -p pheno1_IDs.txt pheno1 -P pheno0_IDs.txt pheno0 \
+  -f reference_ID pheno1 -t 4 -T 0.001 -o output_dir -O pheno1-pheno0_gwas
+  -R /usr/bin/Rscript -r /path/to/compGWAS/
 ```
 
 See [README.md](README.md) for detailed usage documentation.
