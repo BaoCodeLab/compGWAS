@@ -117,12 +117,12 @@ compGWAS <command> [options]
 
 ```bash
 # Prepare reference genome and annotation files
-compGWAS preGWAS -g input.gbk -o output.txt -s sequences.fasta -r genome.fasta -p PREFIX
+compGWAS preGWAS -g input.gbk -o output_tab-delimited.txt -s reference_proteins.faa -r genome.fasta -p PREFIX
 
 # Run SNP GWAS analysis
 compGWAS SNPgwas -S /path/to/snps/ -c 0 1 6 \
   -p pheno1_IDs.txt pheno1 -P pheno0_IDs.txt pheno0 \
-  -f reference_ID pheno1 -t 4 -T 0.001 -o output_dir -O pheno1-pheno0_gwas
+  -f reference_ID pheno1 -t 4 -T 0.001 -o output_dir -O PREFIX
   -R /usr/bin/Rscript -r /path/to/compGWAS/
 ```
 
@@ -143,8 +143,6 @@ To remove the cloned repository:
 ```bash
 rm -rf ~/compGWAS
 ```
-
----
 
 ## License
 
