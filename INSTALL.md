@@ -4,13 +4,14 @@ A quick and easy installation guide for **compGWAS** - A Python toolkit for comp
 
 ## Prerequisites
 
-- **Python** 3.7+
-- **R** 3.5+
-- **Java** (for Haploview/LD analysis)
-- **pip** (Python package manager)
-- 
+- **Python** > 3.7+
+- **R** > 3.5+
+- **Java** = 1.8 (for Haploview/LD analysis)
+- **numpy** > 1.16.0 (Python package manager)
+- **pandas** >=0.24.0
+- **R packages**: "foreach", "doParallel", "BaylorEdPsych"
 
-## Quick Start (3 Steps)
+## Quick Start (5 Steps)
 
 ### Step 1: Clone the Repository
 
@@ -66,11 +67,6 @@ install.packages("BaylorEdPsych")
 q()
 ```
 
-**Or non-interactive:**
-```bash
-Rscript -e "install.packages(c('foreach', 'doParallel', 'BaylorEdPsych'), repos='http://cran.r-project.org')"
-```
-
 ### Step 5. Download Haploview (Optional but Recommended)
 
 Haploview is needed for linkage disequilibrium analysis:
@@ -79,19 +75,10 @@ Haploview is needed for linkage disequilibrium analysis:
 mkdir -p ~/compgwas_tools
 cd ~/compgwas_tools
 wget https://www.broadinstitute.org/files/shared/diabetes/haploview/Haploview.jar
-cd -
+cd ..
 ```
 
----
-
-## Installation Verification
-
-### Test All Components
-
-# Test Java
-java -version
-
-# Test compGWAS
+## Test compGWAS
 compGWAS -h
 ```
 
@@ -107,8 +94,6 @@ compGWAS preGWAS -h
 # Test SNPgwas module
 compGWAS SNPgwas -h
 ```
-
----
 
 ## Usage
 
@@ -145,8 +130,6 @@ compGWAS SNPgwas -S /path/to/snps/ -c 0 1 2 \
 ```
 
 See [README.md](README.md) for detailed usage documentation.
-
----
 
 ---
 
