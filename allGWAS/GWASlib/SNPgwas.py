@@ -5,6 +5,8 @@ import re
 import os
 import logging
 import copy
+import importlib
+import importlib.util
 
 
 def SNPgwas(args):
@@ -56,27 +58,66 @@ def SNPgwas(args):
     else:
         raise Exception("Please provide the path of Rscript!")
     
-    # args.rscript should be the path to the installed package root OR the directory
-    # that directly contains the two R scripts. Accept either a package root like
-    # /path/to/compGWAS/ or a scripts directory like /path/to/compGWAS/allGWAS/GWASlib/.
+    # args.rscript may be either:
+    #  - an installed Python package name (e.g. 'compGWAS'), or
+    #  - a filesystem path to the package root or the directory that contains the R scripts.
+    script1 = None
+    script2 = None
     if args.rscript != None:
-        base = args.rscript
-        # Try the common locations we expect the R scripts to live
-        candidate1 = os.path.join(base, "allGWAS", "GWASlib", "CHI2distribution.R")
-        candidate2 = os.path.join(base, "allGWAS", "GWASlib", "GWAS.R")
-        # Also accept when the user provided the direct script directory
-        candidate_alt1 = os.path.join(base, "CHI2distribution.R")
-        candidate_alt2 = os.path.join(base, "GWAS.R")
+        rsrc = args.rscript
+        # 1) If it looks like an installed package, try to resolve it via importlib
+        try:
+            spec = importlib.util.find_spec(rsrc)
+        except Exception:
+            spec = None
 
-        if os.path.exists(candidate1) and os.path.exists(candidate2):
-            script1 = candidate1
-            script2 = candidate2
-        elif os.path.exists(candidate_alt1) and os.path.exists(candidate_alt2):
-            script1 = candidate_alt1
-            script2 = candidate_alt2
-        else:
-            tried = [candidate1, candidate2, candidate_alt1, candidate_alt2]
-            raise Exception("Cannot find required R scripts. Tried: {}. Please provide either the package root or the directory containing CHI2distribution.R and GWAS.R.".format(
+        if spec is not None:
+            # It's an importable package/module name; get its filesystem directory
+            try:
+                pkg = importlib.import_module(rsrc)
+                pkg_dir = os.path.dirname(getattr(pkg, '__file__', ''))
+                # look for scripts relative to package directory
+                candidate1 = os.path.join(pkg_dir, "allGWAS", "GWASlib", "CHI2distribution.R")
+                candidate2 = os.path.join(pkg_dir, "allGWAS", "GWASlib", "GWAS.R")
+                candidate_alt1 = os.path.join(pkg_dir, "CHI2distribution.R")
+                candidate_alt2 = os.path.join(pkg_dir, "GWAS.R")
+                if os.path.exists(candidate1) and os.path.exists(candidate2):
+                    script1 = candidate1
+                    script2 = candidate2
+                elif os.path.exists(candidate_alt1) and os.path.exists(candidate_alt2):
+                    script1 = candidate_alt1
+                    script2 = candidate_alt2
+            except Exception:
+                # fall through to filesystem-based resolution below
+                script1 = None
+                script2 = None
+
+        # 2) If not found as a package, or package lookup failed, treat as filesystem path
+        if script1 is None or script2 is None:
+            base = rsrc
+            # Try the common locations we expect the R scripts to live
+            candidate1 = os.path.join(base, "allGWAS", "GWASlib", "CHI2distribution.R")
+            candidate2 = os.path.join(base, "allGWAS", "GWASlib", "GWAS.R")
+            # Also accept when the user provided the direct script directory
+            candidate_alt1 = os.path.join(base, "CHI2distribution.R")
+            candidate_alt2 = os.path.join(base, "GWAS.R")
+
+            if os.path.exists(candidate1) and os.path.exists(candidate2):
+                script1 = candidate1
+                script2 = candidate2
+            elif os.path.exists(candidate_alt1) and os.path.exists(candidate_alt2):
+                script1 = candidate_alt1
+                script2 = candidate_alt2
+
+        # Final check
+        if script1 is None or script2 is None:
+            tried = [
+                os.path.join(rsrc, "allGWAS", "GWASlib", "CHI2distribution.R"),
+                os.path.join(rsrc, "allGWAS", "GWASlib", "GWAS.R"),
+                os.path.join(rsrc, "CHI2distribution.R"),
+                os.path.join(rsrc, "GWAS.R"),
+            ]
+            raise Exception("Cannot find required R scripts. Tried: {}. Please provide an installed package name or the filesystem path that contains CHI2distribution.R and GWAS.R.".format(
                 ", ".join(tried)))
     else:
         raise Exception("Please provide the path of GWAS package!")
