@@ -27,9 +27,7 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
         Filtering of Indel windows in the non-coding regions based on GWAS results
 
 
-# Module details
-
-### Usage 
+# Usage 
 #### python compGWAS.py [-h] {preGWAS,SNPgwas,CDSgwas,nonCDSgwas,SNPCDSanno,nonCDSanno,LDprun,SCfilter,SNfilter,Cfilter,Nfilter}
 #### Command line usage
     -h, --help          Show the help message.
