@@ -27,30 +27,7 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
         Filtering of Indel windows in the non-coding regions based on GWAS results
 
 
-# Install
-### Requirements
-* Python >= 3.7
-* R >= 3.5
-* Java
-* packages for python:
-
-&emsp;&emsp;&emsp;&emsp;numpy 
-
-&emsp;&emsp;&emsp;&emsp;pandas
-    
-* packages for R:
-
-&emsp;&emsp;&emsp;&emsp;foreach
-
-&emsp;&emsp;&emsp;&emsp;doParallel
-
-&emsp;&emsp;&emsp;&emsp;BaylorEdPsych
-
-* software for linkage disequilibrium analysis:
-    
-&emsp;&emsp;&emsp;&emsp;Haploview
-
-
+# Module details
 
 ### Usage 
 #### python compGWAS.py [-h] {preGWAS,SNPgwas,CDSgwas,nonCDSgwas,SNPCDSanno,nonCDSanno,LDprun,SCfilter,SNfilter,Cfilter,Nfilter}
