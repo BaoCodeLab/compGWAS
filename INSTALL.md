@@ -79,12 +79,10 @@ cd ..
 ```
 
 ## Test compGWAS
-compGWAS -h
-```
 
+```
 ### Test Individual Modules
 
-```bash
 # List all available commands
 compGWAS -h
 
