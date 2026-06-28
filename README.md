@@ -89,13 +89,13 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
     -h, --help                                                                  Show this help message and exit.
     -D /path/to/InDeldetection/, --allDIP /path/to/InDeldetection/              The file path of samples' InDel detection files with one file for each sample.
     -S /path/to/SNPdetection/, --allSNP /path/to/SNPdetection/                  The file path of samples' SNP detection with one file for each sample.
-    -c COLS COLS COLS COLS COLS COLS, --cols COLS COLS COLS COLS COLS COLS      Input the column index of RefName (Contig), Loc (Location) and Allele of the SNP annotation files and the InDel annotation files (start with 0, e.g first column = 0).            
-    -C CDSDIC [CDSDIC ...], --CDSdic CDSDIC [CDSDIC ...]                        The file of reference CDS annotation dictionaries generated from preGWAS.
+    -c COLS COLS COLS COLS COLS COLS, --cols COLS COLS COLS COLS COLS COLS      The column index of RefName (Contig), Loc (Location) and Allele of the SNP annotation files and the InDel annotation files (start with 0, e.g first column = 0).            
+    -C CDSDIC [CDSDIC ...], --CDSdic CDSDIC [CDSDIC ...]                        The files of reference CDS annotation dictionaries generated from preGWAS.
     -g GENOME, --genome GENOME                                                  The FASTA format genome file of the reference.
     -f reference-ID reference-phenotype, --ref reference-ID reference-phenotype     The reference genome's ID (e.g., GCA) if it is included in the file of sample-IDs and its phenotype name (e.g., INV).
     -p PHENO1-IDs PHENO1-name, --pheno1 PHENO1-IDs PHENO1-name                  The file of sample-IDs (e.g., GCAs) of phenotype1, and the phenotype name (e.g., INV).
     -P PHENO0-IDs PHENO0-name, --pheno0 PHENO0-IDs PHENO0-name                  The file of sample-IDs (e.g., GCAs) of phenotype0, and the phenotype name (e.g., SSTI).
-    -i covariates_file covariate1,covariate2 covariate1-type,covariate2-type, --info covariates_file covariate1,covariate2 covariate1-type,covariate2-type                                    The file of the samples' covariates information; the covariates for logistic regression (seperated by ,); and the type of each covariate (f or n, f means factor and n means numeric, seperated by ,).
+    -i covariates_file covariate1,covariate2 covariate1-type,covariate2-type, --info covariates_file covariate1,covariate2 covariate1-type,covariate2-type      The file of the samples' covariates information; the covariates for logistic regression (seperated by ,); and the type of each covariate (f or n, f means factor and n means numeric, seperated by ,).
     -l LENGTH LENGTH LENGTH, --length LENGTH LENGTH LENGTH                      The length extending outward, the length extending inward at the 5'end of CDS, and the length extending inward at the 3'end of CDS. The unit is bp. The lengths are used for determination of CDS status (intact/truncated).
     -t [THREAD], --thread [THREAD]                                              Provide the threads used for analysis  (default: 1).
     -T [THRESHOLD], --threshold [THRESHOLD]                                     Provide the Pvalue threshold of Allele used to filter logistic regression results (default: 0.05).
@@ -107,22 +107,22 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
 ### GWA analysis of SNPs/Indels windows in the non-coding regions
 #### Usage:&emsp;python compGWAS.py nonCDSgwas [-h] -D ALLDIP -c COLS COLS COLS COLS -C CDSDIC [CDSDIC ...] -Z SIZE -p PHENO1 PHENO1 -P PHENO0 PHENO0 [-i INFO INFO INFO] [-f REF REF] -g GENOME [-t [THREAD]] [-T [THRESHOLD]] [-o [OUTDIR]] [-O [PREFIX]] -R RSCRIPT -r RSCRIPT
 #### {arguments}
-    -h, --help                                                  Show this help message and exit.
-    -D ALLDIP, --allDIP ALLDIP                                  The path of all strains' InDel annotation files, not include the files.
-    -c COLS COLS COLS COLS, --cols COLS COLS COLS COLS          Input the column index of RefName, Loc, Ref, and Muttype of InDels annotation file (start with 0, e.g first column = 0). 
-    -C CDSDIC [CDSDIC ...], --CDSdic CDSDIC [CDSDIC ...]        Input the CDS annotation dictionaries of the species to be analyzed.
-    -Z SIZE, --size SIZE                                        The size of the sliding window, the unit is bp.
-    -p PHENO1 PHENO1, --pheno1 PHENO1 PHENO1                    Input the file of phenotype1 strains' GCAs (only the number between GCA_ and .), and the name of the phenotype p.
-    -P PHENO0 PHENO0, --pheno0 PHENO0 PHENO0                    Input the file of phenotype0 strains' GCAs (only the number between GCA_ and .), and the name of the phenotype P.
-    -i INFO INFO INFO, --info INFO INFO INFO                    Input the file of strains' covariates information, the covariates for logistic regression (seperated by ,), and the type of each covariate (f or n, f means factor and n means numeric, seperated by ,).
-    -g GENOME, --genome GENOME                                  Input the FASTA format reference genome file.
-    -f REF REF, --ref REF REF                                   Input reference strain's GCA (only the number between GCA_ and .) and its phenotype (p or P).    
-    -t [THREAD], --thread [THREAD]                              Input the thread used in 'CHI2distribution.R' and 'GWAS.R' (default: 1).
-    -T [THRESHOLD], --threshold [THRESHOLD]                     Input the Pvalue threshold of Allele used to filter logistic regression results (default: 0.05).
-    -o [OUTDIR], --outdir [OUTDIR]                              Output folder (default: .).
-    -O [PREFIX], --prefix [PREFIX]                              Output filename prefix of nonCDS results (default: nonCDS.output).
-    -R RSCRIPT, --Rscript RSCRIPT                               The path of Rscript, include 'Rscript'.
-    -r RSCRIPT, --rscript RSCRIPT                               The path of the compGWAS package, include 'compGWAS'.
+    -h, --help                                                      Show this help message and exit.
+    -D /path/to/InDeldetection/, --allDIP /path/to/InDeldetection/  The file path of samples' InDel detection files with one file for each sample.
+    -c COLS COLS COLS COLS, --cols COLS COLS COLS COLS              The column index of RefName, Loc (location), Ref, and Muttype of InDels detection file (start with 0, e.g first column = 0). 
+    -C CDSDIC [CDSDIC ...], --CDSdic CDSDIC [CDSDIC ...]            The files of reference CDS annotation dictionaries generated from preGWAS.
+    -Z SIZE, --size SIZE                                            The size of the sliding window in unit of bp.
+    -p PHENO1-IDs PHENO1-name, --pheno1 PHENO1-IDs PHENO1-name      The file of sample-IDs (e.g., GCAs) of phenotype1, and the phenotype name (e.g., INV).
+    -P PHENO0-IDs PHENO0-name, --pheno0 PHENO0-IDs PHENO0-name      The file of sample-IDs (e.g., GCAs) of phenotype0, and the phenotype name (e.g., SSTI).
+    -i covariates_file covariate1,covariate2 covariate1-type,covariate2-type, --info covariates_file covariate1,covariate2 covariate1-type,covariate2-type    The file of the samples' covariates information; the covariates for logistic regression (seperated by ,); and the type of each covariate (f or n, f means factor and n means numeric, seperated by ,).
+    -g GENOME, --genome GENOME                                      The FASTA format genome file of the reference.
+    -f reference-ID reference-phenotype, --ref reference-ID reference-phenotype      The reference genome's ID (e.g., GCA) if it is included in the file of sample-IDs and its phenotype name (e.g., INV).    
+    -t [THREAD], --thread [THREAD]                                  Provide the threads used for analysis  (default: 1).
+    -T [THRESHOLD], --threshold [THRESHOLD]                         The Pvalue threshold of Allele used to filter logistic regression results (default: 0.05).
+    -o [OUTDIR], --outdir [OUTDIR]                                  Output folder (default: .).
+    -O [PREFIX], --prefix [PREFIX]                                  Output filename prefix of analysis results (default: nonCDS.output).
+    -R /path/to/Rscript, --Rscript /path/to/Rscript                 The installation path of Rscript (e.g., /usr/bin/Rscript).
+    -r /path/to/compGWAS, --rscript /path/to/compGWAS               The installation path of the compGWAS package (e.g., /home/tools/compGWAS).
 * The directory of all strains' SNP annotation files and that of all strains' InDel annotation files need to be provided to the parameters `-S (--allSNP)` and `-D (--allDIP)` respectively. The naming format of these annotation files should be uniform. **The annotation file names should include the complete GCA number of the strain in the format 'GCA-' and 'GCA-' can only appear once in the file name. The naming format is `xxxGCA-12312412.1xxx`, of which xxx is the variable part. We recommend using `_` to connect different attributes of the strain, such as strain name, serotype, and GCA number. To avoid confusion, if there is a character `_` in the attribute, change it to `-`.**A typical example of the file name looks like: `bwa_AP53_EMM58.0_PHE-39584-W1_GCA-901571015.1_varSNP.anno`.
 * The following table is the format of the SNP annotation file. The column `RefName` is the contig IDs in the reference genome. The columns `RefName`, `Loc` and `Allele` will be used in SNPgwas and CDSgwas. The `MutType` of SNPs includes 'inter-gene', 'inter-gene--5', 'inter-gene--3', 'inter-gene-5-', 'inter-gene-3-', 'inter-gene-3-5', 'inter-gene-5-3', 'inter-gene-5-5', 'inter-gene-3-3', 'pseudo-gene|ncRNA', 'CDS_nonSynon', and 'CDS_synon'.  
 
