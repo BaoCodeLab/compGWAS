@@ -70,12 +70,12 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
 #### Usage:&emsp;python compGWAS.py SNPgwas [-h] -S ALLSNP -c COLS COLS COLS -p PHENO1 PHENO1 -P PHENO0 PHENO0 [-i INFO INFO INFO] [-f REF REF] [-t [THREAD]] [-T [THRESHOLD]] [-o [OUTDIR]] [-O [PREFIX]] -R RSCRIPT -r RSCRIPT
 #### {arguments}
     -h, --help                                  Show this help message and exit.
-    -S ALLSNP, --allSNP ALLSNP                  The path of all strains' SNP annotation files, not include the files.
+    -S /path/to/SNPdetection/, --allSNP ALLSNP                  The path of samples' SNP detection files.
     -c COLS COLS COLS, --cols COLS COLS COLS    Input the column index of RefName (Contig), Loc (Location) and Allele in the SNPs detection files (start with 0, e.g first column = 0). These information will be used for allele counts                         
     -p PHENO1-IDs PHENO1-name, --pheno1 PHENO1-IDs PHENO1-name    Input the file of sample-IDs (e.g., GCAs) of phenotype1, and the phenotype name (e.g., INV).
     -P PHENO0-IDs PHENO0-name, --pheno0 PHENO0-IDs PHENO0-name    Input the file of sample-IDs (e.g., GCAs) of phenotype0, and the phenotype name (e.g., SSTI). 
     -i covariates_file covariate1,covariate2 covariate1-type,covariate2-type --info covariate1 covariate2 covariate3    Input the file of the samples' covariates information; the covariates for logistic regression (seperated by ,); and the type of each covariate (f or n, f means factor and n means numeric, seperated by ,).
-    -f  REF, --ref reference-ID reference-phenotype                   Provide the reference genome's ID (e.g., GCA) if it is included in the file of sample-IDs and its phenotype name (e.g., INV).
+    -f  reference-ID reference-phenotype, --ref reference-ID reference-phenotype                   Provide the reference genome's ID (e.g., GCA) if it is included in the file of sample-IDs and its phenotype name (e.g., INV).
     -t [THREAD], --thread [THREAD]              Provide the thread used for analysis (default: 1).
     -T [THRESHOLD], --threshold [THRESHOLD]     Input the Pvalue threshold of Allele used to filter logistic regression results (default: 0.05).
     -o [OUTDIR], --outdir [OUTDIR]              Output folder (default: .).
