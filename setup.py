@@ -21,22 +21,11 @@ INSTALL_REQUIRES = [
     'pandas>=0.24.0',
 ]
 
-# Optional dependencies for development
-EXTRAS_REQUIRE = {
-    'dev': [
-        'pytest>=5.0',
-        'pytest-cov>=2.8',
-    ],
-}
-
 setup(
     name='compGWAS',
     version='1.0.0',
     description='A python toolkit for comprehensive GWAS analysis of SNPs/Indels',
-    long_description=long_description,
-    long_description_content_type='text/markdown',
     author='BaoCodeLab',
-    author_email='',
     url='https://github.com/BaoCodeLab/compGWAS',
     license='GPLv3',
     
@@ -56,7 +45,6 @@ setup(
     
     # Dependencies
     install_requires=INSTALL_REQUIRES,
-    extras_require=EXTRAS_REQUIRE,
     
     # Entry point for CLI
     entry_points={
@@ -67,29 +55,9 @@ setup(
     
     # Classifiers
     classifiers=[
-        'Development Status :: 4 - Beta',
         'Environment :: Console',
-        'Intended Audience :: Science/Research',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
-        'Natural Language :: English',
         'Operating System :: POSIX :: Linux',
-        'Operating System :: MacOS',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
-        'Programming Language :: Python :: 3.10',
-        'Programming Language :: Python :: 3.11',
-        'Topic :: Scientific/Engineering :: Bio-Informatics',
-    ],
-    
-    keywords=[
-        'GWAS',
-        'genomics',
-        'SNP',
-        'Indel',
-        'genome-wide association',
-        'bioinformatics',
     ],
     
     zip_safe=False,
