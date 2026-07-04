@@ -1,1 +1,5 @@
-
+The data in this folder is an exmple output of reference processing using preGWAS.
+Input:
+AP53_NCBI.gbk
+Output:
+AP53_NCBI.gbk2gpff.tab
