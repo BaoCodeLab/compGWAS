@@ -23,8 +23,11 @@ if __name__ == "__main__":
 
     subparsers = parser.add_subparsers(title="GWAS",description="process of GWAS",help="The whole process of GWAS")
     
-   
-
+    def _preGWAS_wrapper(args):
+        args.gpff = args.out
+        gbk2seqGene.gbk2seqGene(args)
+        parseGpff.parseGpff(args)    
+    
     preGWAS_parser=subparsers.add_parser("preGWAS",help="Get the tab-delimted format gene annotation file , the CDS sequence file, and the annotation dictionaries of the species to be analyzed")
     preGWAS_parser.add_argument("-F","--FLAG", nargs='?', const=1, default="preGWAS", type=str, help="ignore this argument or input string 'preGWAS'")
     preGWAS_parser.add_argument("-g","--gbk",required=True,help="The gbk file for converting to tab-delimted format annotation")
@@ -33,7 +36,7 @@ if __name__ == "__main__":
     preGWAS_parser.add_argument("-t","--org",help="The organism you are working on")
     preGWAS_parser.add_argument("-r","--ref",required=True,help="The reference genome file")
     preGWAS_parser.add_argument("-p","--prefix",required=True,help="The prefix of output file")
-
+    preGWAS_parser.set_defaults(func=_preGWAS_wrapper) 
 
     
     SNPgwas_parser=subparsers.add_parser("SNPgwas",help="GWAS of SNPs") 
@@ -179,11 +182,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if "FLAG" in dir(args) and args.FLAG == "preGWAS":
-        args.gpff = args.out
-        gbk2seqGene.gbk2seqGene(args)
-        parseGpff.parseGpff(args)
-    elif "FLAG" in dir(args) and args.FLAG == "SNPCDSanno":
+    if "FLAG" in dir(args) and args.FLAG == "SNPCDSanno":
         if args.type == "CDS":
             SNPCDSanno.SNPCDSanno(args)
         elif args.type == "SNP":
