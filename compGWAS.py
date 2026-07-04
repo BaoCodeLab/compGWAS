@@ -17,19 +17,30 @@ from allGWAS.GWASfilterlib.Cfilter import Cfilter
 from allGWAS.GWASfilterlib.Nfilter import Nfilter
 
 
+def _preGWAS_wrapper(args):
+    args.gpff = args.out
+    gbk2seqGene.gbk2seqGene(args)
+    parseGpff.parseGpff(args)
+    
+def _SNPCDSanno_wrapper(args):
+    if args.type == "CDS":
+        SNPCDSanno.SNPCDSanno(args)
+    elif args.type == "SNP":
+        args.anno = args.out
+        SNPmerge.SNPmerge(args)
+        SNPCDSanno.SNPCDSanno(args)
+
+def _LDprun_wrapper(args):
+    args.info = glob.glob(args.outdir.rstrip("/") + "/" + args.prefix + r".*.Haploview.info")
+    LDprun.LDprun(args)
+    Block.Block(args)
+    Screen.Screen(args)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     subparsers = parser.add_subparsers(title="GWAS",description="process of GWAS",help="The whole process of GWAS")
-    
-    def _preGWAS_wrapper(args):
-        args.gpff = args.out
-        gbk2seqGene.gbk2seqGene(args)
-        parseGpff.parseGpff(args)    
-    
     preGWAS_parser=subparsers.add_parser("preGWAS",help="Get the tab-delimted format gene annotation file , the CDS sequence file, and the annotation dictionaries of the species to be analyzed")
-    preGWAS_parser.add_argument("-F","--FLAG", nargs='?', const=1, default="preGWAS", type=str, help="ignore this argument or input string 'preGWAS'")
     preGWAS_parser.add_argument("-g","--gbk",required=True,help="The gbk file for converting to tab-delimted format annotation")
     preGWAS_parser.add_argument("-o","--out",required=True,help="The output file for tab-delimted format annotation file of all genes")
     preGWAS_parser.add_argument("-s","--seq",required=True,help="The protein sequences file from gbk file")
@@ -98,14 +109,13 @@ if __name__ == "__main__":
 
 
     SNPCDSanno_parser=subparsers.add_parser("SNPCDSanno",help="The annotations of SNP or CDS GWAS results") 
-    SNPCDSanno_parser.add_argument("-F","--FLAG", nargs='?', const=1, default="SNPCDSanno", type=str, help="ignore this argument or input string 'SNPCDSanno'")
     SNPCDSanno_parser.add_argument("-c","--comb",nargs="+",help="When annotation type is SNP, input the path of the files to be merged and the column to be combined, for example: 'allSNP/ all'")
     SNPCDSanno_parser.add_argument("-i","--ins",nargs="+",help="When annotation type is SNP, input the path of the files to be merged and the column to be combined, for example: 'allSNP/ all'")
     SNPCDSanno_parser.add_argument("-o","--out", nargs='?', const=1, default="./SNP.merged.allanno", help="When annotation type is SNP, input the output annotation file of megered all SNPs (default: ./SNP.merged.allanno)")
     SNPCDSanno_parser.add_argument("-l","--logisre",required=True,help="the results file of SNP or CDS logistic regression")
     SNPCDSanno_parser.add_argument("-a","--anno",help="When annotation type is CDS, input the annotation file of all genes of the species to be analyzed")
     SNPCDSanno_parser.add_argument("-t","--type",required=True,help="the type of annotation, SNP or CDS")
-
+    SNPCDSanno_parser.set_defaults(func=_SNPCDSanno_wrapper)
 
 
     nonCDSanno_parser=subparsers.add_parser("nonCDSanno",help="The annotations of nonCDS GWAS results")
@@ -116,9 +126,7 @@ if __name__ == "__main__":
     nonCDSanno_parser.set_defaults(func=nonCDSanno)
 
 
-    
     LDprun_parser=subparsers.add_parser("LDprun",help="Linkage disequilibrium analysis of SNPs") 
-    LDprun_parser.add_argument("-F","--FLAG", nargs='?', const=1, default="LDprun", type=str, help="ignore this argument or input string 'LDprun'")
     LDprun_parser.add_argument("-S","--allSNP",required=True,help="the path of all strains' SNP files, not include 'SNP file name'")
     LDprun_parser.add_argument("-p","--pheno1",required=True,help="input phenotype1 strains' GCAs (only the number between GCA_ and .)")
     LDprun_parser.add_argument("-P","--pheno0",required=True,help="input phenotype0 strains' GCAs (only the number between GCA_ and .)")
@@ -137,8 +145,7 @@ if __name__ == "__main__":
     
     LDprun_parser.add_argument("--Chi2",required=True,help="input the chi2 distribution file of the 2 phenotypes")
     LDprun_parser.add_argument("-LA","--LogisAnno",required=True,help="input the annotation file of SNP logistic regression results")  
-
-    
+    LDprun_parser.set_defaults(func=_LDprun_wrapper)
 
     SCfilter_parser=subparsers.add_parser("SCfilter",help="Filter coding region SNPs GWAS results") 
     SCfilter_parser.add_argument("-s","--screenout",required=True,help="the path of SNPblockID.screenout file(s) of SNP linkage disequilibrium analysis")
@@ -178,24 +185,8 @@ if __name__ == "__main__":
     Nfilter_parser.add_argument("-d","--distance",nargs=2,type=int,help="input the threshold of 5' distance(bp) and 3' distance(bp)")
     Nfilter_parser.set_defaults(func=Nfilter)
 
-
-
     args = parser.parse_args()
-
-    if "FLAG" in dir(args) and args.FLAG == "SNPCDSanno":
-        if args.type == "CDS":
-            SNPCDSanno.SNPCDSanno(args)
-        elif args.type == "SNP":
-            args.anno = args.out
-            SNPmerge.SNPmerge(args)
-            SNPCDSanno.SNPCDSanno(args)
-    elif "FLAG" in dir(args) and args.FLAG == "LDprun":
-        args.info = glob.glob(args.outdir + "/" + args.prefix + r".*.Haploview.info")
-        LDprun.LDprun(args)
-        Block.Block(args)
-        Screen.Screen(args)
-    else:
-        args.func(args)        
+    args.func(args)        
     print(args)
 
 
