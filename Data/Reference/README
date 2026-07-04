@@ -1,15 +1,17 @@
 # The data in this folder is an exmple output of reference processing using preGWAS.
 
 ### Prepare the gbk file of your reference as input:
+```
 AP53_NCBI.gbk
+```
 
 ### Run the preGWAS to process the gbk file:
-'''
+```
 python compGWAS.py preGWAS [-h] [-F [FLAG]] -g GBK -o OUT -s SEQ [-t ORG] -r REF -p PREFIX
-'''
+```
 
 ### A series of output files will be generated and will be used for mutation annotation later:
-'''
+```
 AP53.anno2.CDS.dic
 AP53.anno2.CDSseq.dic
 AP53.anno2.contg.dic
@@ -20,4 +22,4 @@ AP53.anno2.ncRNA.dic
 AP53.anno2.ncrnaSeq.dic
 AP53.anno2.pseudo.dic
 AP53.anno2.pseudoSeq.dic
-'''
+```
