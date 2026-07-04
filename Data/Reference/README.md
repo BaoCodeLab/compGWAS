@@ -1,4 +1,4 @@
-# The data in this folder is an exmple output of reference processing using preGWAS.
+## The data in this folder is an exmple output of reference processing using preGWAS.
 
 ### Prepare the gbk file of your reference as input:
 ```
