@@ -51,12 +51,14 @@ if __name__ == "__main__":
 
     preAnno_parser=subparsers.add_parser("preAnno",help="Annotate SNPs or InDels for each sample")
     preAnno_parser.add_argument("-t","--type",required=True,help="The mutation type for annotation, the value should be SNP or InDel")
-    preAnno_parser.add_argument("-t","")
     preAnno_parser.add_argument('-c','--contg',required=True,help="dictionary of contig file parsed from parse_gtff")
     preAnno_parser.add_argument('-g','--gene',required=True,help="dictionary of gene file parsed from parse_gtff")
     preAnno_parser.add_argument('-C','--CDS',required=True,help="dictionary of CDS file parsed from parse_gtff")
     preAnno_parser.add_argument('-m','--mol',help="dictionary of molecular file parsed from parse_gtff")
     preAnno_parser.add_argument('-s','--CDS_seq',required=True,help="dictionary of CDS sequence file parsed from parse_gtff")
+    preAnno_parser.add_argument('-f','--format',required=True,help="The format type of mutation file, the value should be vcf or table")
+    preAnno_parser.add_argument('-i','--input',required=True,help="The directory of mutation files for annotation")
+    preAnno_parser.set_defaults(func=preAnno)
                     
     
     SNPgwas_parser=subparsers.add_parser("SNPgwas",help="GWAS of SNPs") 
