@@ -39,7 +39,7 @@ def _LDprun_wrapper(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    subparsers = parser.add_subparsers(title="GWAS",description="process of GWAS",help="The whole process of GWAS")
+    subparsers = parser.add_subparsers(title="compGWAS",description="process of GWAS",help="The whole process of GWAS")
     preGWAS_parser=subparsers.add_parser("preGWAS",help="Get the tab-delimted format gene annotation file , the CDS sequence file, and the annotation dictionaries of the species to be analyzed")
     preGWAS_parser.add_argument("-g","--gbk",required=True,help="The gbk file for converting to tab-delimted format annotation")
     preGWAS_parser.add_argument("-o","--out",required=True,help="The output file for tab-delimted format annotation file of all genes")
@@ -49,6 +49,15 @@ if __name__ == "__main__":
     preGWAS_parser.add_argument("-p","--prefix",required=True,help="The prefix of output file")
     preGWAS_parser.set_defaults(func=_preGWAS_wrapper) 
 
+    preAnno_parser=subparsers.add_parser("preAnno",help="Annotate SNPs or InDels for each sample")
+    preAnno_parser.add_argument("-t","--type",required=True,help="The mutation type for annotation, the value should be SNP or InDel")
+    preAnno_parser.add_argument("-t","")
+    preAnno_parser.add_argument('-c','--contg',required=True,help="dictionary of contig file parsed from parse_gtff")
+    preAnno_parser.add_argument('-g','--gene',required=True,help="dictionary of gene file parsed from parse_gtff")
+    preAnno_parser.add_argument('-C','--CDS',required=True,help="dictionary of CDS file parsed from parse_gtff")
+    preAnno_parser.add_argument('-m','--mol',help="dictionary of molecular file parsed from parse_gtff")
+    preAnno_parser.add_argument('-s','--CDS_seq',required=True,help="dictionary of CDS sequence file parsed from parse_gtff")
+                    
     
     SNPgwas_parser=subparsers.add_parser("SNPgwas",help="GWAS of SNPs") 
     SNPgwas_parser.add_argument("-S","--allSNP",required=True,help="the path of all strains' SNP files, not include 'SNP file name'")
@@ -65,8 +74,7 @@ if __name__ == "__main__":
     SNPgwas_parser.add_argument("-r","--rscript",required=True,help="the path of the GWAS package")
     SNPgwas_parser.set_defaults(func=SNPgwas)
 
-
-
+    
     CDSgwas_parser=subparsers.add_parser("CDSgwas",help="GWAS of CDS")
     CDSgwas_parser.add_argument("-D","--allDIP",required=True,help="the path of all strains' InDel files, not include 'InDel file name'")
     CDSgwas_parser.add_argument("-S","--allSNP",required=True,help="the path of all strains' SNP files, not include 'SNP file name'")
@@ -87,7 +95,6 @@ if __name__ == "__main__":
     CDSgwas_parser.set_defaults(func=CDSgwas)
 
 
-
     nonCDSgwas_parser=subparsers.add_parser("nonCDSgwas",help="GWAS of nonCDS")
     nonCDSgwas_parser.add_argument("-D","--allDIP",required=True,help="the path of all strains' InDel files, not include 'InDel file name'")
     nonCDSgwas_parser.add_argument("-C","--CDSdic",nargs='+',required=True,help="input the CDS annotation dictionaries of the species to be analyzed")
@@ -105,7 +112,6 @@ if __name__ == "__main__":
     nonCDSgwas_parser.add_argument("-R","--Rscript",required=True,help="the path of Rscript, include 'Rscript'")
     nonCDSgwas_parser.add_argument("-r","--rscript",required=True,help="the path of the GWAS package")
     nonCDSgwas_parser.set_defaults(func=nonCDSgwas)
-
 
 
     SNPCDSanno_parser=subparsers.add_parser("SNPCDSanno",help="The annotations of SNP or CDS GWAS results") 
@@ -147,6 +153,7 @@ if __name__ == "__main__":
     LDprun_parser.add_argument("-LA","--LogisAnno",required=True,help="input the annotation file of SNP logistic regression results")  
     LDprun_parser.set_defaults(func=_LDprun_wrapper)
 
+    
     SCfilter_parser=subparsers.add_parser("SCfilter",help="Filter coding region SNPs GWAS results") 
     SCfilter_parser.add_argument("-s","--screenout",required=True,help="the path of SNPblockID.screenout file(s) of SNP linkage disequilibrium analysis")
     SCfilter_parser.add_argument("-O","--prefix", nargs='?', const=1, default="SNP.LD.output", help="filename output prefix of SNPs linkage disequilibrium analysis (default: SNP.LD.output)")
@@ -155,7 +162,6 @@ if __name__ == "__main__":
     SCfilter_parser.set_defaults(func=SCfilter)
 
     
-
     SNfilter_parser=subparsers.add_parser("SNfilter",help="Filter non-coding region SNP GWAS results")
     SNfilter_parser.add_argument("-C","--CDSdic",nargs='+',required=True,help="input the CDS annotation dictionaries of the species to be analyzed")
     SNfilter_parser.add_argument("-LA","--LogisAnno",required=True,help="input the annotation file of SNP logistic regression results")
@@ -165,7 +171,6 @@ if __name__ == "__main__":
     SNfilter_parser.add_argument("-d","--distance",nargs=2,type=int,help="input the threshold of 5' distance(bp) and 3' distance(bp)")
     SNfilter_parser.set_defaults(func=SNfilter)
 
-
     
     Cfilter_parser=subparsers.add_parser("Cfilter",help="Filter CDS GWAS results")
     Cfilter_parser.add_argument("-l","--logisre",required=True,help="the results file of CDS logistic regression")
@@ -173,7 +178,6 @@ if __name__ == "__main__":
     Cfilter_parser.add_argument("-c2","--Chi2",required=True,help="input the chi2 distribution file of the 2 phenotypes")
     Cfilter_parser.add_argument("-T","--threshold", nargs='?', const=1, default=0.05, type=float, help="input the significance threshold Pvalue of Allele used to filter logisticRegre results (default: 0.05)")
     Cfilter_parser.set_defaults(func=Cfilter)
-
 
 
     Nfilter_parser=subparsers.add_parser("Nfilter",help="Filter nonCDS GWAS results")
