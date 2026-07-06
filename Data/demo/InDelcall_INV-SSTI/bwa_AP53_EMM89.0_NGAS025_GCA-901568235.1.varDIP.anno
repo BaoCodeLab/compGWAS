@@ -1,0 +1,1351 @@
+AP53	16792	DIP	1	-	1	A	inter-gene-3-5	-||-||	AP53_15||AP53_rna1||	0		
+AP53	29967	DIP	7	-------	1	TTTTCTT	inter-gene-3-5	-||-||	AP53_rna34||AP53_16||	0		
+AP53	30082	DIP	2	--	1	TC	inter-gene-3-5	-||-||	AP53_rna34||AP53_16||	0		
+AP53	35950	DIP	1	A	1	-	inter-gene-3-5	acpP2||purC||	AP53_20||AP53_21||	0		
+AP53	45742	DIP	1	T	1	-	inter-gene-3-3	purH||-||	AP53_26||AP53_27||	0		
+AP53	47086	DIP	2	--	1	TA	inter-gene-5-5	-||purD||	AP53_27||AP53_28||	0		
+AP53	47090	DIP	1	T	1	-	inter-gene-5-5	-||purD||	AP53_27||AP53_28||	0		
+AP53	53269	DIP	1	A	1	-	inter-gene-3-5	purB||comR||	AP53_33||AP53_34||	0		
+AP53	53782	DIP	1	-	1	T	frame-shift	comR	AP53_34	+		129
+AP53	53792	DIP	3	ACC	1	---	in-frame	comR	AP53_34	+		133
+AP53	53796	DIP	1	-	1	T	frame-shift	comR	AP53_34	+		134
+AP53	53799	DIP	1	-	1	A	frame-shift	comR	AP53_34	+		135
+AP53	53812	DIP	1	A	1	-	frame-shift	comR	AP53_34	+		139
+AP53	53818	DIP	3	---	1	ACT	in-frame	comR	AP53_34	+		141
+AP53	53823	DIP	2	TA	1	--	frame-shift	comR	AP53_34	+		143
+AP53	53832	DIP	1	-	1	A	frame-shift	comR	AP53_34	+		146
+AP53	53837	DIP	4	CCAC	1	----	frame-shift	comR	AP53_34	+		148
+AP53	53847	DIP	1	-	1	T	frame-shift	comR	AP53_34	+		151
+AP53	53852	DIP	1	-	1	C	frame-shift	comR	AP53_34	+		153
+AP53	53859	DIP	1	-	1	C	frame-shift	comR	AP53_34	+		155
+AP53	53899	DIP	1	-	1	A	frame-shift	comR	AP53_34	+		168
+AP53	53912	DIP	11	-----------	1	TTGAGGGAATG	frame-shift	comR	AP53_34	+		173
+AP53	53943	DIP	1	-	1	A	frame-shift	comR	AP53_34	+		183
+AP53	53946	DIP	3	AGT	1	---	in-frame	comR	AP53_34	+		184
+AP53	53954	DIP	1	G	1	-	frame-shift	comR	AP53_34	+		187
+AP53	53959	DIP	1	-	1	T	frame-shift	comR	AP53_34	+		188
+AP53	53961	DIP	2	--	1	TC	frame-shift	comR	AP53_34	+		189
+AP53	53965	DIP	2	AG	1	--	frame-shift	comR	AP53_34	+		190
+AP53	53979	DIP	6	AACAAC	1	------	in-frame	comR	AP53_34	+		195
+AP53	53990	DIP	2	AA	1	--	frame-shift	comR	AP53_34	+		199
+AP53	53996	DIP	2	CC	1	--	frame-shift	comR	AP53_34	+		201
+AP53	54025	DIP	3	---	1	GAT	in-frame	comR	AP53_34	+		210
+AP53	54029	DIP	1	-	1	A	frame-shift	comR	AP53_34	+		212
+AP53	54041	DIP	5	GCGGA	1	-----	frame-shift	comR	AP53_34	+		216
+AP53	54052	DIP	5	TATTC	1	-----	frame-shift	comR	AP53_34	+		219
+AP53	54077	DIP	1	-	1	G	frame-shift	comR	AP53_34	+		228
+AP53	54081	DIP	2	--	1	TT	frame-shift	comR	AP53_34	+		229
+AP53	54087	DIP	4	----	1	AGGC	frame-shift	comR	AP53_34	+		231
+AP53	54091	DIP	1	A	1	-	frame-shift	comR	AP53_34	+		232
+AP53	54147	DIP	2	--	1	TA	frame-shift	comR	AP53_34	+		251
+AP53	54153	DIP	3	TGT	1	---	in-frame	comR	AP53_34	+		253
+AP53	54158	DIP	1	-	1	A	frame-shift	comR	AP53_34	+		255
+AP53	54166	DIP	5	GCTAT	1	-----	frame-shift	comR	AP53_34	+		257
+AP53	54183	DIP	5	-----	1	CAAAC	frame-shift	comR	AP53_34	+		263
+AP53	54193	DIP	2	--	1	AA	frame-shift	comR	AP53_34	+		266
+AP53	54199	DIP	1	-	1	C	frame-shift	comR	AP53_34	+		268
+AP53	54204	DIP	2	GG	1	--	frame-shift	comR	AP53_34	+		270
+AP53	54214	DIP	1	-	1	A	frame-shift	comR	AP53_34	+		273
+AP53	54217	DIP	2	AC	1	--	frame-shift	comR	AP53_34	+		274
+AP53	54223	DIP	1	T	1	-	frame-shift	comR	AP53_34	+		276
+AP53	54226	DIP	1	-	1	G	frame-shift	comR	AP53_34	+		277
+AP53	54251	DIP	1	A	1	-	frame-shift	comR	AP53_34	+		286
+AP53	54254	DIP	1	-	1	G	frame-shift	comR	AP53_34	+		287
+AP53	54298	DIP	3	---	1	AAG	in-frame	comR	AP53_34	+		301
+AP53	54302	DIP	7	ATTTAAA	1	-------	frame-shift	comR	AP53_34	+		303
+AP53	54312	DIP	6	TGATTT	1	------	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54340	DIP	2	TT	1	--	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54353	DIP	2	--	1	GT	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54379	DIP	1	-	1	A	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54397	DIP	2	--	1	TC	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54403	DIP	1	A	1	-	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54412	DIP	1	-	1	A	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54416	DIP	2	--	1	TA	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54423	DIP	2	TA	1	--	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54459	DIP	4	----	1	AAGA	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54468	DIP	1	A	1	-	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54471	DIP	3	AAT	1	---	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54485	DIP	11	-----------	1	CGATTATAATA	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	54496	DIP	2	--	1	CT	inter-gene-3-5	comR||ruvB||	AP53_34||AP53_35||	0		
+AP53	56102	DIP	1	-	1	A	inter-gene-3-5	-||-||	AP53_36||AP53_37||	0		
+AP53	61361	DIP	1	G	1	-	inter-gene-3-5	adhE||adhP||	AP53_39||AP53_40||	0		
+AP53	64210	DIP	1	A	1	-	inter-gene-3-5	-||rpsJ||	AP53_41||AP53_42||	0		
+AP53	64219	DIP	1	-	1	C	inter-gene-3-5	-||rpsJ||	AP53_41||AP53_42||	0		
+AP53	96834	DIP	1	-	1	A	frame-shift	rpoB	AP53_80	+		856
+AP53	96837	DIP	1	G	1	-	frame-shift	rpoB	AP53_80	+		857
+AP53	101531	DIP	18	------------------	1	CAGCAGAAGCCGTTTTTA	in-frame	rpoC	AP53_81	+		1194
+AP53	102170	DIP	15	---------------	1	TAGCAAAAGCTATTC	in-frame	comGA	AP53_83	+		5
+AP53	106844	DIP	1	A	1	-	inter-gene-3-5	yujA||ackA||	AP53_90||AP53_91||	0		
+AP53	112294	DIP	1	-	1	A	inter-gene-3-5	-||-||	AP53_97||AP53_98||	0		
+AP53	112960	DIP	6	CATAGG	1	------	inter-gene-3-3	-||-||	AP53_98||AP53_99||	0		
+AP53	115575	DIP	2	--	1	GT	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115581	DIP	2	--	1	CT	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115584	DIP	1	-	1	A	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115587	DIP	7	-------	1	ACAGGAT	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115592	DIP	9	---------	1	GAAAAATCA	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115598	DIP	1	-	1	A	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115600	DIP	1	-	1	G	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115602	DIP	2	TG	1	--	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115609	DIP	3	TGT	1	---	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115626	DIP	1	C	1	-	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115636	DIP	1	-	1	A	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115653	DIP	2	AC	1	--	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115659	DIP	4	AAAT	1	----	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115668	DIP	3	---	1	CGC	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115673	DIP	2	CA	1	--	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115678	DIP	3	---	1	GAC	inter-gene-5-3	hslO||rofA||	AP53_101||AP53_102||	0		
+AP53	115680	DIP	5	-----	1	GGCGC	frame-shift	rofA	AP53_102	-		513
+AP53	115749	DIP	3	TGA	1	---	in-frame	rofA	AP53_102	-		487
+AP53	115754	DIP	2	CA	1	--	frame-shift	rofA	AP53_102	-		487
+AP53	115763	DIP	2	--	1	CG	frame-shift	rofA	AP53_102	-		485
+AP53	115767	DIP	6	AGGGTT	1	------	in-frame	rofA	AP53_102	-		472
+AP53	116042	DIP	1	G	1	-	frame-shift	rofA	AP53_102	-		392
+AP53	116045	DIP	1	-	1	T	frame-shift	rofA	AP53_102	-		391
+AP53	116073	DIP	1	-	1	C	frame-shift	rofA	AP53_102	-		382
+AP53	116076	DIP	1	A	1	-	frame-shift	rofA	AP53_102	-		380
+AP53	116162	DIP	2	--	1	GA	frame-shift	rofA	AP53_102	-		352
+AP53	116178	DIP	2	AA	1	--	frame-shift	rofA	AP53_102	-		345
+AP53	116184	DIP	2	--	1	AG	frame-shift	rofA	AP53_102	-		345
+AP53	116186	DIP	2	TG	1	--	frame-shift	rofA	AP53_102	-		343
+AP53	116238	DIP	1	-	1	T	frame-shift	rofA	AP53_102	-		327
+AP53	116246	DIP	2	GG	1	--	frame-shift	rofA	AP53_102	-		323
+AP53	116253	DIP	2	--	1	CC	frame-shift	rofA	AP53_102	-		322
+AP53	116258	DIP	1	A	1	-	frame-shift	rofA	AP53_102	-		320
+AP53	116340	DIP	2	AG	1	--	frame-shift	rofA	AP53_102	-		291
+AP53	116344	DIP	1	-	1	G	frame-shift	rofA	AP53_102	-		291
+AP53	116346	DIP	1	-	1	T	frame-shift	rofA	AP53_102	-		291
+AP53	116433	DIP	1	G	1	-	frame-shift	rofA	AP53_102	-		261
+AP53	116442	DIP	5	-----	1	GTTGG	frame-shift	rofA	AP53_102	-		259
+AP53	116443	DIP	1	G	1	-	frame-shift	rofA	AP53_102	-		258
+AP53	116450	DIP	3	CAT	1	---	in-frame	rofA	AP53_102	-		253
+AP53	116460	DIP	11	-----------	1	AATATCACGGC	frame-shift	rofA	AP53_102	-		253
+AP53	116468	DIP	6	GACTGC	1	------	in-frame	rofA	AP53_102	-		238
+AP53	116477	DIP	5	GAGTT	1	-----	frame-shift	rofA	AP53_102	-		239
+AP53	116623	DIP	1	C	1	-	frame-shift	rofA	AP53_102	-		198
+AP53	116628	DIP	1	-	1	G	frame-shift	rofA	AP53_102	-		197
+AP53	116679	DIP	1	-	1	C	frame-shift	rofA	AP53_102	-		180
+AP53	116682	DIP	1	T	1	-	frame-shift	rofA	AP53_102	-		178
+AP53	116849	DIP	1	-	1	G	frame-shift	rofA	AP53_102	-		123
+AP53	116863	DIP	3	---	1	CCG	in-frame	rofA	AP53_102	-		118
+AP53	116866	DIP	4	----	1	GGGG	frame-shift	rofA	AP53_102	-		117
+AP53	116873	DIP	2	GT	1	--	frame-shift	rofA	AP53_102	-		114
+AP53	116880	DIP	6	TGACGT	1	------	in-frame	rofA	AP53_102	-		101
+AP53	116921	DIP	3	---	1	CAT	in-frame	rofA	AP53_102	-		99
+AP53	116930	DIP	3	TGT	1	---	in-frame	rofA	AP53_102	-		93
+AP53	116967	DIP	1	-	1	A	frame-shift	rofA	AP53_102	-		84
+AP53	116971	DIP	2	AC	1	--	frame-shift	rofA	AP53_102	-		81
+AP53	116977	DIP	4	----	1	TTGG	frame-shift	rofA	AP53_102	-		80
+AP53	116988	DIP	5	TTTGC	1	-----	frame-shift	rofA	AP53_102	-		68
+AP53	117000	DIP	2	--	1	TG	frame-shift	rofA	AP53_102	-		73
+AP53	117009	DIP	1	-	1	A	frame-shift	rofA	AP53_102	-		70
+AP53	117012	DIP	1	T	1	-	frame-shift	rofA	AP53_102	-		68
+AP53	117019	DIP	3	TTT	1	---	in-frame	rofA	AP53_102	-		63
+AP53	117025	DIP	3	---	1	GGG	in-frame	rofA	AP53_102	-		64
+AP53	117980	DIP	1	A	1	-	frame-shift	cpa1	AP53_103	+		112
+AP53	117985	DIP	1	-	1	A	frame-shift	cpa1	AP53_103	+		114
+AP53	118003	DIP	1	-	1	G	frame-shift	cpa1	AP53_103	+		120
+AP53	118006	DIP	1	A	1	-	frame-shift	cpa1	AP53_103	+		121
+AP53	118053	DIP	3	---	1	AAA	in-frame	cpa1	AP53_103	+		136
+AP53	118061	DIP	2	GC	1	--	frame-shift	cpa1	AP53_103	+		139
+AP53	118066	DIP	2	--	1	GT	frame-shift	cpa1	AP53_103	+		141
+AP53	118131	DIP	3	TAG	1	---	in-frame	cpa1	AP53_103	+		162
+AP53	118138	DIP	3	TAC	1	---	in-frame	cpa1	AP53_103	+		165
+AP53	118146	DIP	6	------	1	TGGTTA	in-frame	cpa1	AP53_103	+		167
+AP53	118152	DIP	1	-	1	T	frame-shift	cpa1	AP53_103	+		169
+AP53	118154	DIP	2	--	1	TT	frame-shift	cpa1	AP53_103	+		170
+AP53	118281	DIP	3	---	1	TGT	in-frame	cpa1	AP53_103	+		212
+AP53	118289	DIP	4	CGGG	1	----	frame-shift	cpa1	AP53_103	+		215
+AP53	118301	DIP	1	-	1	A	frame-shift	cpa1	AP53_103	+		219
+AP53	118357	DIP	1	-	1	G	frame-shift	cpa1	AP53_103	+		238
+AP53	118359	DIP	1	-	1	A	frame-shift	cpa1	AP53_103	+		238
+AP53	118362	DIP	2	TA	1	--	frame-shift	cpa1	AP53_103	+		239
+AP53	118368	DIP	1	-	1	T	frame-shift	cpa1	AP53_103	+		241
+AP53	118374	DIP	1	G	1	-	frame-shift	cpa1	AP53_103	+		243
+AP53	118380	DIP	2	--	1	AA	frame-shift	cpa1	AP53_103	+		245
+AP53	118385	DIP	2	GG	1	--	frame-shift	cpa1	AP53_103	+		247
+AP53	118414	DIP	1	A	1	-	frame-shift	cpa1	AP53_103	+		257
+AP53	118423	DIP	1	-	1	G	frame-shift	cpa1	AP53_103	+		260
+AP53	118430	DIP	5	ATATT	1	-----	frame-shift	cpa1	AP53_103	+		262
+AP53	118443	DIP	2	--	1	AC	frame-shift	cpa1	AP53_103	+		266
+AP53	118581	DIP	3	GAA	1	---	in-frame	cpa1	AP53_103	+		312
+AP53	118586	DIP	7	-------	1	CTGTGGT	frame-shift	cpa1	AP53_103	+		314
+AP53	118589	DIP	8	CAAAGGAT	1	--------	frame-shift	cpa1	AP53_103	+		315
+AP53	118604	DIP	4	----	1	ATCA	frame-shift	cpa1	AP53_103	+		320
+AP53	118611	DIP	5	-----	1	TGAGG	frame-shift	cpa1	AP53_103	+		322
+AP53	118613	DIP	6	------	1	GTCACC	in-frame	cpa1	AP53_103	+		323
+AP53	118625	DIP	3	CGG	1	---	in-frame	cpa1	AP53_103	+		327
+AP53	118632	DIP	11	CGATTTACCTG	1	-----------	frame-shift	cpa1	AP53_103	+		329
+AP53	118710	DIP	1	-	1	T	frame-shift	cpa1	AP53_103	+		355
+AP53	118717	DIP	1	G	1	-	frame-shift	cpa1	AP53_103	+		358
+AP53	119066	DIP	1	-	1	A	frame-shift	cpa1	AP53_103	+		474
+AP53	119069	DIP	1	C	1	-	frame-shift	cpa1	AP53_103	+		475
+AP53	119209	DIP	1	-	1	A	frame-shift	cpa1	AP53_103	+		522
+AP53	119865	DIP	1	-	1	T	frame-shift	fctA	AP53_105	+		34
+AP53	119871	DIP	8	GAAAAACT	1	--------	frame-shift	fctA	AP53_105	+		36
+AP53	119888	DIP	3	---	1	AAC	in-frame	fctA	AP53_105	+		42
+AP53	119905	DIP	7	-------	1	CAAATTT	frame-shift	fctA	AP53_105	+		47
+AP53	119943	DIP	1	-	1	C	frame-shift	fctA	AP53_105	+		60
+AP53	119950	DIP	1	A	1	-	frame-shift	fctA	AP53_105	+		62
+AP53	119963	DIP	1	-	1	G	frame-shift	fctA	AP53_105	+		67
+AP53	119964	DIP	4	CTAC	1	----	frame-shift	fctA	AP53_105	+		67
+AP53	119977	DIP	1	T	1	-	frame-shift	fctA	AP53_105	+		71
+AP53	119987	DIP	1	-	1	G	frame-shift	fctA	AP53_105	+		75
+AP53	119990	DIP	9	---------	1	ACAGCTTCA	in-frame	fctA	AP53_105	+		76
+AP53	120011	DIP	3	GAA	1	---	in-frame	fctA	AP53_105	+		83
+AP53	120041	DIP	3	GTT	1	---	in-frame	fctA	AP53_105	+		93
+AP53	120063	DIP	3	AAG	1	---	in-frame	fctA	AP53_105	+		100
+AP53	120076	DIP	1	-	1	C	frame-shift	fctA	AP53_105	+		104
+AP53	120084	DIP	2	--	1	GG	frame-shift	fctA	AP53_105	+		107
+AP53	120112	DIP	1	A	1	-	frame-shift	fctA	AP53_105	+		116
+AP53	120118	DIP	3	---	1	CAA	in-frame	fctA	AP53_105	+		118
+AP53	120123	DIP	2	TT	1	--	frame-shift	fctA	AP53_105	+		120
+AP53	120166	DIP	1	A	1	-	frame-shift	fctA	AP53_105	+		134
+AP53	120170	DIP	1	-	1	G	frame-shift	fctA	AP53_105	+		136
+AP53	120221	DIP	2	--	1	GA	frame-shift	fctA	AP53_105	+		153
+AP53	120231	DIP	6	GTGGTT	1	------	in-frame	fctA	AP53_105	+		156
+AP53	120241	DIP	1	-	1	C	frame-shift	fctA	AP53_105	+		159
+AP53	120270	DIP	1	-	1	C	frame-shift	fctA	AP53_105	+		169
+AP53	120279	DIP	1	T	1	-	frame-shift	fctA	AP53_105	+		172
+AP53	120292	DIP	1	C	1	-	frame-shift	fctA	AP53_105	+		176
+AP53	120308	DIP	1	-	1	G	frame-shift	fctA	AP53_105	+		182
+AP53	120349	DIP	2	TA	1	--	frame-shift	fctA	AP53_105	+		195
+AP53	120371	DIP	2	--	1	GT	frame-shift	fctA	AP53_105	+		203
+AP53	120378	DIP	1	-	1	C	frame-shift	fctA	AP53_105	+		205
+AP53	120382	DIP	1	C	1	-	frame-shift	fctA	AP53_105	+		206
+AP53	120391	DIP	1	A	1	-	frame-shift	fctA	AP53_105	+		209
+AP53	120396	DIP	1	-	1	A	frame-shift	fctA	AP53_105	+		211
+AP53	120423	DIP	3	---	1	AGA	in-frame	fctA	AP53_105	+		220
+AP53	120427	DIP	6	------	1	CAAGGC	in-frame	fctA	AP53_105	+		221
+AP53	120433	DIP	1	-	1	G	frame-shift	fctA	AP53_105	+		223
+AP53	120441	DIP	8	--------	1	TGGTGCTG	frame-shift	fctA	AP53_105	+		226
+AP53	120447	DIP	3	GTC	1	---	in-frame	fctA	AP53_105	+		228
+AP53	120472	DIP	1	A	1	-	frame-shift	fctA	AP53_105	+		236
+AP53	120477	DIP	1	-	1	C	frame-shift	fctA	AP53_105	+		238
+AP53	120505	DIP	1	-	1	G	frame-shift	fctA	AP53_105	+		247
+AP53	120509	DIP	1	A	1	-	frame-shift	fctA	AP53_105	+		249
+AP53	120544	DIP	1	-	1	T	frame-shift	fctA	AP53_105	+		260
+AP53	120546	DIP	3	---	1	GGT	in-frame	fctA	AP53_105	+		261
+AP53	120552	DIP	2	CG	1	--	frame-shift	fctA	AP53_105	+		263
+AP53	120556	DIP	1	-	1	C	frame-shift	fctA	AP53_105	+		264
+AP53	120566	DIP	1	G	1	-	frame-shift	fctA	AP53_105	+		268
+AP53	120572	DIP	4	----	1	ACAG	frame-shift	fctA	AP53_105	+		270
+AP53	120602	DIP	2	--	1	TC	frame-shift	fctA	AP53_105	+		280
+AP53	120606	DIP	2	TT	1	--	frame-shift	fctA	AP53_105	+		281
+AP53	120623	DIP	2	--	1	AC	frame-shift	fctA	AP53_105	+		287
+AP53	120625	DIP	2	--	1	TA	frame-shift	fctA	AP53_105	+		287
+AP53	120629	DIP	4	GGAA	1	----	frame-shift	fctA	AP53_105	+		289
+AP53	120682	DIP	2	GC	1	--	frame-shift	fctA	AP53_105	+		306
+AP53	120692	DIP	3	---	1	TGC	in-frame	fctA	AP53_105	+		310
+AP53	120695	DIP	1	G	1	-	frame-shift	fctA	AP53_105	+		311
+AP53	122231	DIP	1	T	1	-	inter-gene-3-3	fctB||-||	AP53_107||AP53_108||	0		
+AP53	122261	DIP	1	A	1	-	inter-gene-3-3	fctB||-||	AP53_107||AP53_108||	0		
+AP53	123802	DIP	6	------	1	AATGGT	inter-gene-5-5	-||prtF2/fbaB||	AP53_108||AP53_109||	0		
+AP53	125634	DIP	11	1TTCAACTACT	1	-----------	frame-shift	prtF2/fbaB	AP53_109	+		582
+AP53	126836	DIP	4	----	1	GTTA	frame-shift	hypo19	AP53_110	-		27
+AP53	126841	DIP	1	C	1	-	frame-shift	hypo19	AP53_110	-		25
+AP53	126848	DIP	3	AGT	1	---	in-frame	hypo19	AP53_110	-		20
+AP53	127240	DIP	93	---------------------------------------------------------------------------------------------	1	GAACAAAAGTGTTTTTTGTGGGTTTAAACTTATTGATAACTAAATGAACTAAATAAACGCTTATTAGTATTATCGACAGGTTACTGATCAAAA	inter-gene-5-5	hypo19||atoE||	AP53_110||AP53_111||	0		
+AP53	128730	DIP	1	T	1	-	inter-gene-3-3	atoE||-||	AP53_111||AP53_112||	0		
+AP53	132334	DIP	1	A	1	-	inter-gene-3-3	atoA1||-||	AP53_115||AP53_116||	0		
+AP53	137941	DIP	1	-	1	A	inter-gene-3-5	ntpK||ntpE||	AP53_121||AP53_122||	0		
+AP53	150138	DIP	34	AAACAAACGGATGACTATTGTTAACATCATTGTA	1	----------------------------------	inter-gene-3-5	nusG||nga||	AP53_133||AP53_134||	0		
+AP53	150359	DIP	1	T	1	-	inter-gene-3-5	nusG||nga||	AP53_133||AP53_134||	0		
+AP53	151902	DIP	1	-	1	T	inter-gene-3-5	nga||ifs||	AP53_134||AP53_135||	0		
+AP53	154451	DIP	6	------	1	ATACTC	inter-gene-5-3	hypo3||hypo2||	AP53_137||AP53_138||	0		
+AP53	154662	DIP	2	CC	1	--	inter-gene-5-3	hypo3||hypo2||	AP53_137||AP53_138||	0		
+AP53	155138	DIP	1	T	1	-	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155143	DIP	2	GG	1	--	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155149	DIP	1	G	1	-	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155160	DIP	6	------	1	ATAGAG	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155182	DIP	1	-	1	G	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155185	DIP	2	TT	1	--	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155193	DIP	14	CATTAATGAAGTAA	1	--------------	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155235	DIP	1	-	1	G	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155240	DIP	5	AAAAT	1	-----	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155251	DIP	2	TC	1	--	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155262	DIP	4	TACA	1	----	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155275	DIP	11	GTTTTTTCCTC	1	-----------	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155288	DIP	2	--	1	AA	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155293	DIP	4	----	1	AGTT	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155308	DIP	7	-------	1	GATAAAC	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155309	DIP	1	C	1	-	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155312	DIP	3	---	1	GCC	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155325	DIP	4	----	1	AGAT	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155333	DIP	2	--	1	AG	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155346	DIP	10	----------	1	GCTGGTTTGG	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155351	DIP	5	-----	1	TTTTG	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	155429	DIP	34	----------------------------------	1	CTAAAAATAATTTGTTTTTCACTATATTTCTCTC	inter-gene-5-5	hypo2||metB||	AP53_138||AP53_139||	0		
+AP53	157083	DIP	1	-	1	T	inter-gene-3-5	metB||leuS||	AP53_139||AP53_140||	0		
+AP53	164547	DIP	1	-	1	T	frame-shift	araD	AP53_146	+		159
+AP53	164550	DIP	1	A	1	-	frame-shift	araD	AP53_146	+		160
+AP53	168374	DIP	1	-	1	C	inter-gene-3-5	ulaG||opuA||	AP53_148||AP53_149||	0		
+AP53	168568	DIP	1	A	1	-	inter-gene-3-5	ulaG||opuA||	AP53_148||AP53_149||	0		
+AP53	174451	DIP	9	AGGTTATTA	1	---------	inter-gene-3-5	polA||-||	AP53_151||AP53_152||	0		
+AP53	178207	DIP	33	TGACGTATTTTTGTAGCGGACAGAGGATTGAGA	1	---------------------------------	inter-gene-3-3	-||-||	AP53_157||AP53_158||	0		
+AP53	180952	DIP	1	-	1	T	inter-gene-5-5	-||nadC||	AP53_161||AP53_162||	0		
+AP53	185920	DIP	1	-	1	G	inter-gene-3-5	tgt||hot13||	AP53_168||AP53_169||	0		
+AP53	191337	DIP	3	CCT	1	---	inter-gene-3-5	speG||-||	AP53_174||AP53_175||	0		
+AP53	191602	DIP	1	-	1	A	frame-shift	-	AP53_176	+		13
+AP53	198510	DIP	2	--	1	AA	inter-gene-5-5	gpsA||MarR_2||	AP53_183||AP53_184||	0		
+AP53	215049	DIP	1	A	1	-	inter-gene-3-5	-||-||	AP53_198||AP53_199||	0		
+AP53	217903	DIP	2	--	1	CT	frame-shift	-	AP53_203	+		13
+AP53	217923	DIP	1	A	1	-	frame-shift	-	AP53_203	+		20
+AP53	219671	DIP	1	G	1	-	frame-shift	-	AP53_204	+		277
+AP53	220319	DIP	1	T	1	-	frame-shift	-	AP53_205	+		164
+AP53	220325	DIP	2	AG	1	--	frame-shift	-	AP53_205	+		166
+AP53	220330	DIP	3	---	1	CTC	in-frame	-	AP53_205	+		168
+AP53	226074	DIP	1	-	1	A	inter-gene-3-5	ksgA||engC||	AP53_211||AP53_212||	0		
+AP53	226175	DIP	1	-	1	A	inter-gene-3-5	ksgA||engC||	AP53_211||AP53_212||	0		
+AP53	226343	DIP	1	A	1	-	inter-gene-3-5	ksgA||engC||	AP53_211||AP53_212||	0		
+AP53	230916	DIP	1	A	1	-	inter-gene-3-5	cbf||purR||	AP53_216||AP53_217||	0		
+AP53	244245	DIP	56	--------------------------------------------------------	1	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	frame-shift	-	AP53_226	+		595
+AP53	251302	DIP	5	-----	1	CAGCA	frame-shift	sufE2	AP53_234	+		146
+AP53	262825	DIP	5	CTTTC	1	-----	inter-gene-5-5	-||-||	AP53_243||AP53_rna51||	0		
+AP53	262935	DIP	1	T	1	-	inter-gene-5-5	-||-||	AP53_243||AP53_rna51||	0		
+AP53	279158	DIP	2	TA	1	--	inter-gene-3-5	atmA||atmB||	AP53_255||AP53_256||	0		
+AP53	279229	DIP	5	-----	1	TAGTA	inter-gene-3-5	atmA||atmB||	AP53_255||AP53_256||	0		
+AP53	287259	DIP	1	-	1	T	inter-gene-5-3	trkH||gidB||	AP53_262||AP53_263||	0		
+AP53	292751	DIP	1	-	1	T	pseudo-gene|ncRNA	csrS/pseudogene	AP53_pseudo268	+		
+AP53	305726	DIP	1	T	1	-	inter-gene-3-3	greA||-||	AP53_278||AP53_279||	0		
+AP53	316742	DIP	1	-	1	G	inter-gene-3-5	-||-||	AP53_294||AP53_295||	0		
+AP53	318101	DIP	1	-	1	C	frame-shift	-	AP53_296	+		213
+AP53	323763	DIP	1	-	1	A	frame-shift	-	AP53_302	+		121
+AP53	323767	DIP	1	G	1	-	frame-shift	-	AP53_302	+		123
+AP53	329115	DIP	1	C	1	-	frame-shift	murE	AP53_307	-		152
+AP53	329119	DIP	1	-	1	A	frame-shift	murE	AP53_307	-		151
+AP53	333675	DIP	1	-	1	A	inter-gene-3-5	-||tmk||	AP53_312||AP53_313||	0		
+AP53	338624	DIP	2	--	1	CT	inter-gene-5-5	-||-||	AP53_320||AP53_321||	0		
+AP53	341472	DIP	1	-	1	A	inter-gene-3-5	lctO||hypo5||	AP53_324||AP53_325||	0		
+AP53	341709	DIP	3	TGA	1	---	inter-gene-3-5	hypo5||prtS||	AP53_325||AP53_326||	0		
+AP53	346829	DIP	5	CTATG	1	-----	inter-gene-3-3	prtS||-||	AP53_326||AP53_327||	0		
+AP53	346924	DIP	4	----	1	TGAG	frame-shift	-	AP53_327	-		36
+AP53	346927	DIP	8	--------	1	CTGCATGA	frame-shift	-	AP53_327	-		35
+AP53	347014	DIP	1	T	1	-	frame-shift	-	AP53_327	-		5
+AP53	347343	DIP	1	-	1	A	frame-shift	-	AP53_329	+		4
+AP53	350320	DIP	1	-	1	A	inter-gene-3-3	metG||-||	AP53_330||AP53_332||	0		
+AP53	350349	DIP	1	-	1	T	inter-gene-3-3	metG||-||	AP53_330||AP53_332||	0		
+AP53	350702	DIP	1	-	1	G	frame-shift	-	AP53_331	+		13
+AP53	354582	DIP	1	-	1	T	inter-gene-3-3	nrdE1||spyA||	AP53_335||AP53_336||	0		
+AP53	357019	DIP	11	-----------	3	CAGCTCCTGAG|CAACTCCTAAG|-----------	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357020	DIP	11	-----------	2	-----------|AGTTCCTAAAG	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357030	DIP	8	--------	2	--------|TTATCTAA	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357038	DIP	1	-	2	-|C	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357040	DIP	6	------	2	------|CGGGCA	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357041	DIP	1	T	2	T|-	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357050	DIP	3	GTT	2	GTT|---	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357057	DIP	1	A	3	G|A|-	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357062	DIP	2	--	2	--|GC	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357142	DIP	1	T	2	T|-	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357147	DIP	1	A	3	G|A|-	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357152	DIP	1	-	3	shift-DEL-A|A|-	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357157	DIP	1	T	2	T|-	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357162	DIP	1	-	2	-|A	inter-gene-5-5	-||hypo4||	AP53_337||AP53_338||	0		
+AP53	357249	DIP	2	AT	2	AT|--	frame-shift	hypo4	AP53_338	+		25
+AP53	357258	DIP	2	--	2	--|AC	frame-shift	hypo4	AP53_338	+		28
+AP53	360789	DIP	1	-	2	C|-	inter-gene-3-5	-||-||	AP53_341||AP53_342||	0		
+AP53	360802	DIP	1	-	2	G|-	inter-gene-3-5	-||-||	AP53_341||AP53_342||	0		
+AP53	360905	DIP	1	T	2	T|-	frame-shift	-	AP53_342	+		25
+AP53	361053	DIP	10	CCTACTATGA	2	CCTACTATGA|----------	frame-shift	-	AP53_342	+		74
+AP53	361085	DIP	9	---------	2	ATGCAAAGT|---------	inter-gene-3-3	-||-||	AP53_342||AP53_343||	0		
+AP53	361087	DIP	2	TT	2	TT|--	inter-gene-3-3	-||-||	AP53_342||AP53_343||	0		
+AP53	361094	DIP	1	T	2	T|-	inter-gene-3-3	-||-||	AP53_342||AP53_343||	0		
+AP53	365814	DIP	1	T	1	-	inter-gene-3-5	glpT||glmU||	AP53_347||AP53_348||	0		
+AP53	378191	DIP	1	-	1	A	inter-gene-3-5	rplA||pyrH||	AP53_361||AP53_362||	0		
+AP53	381048	DIP	1	G	1	-	frame-shift	msrA	AP53_365	+		62
+AP53	381052	DIP	1	-	1	C	frame-shift	msrA	AP53_365	+		63
+AP53	381057	DIP	1	A	1	-	frame-shift	msrA	AP53_365	+		65
+AP53	381060	DIP	1	-	1	T	frame-shift	msrA	AP53_365	+		66
+AP53	382472	DIP	12	CTCAGATGTTAA	1	------------	in-frame	-	AP53_367	+		244
+AP53	382935	DIP	1	A	1	-	inter-gene-3-5	-||-||	AP53_367||AP53_368||	0		
+AP53	383183	DIP	1	C	1	-	inter-gene-3-5	-||-||	AP53_367||AP53_368||	0		
+AP53	388918	DIP	1	-	1	C	inter-gene-3-5	era||-||	AP53_373||AP53_374||	0		
+AP53	389466	DIP	1	-	1	G	inter-gene-3-3	-||-||	AP53_374||AP53_375||	0		
+AP53	390070	DIP	4	AAGA	1	----	inter-gene-5-3	-||-||	AP53_375||AP53_376||	0		
+AP53	390078	DIP	2	AA	1	--	inter-gene-5-3	-||-||	AP53_375||AP53_376||	0		
+AP53	404049	DIP	1	A	1	-	inter-gene-5-5	blpA||blpM||	AP53_394||AP53_395||	0		
+AP53	404110	DIP	1	C	1	-	inter-gene-5-5	blpA||blpM||	AP53_394||AP53_395||	0		
+AP53	404318	DIP	11	TGTGGTTATAT	1	-----------	frame-shift	blpM	AP53_395	+		53
+AP53	404907	DIP	1	A	1	-	inter-gene-3-5	-||silD||	AP53_396||AP53_397||	0		
+AP53	405118	DIP	1	T	1	-	inter-gene-3-5	silD||-||	AP53_397||AP53_398||	0		
+AP53	405123	DIP	1	A	1	-	inter-gene-3-5	silD||-||	AP53_397||AP53_398||	0		
+AP53	406939	DIP	1	-	1	G	frame-shift	-	AP53_399	+		222
+AP53	407006	DIP	1	A	1	-	frame-shift	-	AP53_399	+		245
+AP53	419113	DIP	1	-	1	T	inter-gene-3-3	-||pcp||	AP53_413||AP53_414||	0		
+AP53	430968	DIP	1	A	1	-	inter-gene-3-5	thrS||tagH||	AP53_425||AP53_426||	0		
+AP53	453861	DIP	1	-	1	A	inter-gene-3-5	-||-||	AP53_445||AP53_446||	0		
+AP53	456722	DIP	1	T	1	-	inter-gene-3-3	mefE||-||	AP53_447||AP53_448||	0		
+AP53	463614	DIP	6	CTAGAG	1	------	inter-gene-5-5	-||-||	AP53_459||AP53_460||	0		
+AP53	463625	DIP	5	-----	1	AGGGT	inter-gene-5-5	-||-||	AP53_459||AP53_460||	0		
+AP53	481008	DIP	1	-	1	G	inter-gene-3-3	-||-||	AP53_476||AP53_477||	0		
+AP53	483905	DIP	1	-	1	T	frame-shift	-	AP53_480	-		25
+AP53	483978	DIP	1	-	1	A	inter-gene-5-5	-||-||	AP53_480||AP53_481||	0		
+AP53	488779	DIP	1	-	1	A	inter-gene-5-3	ybaK||-||	AP53_486||AP53_487||	0		
+AP53	489643	DIP	1	T	1	-	inter-gene-5-3	-||-||	AP53_487||AP53_488||	0		
+AP53	491416	DIP	3	---	1	GAC	in-frame	-	AP53_490	+		28
+AP53	502332	DIP	1	-	1	A	frame-shift	femB	AP53_500	-		400
+AP53	512580	DIP	1	-	1	C	inter-gene-5-3	-||agaD||	AP53_507||AP53_508||	0		
+AP53	512596	DIP	1	A	1	-	inter-gene-5-3	-||agaD||	AP53_507||AP53_508||	0		
+AP53	512606	DIP	1	-	1	A	inter-gene-5-3	-||agaD||	AP53_507||AP53_508||	0		
+AP53	516625	DIP	1	C	1	-	inter-gene-5-5	agaF||idnO||	AP53_512||AP53_513||	0		
+AP53	520603	DIP	1	A	1	-	frame-shift	-	AP53_517	+		158
+AP53	534203	DIP	1	T	1	-	inter-gene-3-5	asnC||-||	AP53_527||AP53_528||	0		
+AP53	540616	DIP	4	----	1	TAAG	inter-gene-3-5	adcA||phnF||	AP53_532||AP53_533||	0		
+AP53	540652	DIP	1	T	1	-	inter-gene-3-5	adcA||phnF||	AP53_532||AP53_533||	0		
+AP53	541457	DIP	1	A	1	-	frame-shift	phnF	AP53_533	+		241
+AP53	542681	DIP	29	TTTTGTGTAGAAGCCGTAAAACGAAATGA	1	-----------------------------	inter-gene-3-3	agaS||rpmE2||	AP53_534||AP53_535||	0		
+AP53	544905	DIP	35	-----------------------------------	1	AACTCTCACAGGCTGTTAATAATCTATAAAACTAT	frame-shift	flaV	AP53_537	+		141
+AP53	547810	DIP	5	ACATA	1	-----	inter-gene-3-5	-||-||	AP53_rna57||AP53_541||	0		
+AP53	553348	DIP	6	------	1	ATAATA	inter-gene-5-5	-||eno||	AP53_544||AP53_545||	0		
+AP53	571144	DIP	1	C	1	-	inter-gene-3-5	dagK||atpE||	AP53_558||AP53_559||	0		
+AP53	580330	DIP	4	----	1	AAAC	frame-shift	-	AP53_570	+		44
+AP53	580554	DIP	2	--	1	TC	frame-shift	-	AP53_570	+		119
+AP53	584791	DIP	1	A	1	-	inter-gene-3-5	pheT||-||	AP53_574||AP53_575||	0		
+AP53	586579	DIP	2	--	1	GC	frame-shift	-	AP53_577	+		284
+AP53	586583	DIP	2	CC	1	--	frame-shift	-	AP53_577	+		285
+AP53	587513	DIP	2	--	1	AG	inter-gene-3-3	-||ypfJ||	AP53_578||AP53_579||	0		
+AP53	588418	DIP	9	CCGCCGCCA	1	---------	in-frame	ypfJ	AP53_579	-		5
+AP53	595627	DIP	1	C	1	-	inter-gene-3-5	addA||-||	AP53_581||AP53_582||	0		
+AP53	609532	DIP	1	G	1	-	inter-gene-3-3	ltaS/pseudogene||ptx||	AP53_pseudo595||AP53_1866||	0		
+AP53	667733	DIP	1	G	1	-	frame-shift	-	AP53_675	-		423
+AP53	677357	DIP	1	C	1	-	inter-gene-3-5	-||pyrR||	AP53_685||AP53_686||	0		
+AP53	684930	DIP	31	TAAAAATTAAAAAATCATTTTTAAGAAAACT	1	-------------------------------	frame-shift	carB	AP53_690	+		1059
+AP53	691296	DIP	2	GG	1	--	inter-gene-3-5	-||-||	AP53_696||AP53_697||	0		
+AP53	692288	DIP	15	TTTAAATAAAACAGT	1	---------------	in-frame	-	AP53_697	+		123
+AP53	705528	DIP	1	C	1	-	frame-shift	fruA	AP53_708	+		648
+AP53	706239	DIP	1	A	1	-	inter-gene-3-5	-||-||	AP53_709||AP53_710||	0		
+AP53	707817	DIP	1	C	1	-	inter-gene-5-3	-||mac;ideS||	AP53_712||AP53_713||	0		
+AP53	707943	DIP	1	-	1	T	inter-gene-5-3	-||mac;ideS||	AP53_712||AP53_713||	0		
+AP53	708944	DIP	44	--------------------------------------------	1	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	frame-shift	mac;ideS	AP53_713	-		41
+AP53	709192	DIP	1	A	1	-	inter-gene-5-5	mac;ideS||-||	AP53_713||AP53_714||	0		
+AP53	709548	DIP	3	AGG	1	---	inter-gene-3-5	-||-||	AP53_714||AP53_715||	0		
+AP53	709794	DIP	1	T	1	-	inter-gene-3-5	-||-||	AP53_715||AP53_716||	0		
+AP53	714720	DIP	1	T	1	-	inter-gene-3-5	-||-||	AP53_719||AP53_720||	0		
+AP53	714790	DIP	1	T	1	-	inter-gene-3-5	-||-||	AP53_719||AP53_720||	0		
+AP53	739974	DIP	1	-	1	T	frame-shift	-	AP53_745	+		25
+AP53	743775	DIP	1	T	1	-	frame-shift	amiC	AP53_750	+		86
+AP53	743781	DIP	2	--	1	TG	frame-shift	amiC	AP53_750	+		88
+AP53	743791	DIP	1	C	1	-	frame-shift	amiC	AP53_750	+		92
+AP53	743901	DIP	1	T	1	-	frame-shift	amiC	AP53_750	+		128
+AP53	743905	DIP	1	-	1	T	frame-shift	amiC	AP53_750	+		130
+AP53	746716	DIP	3	---	1	AAG	inter-gene-3-5	yecS||ung||	AP53_752||AP53_753||	0		
+AP53	758107	DIP	5	CATCT	1	-----	inter-gene-5-5	-||-||	AP53_761||AP53_762||	0		
+AP53	787399	DIP	1	-	1	G	frame-shift	-	AP53_793	+		125
+AP53	787403	DIP	1	G	1	-	frame-shift	-	AP53_793	+		127
+AP53	795157	DIP	1	-	1	T	inter-gene-3-3	acoL||hylA||	AP53_797||AP53_798||	0		
+AP53	809098	DIP	1	C	1	-	inter-gene-3-5	-||lepA||	AP53_809||AP53_810||	0		
+AP53	809796	DIP	11	CAAAAATGGTT	1	-----------	inter-gene-3-5	lepA||-||	AP53_810||AP53_811||	0		
+AP53	810059	DIP	8	GCGAAGGT	1	--------	frame-shift	-	AP53_811	+		44
+AP53	810072	DIP	1	-	1	C	frame-shift	-	AP53_811	+		48
+AP53	810074	DIP	2	--	1	CT	frame-shift	-	AP53_811	+		49
+AP53	810082	DIP	1	-	1	C	frame-shift	-	AP53_811	+		52
+AP53	810087	DIP	12	GCTCTCTGAGTT	1	------------	in-frame	-	AP53_811	+		53
+AP53	810112	DIP	4	----	1	AATG	frame-shift	-	AP53_811	+		62
+AP53	810118	DIP	4	----	1	CTCC	frame-shift	-	AP53_811	+		64
+AP53	810124	DIP	1	G	1	-	frame-shift	-	AP53_811	+		66
+AP53	810132	DIP	1	T	1	-	frame-shift	-	AP53_811	+		68
+AP53	810146	DIP	2	--	1	GG	frame-shift	-	AP53_811	+		73
+AP53	810153	DIP	1	G	1	-	frame-shift	-	AP53_811	+		75
+AP53	810166	DIP	5	-----	1	GGTGA	frame-shift	-	AP53_811	+		80
+AP53	810169	DIP	6	------	1	GGAGGA	in-frame	-	AP53_811	+		81
+AP53	810175	DIP	2	--	1	GG	frame-shift	-	AP53_811	+		83
+AP53	810178	DIP	10	GAGCAACTCG	1	----------	frame-shift	-	AP53_811	+		84
+AP53	810202	DIP	3	GAC	1	---	in-frame	-	AP53_811	+		92
+AP53	810226	DIP	3	GGC	1	---	in-frame	-	AP53_811	+		100
+AP53	810238	DIP	2	CT	1	--	frame-shift	-	AP53_811	+		104
+AP53	810253	DIP	11	-----------	1	AATTATTTGAG	frame-shift	-	AP53_811	+		109
+AP53	810256	DIP	9	---------	1	ATGCAAAAT	in-frame	-	AP53_811	+		110
+AP53	810267	DIP	3	ACC	1	---	in-frame	-	AP53_811	+		113
+AP53	810277	DIP	1	C	1	-	frame-shift	-	AP53_811	+		117
+AP53	810280	DIP	1	-	1	T	frame-shift	-	AP53_811	+		118
+AP53	810283	DIP	2	--	1	GC	frame-shift	-	AP53_811	+		119
+AP53	810286	DIP	2	CG	1	--	frame-shift	-	AP53_811	+		120
+AP53	810294	DIP	6	AGTCGG	1	------	in-frame	-	AP53_811	+		122
+AP53	810308	DIP	2	GC	1	--	frame-shift	-	AP53_811	+		127
+AP53	810313	DIP	1	C	1	-	frame-shift	-	AP53_811	+		129
+AP53	810319	DIP	1	C	1	-	frame-shift	-	AP53_811	+		131
+AP53	810323	DIP	1	-	1	C	frame-shift	-	AP53_811	+		132
+AP53	810337	DIP	3	---	1	GAG	in-frame	-	AP53_811	+		137
+AP53	810352	DIP	6	------	1	GAGCCA	in-frame	-	AP53_811	+		142
+AP53	810363	DIP	3	---	1	TGA	in-frame	-	AP53_811	+		145
+AP53	810370	DIP	6	------	1	GCCAAA	in-frame	-	AP53_811	+		148
+AP53	810393	DIP	7	ACAAGGT	1	-------	frame-shift	-	AP53_811	+		155
+AP53	810403	DIP	2	CG	1	--	frame-shift	-	AP53_811	+		159
+AP53	810436	DIP	2	--	1	GA	frame-shift	-	AP53_811	+		170
+AP53	810438	DIP	2	AG	1	--	frame-shift	-	AP53_811	+		170
+AP53	810466	DIP	1	C	1	-	frame-shift	-	AP53_811	+		180
+AP53	810469	DIP	1	-	1	C	frame-shift	-	AP53_811	+		181
+AP53	810478	DIP	9	---------	1	GGTAAAGAT	in-frame	-	AP53_811	+		184
+AP53	810499	DIP	2	--	1	AA	frame-shift	-	AP53_811	+		191
+AP53	810504	DIP	16	----------------	1	GCCAAGATGGCAAAGA	frame-shift	-	AP53_811	+		192
+AP53	810508	DIP	3	---	1	CTC	in-frame	-	AP53_811	+		194
+AP53	810511	DIP	1	-	1	G	frame-shift	-	AP53_811	+		195
+AP53	810514	DIP	5	-----	1	AAGAC	frame-shift	-	AP53_811	+		196
+AP53	810640	DIP	9	---------	1	GGTCTTCCA	in-frame	-	AP53_811	+		238
+AP53	810989	DIP	1	-	1	G	inter-gene-3-5	-||-||	AP53_811||AP53_812||	0		
+AP53	811041	DIP	13	-------------	1	TTTTTGAATCAAG	inter-gene-3-5	-||-||	AP53_811||AP53_812||	0		
+AP53	815430	DIP	11	CAAAAATGGTT	1	-----------	inter-gene-3-5	lepA||-||	AP53_815||AP53_816||	0		
+AP53	815692	DIP	1	G	1	-	frame-shift	-	AP53_816	+		44
+AP53	816359	DIP	2	--	1	GT	frame-shift	-	AP53_816	+		266
+AP53	816364	DIP	2	GT	1	--	frame-shift	-	AP53_816	+		268
+AP53	816370	DIP	3	---	1	GAG	in-frame	-	AP53_816	+		270
+AP53	816375	DIP	6	------	1	TGCCAA	in-frame	-	AP53_816	+		271
+AP53	816388	DIP	1	-	1	G	frame-shift	-	AP53_816	+		276
+AP53	816395	DIP	1	-	1	T	frame-shift	-	AP53_816	+		278
+AP53	816402	DIP	7	-------	1	GCGAAAC	frame-shift	-	AP53_816	+		280
+AP53	816418	DIP	9	ACCGGCCCG	1	---------	in-frame	-	AP53_816	+		286
+AP53	816453	DIP	9	GGCTGGAGC	1	---------	in-frame	-	AP53_816	+		297
+AP53	816484	DIP	9	---------	1	GGTAAGGAC	in-frame	-	AP53_816	+		308
+AP53	817049	DIP	1	-	1	G	inter-gene-3-5	-||msrB||	AP53_816||AP53_817||	0		
+AP53	817101	DIP	13	-------------	1	TTTTTGAATCAAG	inter-gene-3-5	-||msrB||	AP53_816||AP53_817||	0		
+AP53	817832	DIP	1	T	1	-	frame-shift	YeiH	AP53_818	+		14
+AP53	817839	DIP	1	-	1	G	frame-shift	YeiH	AP53_818	+		17
+AP53	819439	DIP	8	TTAATATC	1	--------	frame-shift	ptsA	AP53_819	+		141
+AP53	828790	DIP	1	A	1	-	inter-gene-3-5	uvrC||-||	AP53_827||AP53_828||	0		
+AP53	832495	DIP	1	-	1	A	inter-gene-5-5	trmE||rplJ||	AP53_830||AP53_831||	0		
+AP53	832519	DIP	1	-	1	T	inter-gene-5-5	trmE||rplJ||	AP53_830||AP53_831||	0		
+AP53	832693	DIP	1	-	1	T	inter-gene-5-5	trmE||rplJ||	AP53_830||AP53_831||	0		
+AP53	859430	DIP	1	A	1	-	inter-gene-5-3	rex||-||	AP53_858||AP53_859||	0		
+AP53	866186	DIP	1	T	1	-	inter-gene-3-5	eutD||ydfG||	AP53_866||AP53_867||	0		
+AP53	867147	DIP	1	-	1	T	inter-gene-3-3	ydfG||-||	AP53_867||AP53_868||	0		
+AP53	867899	DIP	3	---	1	ATC	inter-gene-5-5	-||proV||	AP53_868||AP53_869||	0		
+AP53	867979	DIP	6	TAAGGA	1	------	inter-gene-5-5	-||proV||	AP53_868||AP53_869||	0		
+AP53	870778	DIP	1	-	1	T	inter-gene-3-5	proX||guaC||	AP53_870||AP53_871||	0		
+AP53	870780	DIP	1	A	1	-	inter-gene-3-5	proX||guaC||	AP53_870||AP53_871||	0		
+AP53	880065	DIP	3	AAG	1	---	in-frame	glyA	AP53_881	+		395
+AP53	880072	DIP	3	---	1	TGT	in-frame	glyA	AP53_881	+		397
+AP53	892908	DIP	3	TGA	1	---	in-frame	hypo-high4	AP53_892	+		140
+AP53	895304	DIP	1	-	1	G	inter-gene-5-5	-||rbgA||	AP53_895||AP53_896||	0		
+AP53	895312	DIP	1	T	1	-	inter-gene-5-5	-||rbgA||	AP53_895||AP53_896||	0		
+AP53	918813	DIP	1	-	1	C	inter-gene-5-3	-||xerS||	AP53_919||AP53_920||	0		
+AP53	919089	DIP	1	-	1	A	inter-gene-5-3	-||xerS||	AP53_919||AP53_920||	0		
+AP53	920500	DIP	1	T	1	-	inter-gene-5-5	xerS||-||	AP53_920||AP53_921||	0		
+AP53	920672	DIP	5	-----	1	TATGT	inter-gene-5-5	xerS||-||	AP53_920||AP53_921||	0		
+AP53	921515	DIP	19	TAGGTTATTTCAAATTTTA	1	-------------------	inter-gene-3-3	-||ffh||	AP53_921||AP53_922||	0		
+AP53	921548	DIP	1	-	1	G	inter-gene-3-3	-||ffh||	AP53_921||AP53_922||	0		
+AP53	928071	DIP	13	-------------	1	ATCTTGGTTAATA	frame-shift	-	AP53_928	-		257
+AP53	929078	DIP	1	A	1	-	inter-gene-5-3	-||-||	AP53_928||AP53_929||	0		
+AP53	933726	DIP	1	-	1	T	inter-gene-3-3	-||rnhB||	AP53_932||AP53_933||	0		
+AP53	933823	DIP	64	ATTGGAAACTACTAGCTGTCACTTCGAAGTAGTATTATCCTAGACTGTTTCATTAAGACTAAGG	1	----------------------------------------------------------------	inter-gene-3-3	-||rnhB||	AP53_932||AP53_933||	0		
+AP53	933942	DIP	1	-	1	C	inter-gene-3-3	-||rnhB||	AP53_932||AP53_933||	0		
+AP53	934029	DIP	1	A	1	-	inter-gene-3-3	-||rnhB||	AP53_932||AP53_933||	0		
+AP53	948545	DIP	3	---	1	TAC	inter-gene-3-3	pgmA||-||	AP53_946||AP53_947||	0		
+AP53	958938	DIP	1	C	1	-	inter-gene-5-3	ciaR||pepN||	AP53_956||AP53_957||	0		
+AP53	965077	DIP	1	-	1	A	frame-shift	pstC	AP53_962	-		251
+AP53	965080	DIP	1	C	1	-	frame-shift	pstC	AP53_962	-		250
+AP53	973039	DIP	1	-	1	A	inter-gene-5-3	-||-||	AP53_970||AP53_971||	0		
+AP53	973052	DIP	10	CTATATATAG	1	----------	inter-gene-5-3	-||-||	AP53_970||AP53_971||	0		
+AP53	984916	DIP	1	T	1	-	inter-gene-5-5	pcrA||GlyP||	AP53_983||AP53_984||	0		
+AP53	989336	DIP	1	-	1	T	inter-gene-5-3	cfa||hisJ||	AP53_986||AP53_987||	0		
+AP53	989376	DIP	1	A	1	-	inter-gene-5-3	cfa||hisJ||	AP53_986||AP53_987||	0		
+AP53	1039870	DIP	1	-	1	T	frame-shift	-	AP53_1048	-		40
+AP53	1045953	DIP	1	A	1	-	frame-shift	-	AP53_1062	+		2
+AP53	1050098	DIP	1	-	1	G	frame-shift	malM	AP53_1064	-		174
+AP53	1050102	DIP	2	--	1	GC	frame-shift	malM	AP53_1064	-		173
+AP53	1050104	DIP	3	AGT	1	---	in-frame	malM	AP53_1064	-		169
+AP53	1050119	DIP	3	TAA	1	---	in-frame	malM	AP53_1064	-		164
+AP53	1050130	DIP	2	--	1	GC	frame-shift	malM	AP53_1064	-		163
+AP53	1050132	DIP	1	-	1	T	frame-shift	malM	AP53_1064	-		163
+AP53	1050236	DIP	6	TACACA	1	------	in-frame	malM	AP53_1064	-		116
+AP53	1050246	DIP	6	------	1	GATGCC	in-frame	malM	AP53_1064	-		125
+AP53	1050251	DIP	2	--	1	TA	frame-shift	malM	AP53_1064	-		123
+AP53	1050254	DIP	2	CA	1	--	frame-shift	malM	AP53_1064	-		121
+AP53	1050285	DIP	1	-	1	T	frame-shift	malM	AP53_1064	-		112
+AP53	1050288	DIP	1	T	1	-	frame-shift	malM	AP53_1064	-		110
+AP53	1050333	DIP	4	ATTT	1	----	frame-shift	malM	AP53_1064	-		90
+AP53	1050339	DIP	1	G	1	-	frame-shift	malM	AP53_1064	-		93
+AP53	1050345	DIP	1	T	1	-	frame-shift	malM	AP53_1064	-		91
+AP53	1050355	DIP	1	C	1	-	frame-shift	malM	AP53_1064	-		88
+AP53	1050358	DIP	7	-------	1	GCCAACG	frame-shift	malM	AP53_1064	-		87
+AP53	1050371	DIP	1	-	1	G	frame-shift	malM	AP53_1064	-		83
+AP53	1050372	DIP	3	TAA	1	---	in-frame	malM	AP53_1064	-		80
+AP53	1050379	DIP	2	--	1	AG	frame-shift	malM	AP53_1064	-		80
+AP53	1050721	DIP	1	-	1	T	inter-gene-5-3	malM||malR||	AP53_1064||AP53_1065||	0		
+AP53	1072962	DIP	1	-	1	T	frame-shift	BglG	AP53_1086	-		6
+AP53	1089337	DIP	1	-	1	G	inter-gene-5-3	-||-||	AP53_1106||AP53_1107||	0		
+AP53	1089351	DIP	2	--	1	GT	inter-gene-5-3	-||-||	AP53_1106||AP53_1107||	0		
+AP53	1098781	DIP	84	------------------------------------------------------------------------------------	1	GCAGCTTCTTCTGATTGTAAAGCGTCTGTTTGATCCGCCAATGCTTCTAAGGCATCACTAGCAGCGGTATCTGATTGAACTACT	in-frame-Stp	graB	AP53_1115	-		111
+AP53	1099130	DIP	15	---------------	1	NNNNNNNNNNNNNNN	inter-gene-5-3	graB||murZ||	AP53_1115||AP53_1116||	0		
+AP53	1102433	DIP	1	A	1	-	inter-gene-5-3	metK||inlA||	AP53_1117||AP53_1118||	0		
+AP53	1103211	DIP	9	---------	1	TAGATAGGC	in-frame	inlA	AP53_1118	-		595
+AP53	1104192	DIP	12	------------	1	TTTCTGCTGGCT	in-frame	inlA	AP53_1118	-		268
+AP53	1106346	DIP	1	G	1	-	inter-gene-5-3	-||dnaX||	AP53_1120||AP53_1121||	0		
+AP53	1122790	DIP	7	-------	1	NNNNNNN	frame-shift	-	AP53_1137	+		57
+AP53	1123123	DIP	1	-	1	A	frame-shift	-	AP53_1137	+		168
+AP53	1125517	DIP	21	TAGTCAAAAAGGTTATGATGG	1	---------------------	inter-gene-5-3	-||alaS||	AP53_1141||AP53_1142||	0		
+AP53	1134903	DIP	1	-	1	T	inter-gene-5-3	CoiA||rsuA||	AP53_1147||AP53_1148||	0		
+AP53	1139113	DIP	40	----------------------------------------	1	CTCAAAAACACAGCATTAATCTCAAAAACACAGCATTAAT	frame-shift	hypo13	AP53_1151	+		401
+AP53	1148352	DIP	1	-	1	T	frame-shift	-	AP53_1162	-		312
+AP53	1148356	DIP	1	A	1	-	frame-shift	-	AP53_1162	-		310
+AP53	1153913	DIP	2	AA	1	--	inter-gene-5-3	-||murF||	AP53_1165||AP53_1166||	0		
+AP53	1153919	DIP	2	AG	1	--	inter-gene-5-3	-||murF||	AP53_1165||AP53_1166||	0		
+AP53	1153924	DIP	1	-	1	G	inter-gene-5-3	-||murF||	AP53_1165||AP53_1166||	0		
+AP53	1153939	DIP	3	---	1	GTC	in-frame	murF	AP53_1166	-		453
+AP53	1154013	DIP	1	T	1	-	frame-shift	murF	AP53_1166	-		428
+AP53	1154017	DIP	1	-	1	G	frame-shift	murF	AP53_1166	-		427
+AP53	1154068	DIP	3	TGG	1	---	in-frame	murF	AP53_1166	-		407
+AP53	1154076	DIP	3	CTG	1	---	in-frame	murF	AP53_1166	-		405
+AP53	1154090	DIP	6	------	1	GCTCAG	in-frame	murF	AP53_1166	-		403
+AP53	1154160	DIP	3	GCG	1	---	in-frame	murF	AP53_1166	-		377
+AP53	1154172	DIP	4	CAAT	1	----	frame-shift	murF	AP53_1166	-		370
+AP53	1154180	DIP	4	----	1	AAGC	frame-shift	murF	AP53_1166	-		373
+AP53	1154182	DIP	3	---	1	TCA	in-frame-Stp	murF	AP53_1166	-		372
+AP53	1154387	DIP	2	--	1	AC	frame-shift	murF	AP53_1166	-		304
+AP53	1154389	DIP	2	TG	1	--	frame-shift	murF	AP53_1166	-		302
+AP53	1154568	DIP	1	A	1	-	frame-shift	murF	AP53_1166	-		243
+AP53	1154574	DIP	1	-	1	T	frame-shift	murF	AP53_1166	-		242
+AP53	1155403	DIP	8	TCTTCCTA	1	--------	inter-gene-5-3	murF||ddl||	AP53_1166||AP53_1167||	0		
+AP53	1157316	DIP	9	---------	1	GGATACATA	inter-gene-5-3	recR||-||	AP53_1168||AP53_1169||	0		
+AP53	1157633	DIP	1	T	1	-	inter-gene-5-3	recR||-||	AP53_1168||AP53_1169||	0		
+AP53	1162921	DIP	1	-	1	A	frame-shift	zntA	AP53_1177	-		458
+AP53	1162924	DIP	1	C	1	-	frame-shift	zntA	AP53_1177	-		457
+AP53	1164391	DIP	10	TAAACTTTTT	1	----------	inter-gene-5-3	zntA||prx||	AP53_1177||AP53_1178||	0		
+AP53	1164654	DIP	2	TA	1	--	inter-gene-5-3	zntA||prx||	AP53_1177||AP53_1178||	0		
+AP53	1166848	DIP	1	A	1	-	inter-gene-3-3	speC||-||	AP53_1180||AP53_1181||	0		
+AP53	1189502	DIP	3	---	1	TCA	inter-gene-3-5	-||int4||	AP53_1214||AP53_1215||	0		
+AP53	1189513	DIP	1	-	1	C	inter-gene-3-5	-||int4||	AP53_1214||AP53_1215||	0		
+AP53	1189553	DIP	1	C	1	-	inter-gene-3-5	-||int4||	AP53_1214||AP53_1215||	0		
+AP53	1190835	DIP	1	C	1	-	inter-gene-3-3	int4||HBsu||	AP53_1215||AP53_1216||	0		
+AP53	1194297	DIP	18	------------------	1	TAATTCATCTAATTCATT	in-frame	-	AP53_1220	-		105
+AP53	1194670	DIP	8	--------	1	ACAGTTGA	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194675	DIP	9	---------	1	AAGAAACCG	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194679	DIP	7	-------	1	ACGTCCT	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194686	DIP	2	--	1	GG	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194705	DIP	3	TAG	1	---	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194714	DIP	14	GATTATTTTAGCAC	1	--------------	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194732	DIP	1	-	1	C	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194734	DIP	6	------	1	CAGGCT	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194737	DIP	4	----	1	CCGA	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194744	DIP	1	A	1	-	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194747	DIP	1	-	1	T	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194759	DIP	8	--------	1	GACTATTC	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194768	DIP	1	-	1	G	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1194773	DIP	7	-------	1	GTTTTTT	inter-gene-5-3	-||recN||	AP53_1220||AP53_1221||	0		
+AP53	1195338	DIP	1	-	1	A	frame-shift	recN	AP53_1221	-		369
+AP53	1195341	DIP	1	T	1	-	frame-shift	recN	AP53_1221	-		367
+AP53	1201325	DIP	1	A	1	-	inter-gene-5-3	folD||pgcA||	AP53_1227||AP53_1228||	0		
+AP53	1206659	DIP	1	-	1	T	inter-gene-5-5	-||clpE||	AP53_1232||AP53_1233||	0		
+AP53	1216018	DIP	1	T	1	-	frame-shift	-	AP53_1241	-		188
+AP53	1225774	DIP	1	A	1	-	inter-gene-5-3	typA||-||	AP53_1248||AP53_1249||	0		
+AP53	1228987	DIP	1	G	1	-	inter-gene-3-3	-||-||	AP53_1253||AP53_1254||	0		
+AP53	1232250	DIP	3	CCA	1	---	inter-gene-5-3	-||Ion||	AP53_1257||AP53_1258||	0		
+AP53	1232533	DIP	20	--------------------	1	TGAATATAATTGAATATAAT	inter-gene-5-3	-||Ion||	AP53_1257||AP53_1258||	0		
+AP53	1241151	DIP	1	-	1	T	frame-shift	-	AP53_1266	-		115
+AP53	1241156	DIP	1	C	1	-	frame-shift	-	AP53_1266	-		113
+AP53	1244520	DIP	1	T	1	-	inter-gene-3-3	argR||-||	AP53_1269||AP53_1270||	0		
+AP53	1258942	DIP	8	CTCACTTC	1	--------	inter-gene-5-5	-||-||	AP53_1281||AP53_1282||	0		
+AP53	1259305	DIP	1	A	1	-	frame-shift	-	AP53_1282	+		11
+AP53	1259943	DIP	3	GTC	1	---	inter-gene-5-3	-||-||	AP53_1283||AP53_1284||	0		
+AP53	1260478	DIP	2	TT	1	--	inter-gene-3-5	-||aroA2||	AP53_rna61||AP53_1285||	0		
+AP53	1285396	DIP	6	------	1	CACTAG	in-frame	ams1	AP53_1304	+		456
+AP53	1285404	DIP	1	-	1	T	frame-shift	ams1	AP53_1304	+		459
+AP53	1285409	DIP	7	ACTATCT	1	-------	frame-shift	ams1	AP53_1304	+		461
+AP53	1290322	DIP	5	CATAT	1	-----	inter-gene-5-3	rumA||prx||	AP53_1306||AP53_1307||	0		
+AP53	1290329	DIP	1	-	1	T	inter-gene-5-3	rumA||prx||	AP53_1306||AP53_1307||	0		
+AP53	1290338	DIP	1	-	1	A	inter-gene-5-3	rumA||prx||	AP53_1306||AP53_1307||	0		
+AP53	1293854	DIP	1	-	1	A	inter-gene-5-3	-||-||	AP53_1311||AP53_1312||	0		
+AP53	1293862	DIP	2	AG	1	--	inter-gene-5-3	-||-||	AP53_1311||AP53_1312||	0		
+AP53	1293878	DIP	1	-	1	T	inter-gene-5-3	-||-||	AP53_1311||AP53_1312||	0		
+AP53	1293895	DIP	16	----------------	1	CTCGGAGCTTTACCTC	frame-shift	-	AP53_1312	-		403
+AP53	1294393	DIP	1	-	1	T	frame-shift	-	AP53_1312	-		237
+AP53	1294396	DIP	1	T	1	-	frame-shift	-	AP53_1312	-		235
+AP53	1294534	DIP	1	T	1	-	frame-shift	-	AP53_1312	-		189
+AP53	1294538	DIP	1	-	1	G	frame-shift	-	AP53_1312	-		188
+AP53	1294544	DIP	2	CA	1	--	frame-shift	-	AP53_1312	-		185
+AP53	1294547	DIP	1	-	1	T	frame-shift	-	AP53_1312	-		185
+AP53	1294556	DIP	2	TT	1	--	frame-shift	-	AP53_1312	-		181
+AP53	1294559	DIP	3	---	1	CCG	in-frame	-	AP53_1312	-		181
+AP53	1294605	DIP	3	---	1	GTA	in-frame	-	AP53_1312	-		166
+AP53	1294612	DIP	2	--	1	GT	frame-shift	-	AP53_1312	-		164
+AP53	1294618	DIP	11	ACACTGAGAAT	1	-----------	frame-shift	-	AP53_1312	-		121
+AP53	1294646	DIP	6	------	1	TTATTA	in-frame-Stp	-	AP53_1312	-		152
+AP53	1294651	DIP	3	GAC	1	---	in-frame	-	AP53_1312	-		148
+AP53	1295211	DIP	1	-	1	G	inter-gene-5-3	-||-||	AP53_1312||AP53_1313||	0		
+AP53	1295227	DIP	12	TTGCTTTAGGTC	1	------------	in-frame	-	AP53_1313	-		100
+AP53	1295256	DIP	2	GT	1	--	frame-shift	-	AP53_1313	-		137
+AP53	1295261	DIP	2	--	1	GG	frame-shift	-	AP53_1313	-		136
+AP53	1295270	DIP	5	TTATC	1	-----	frame-shift	-	AP53_1313	-		125
+AP53	1295287	DIP	3	CGC	1	---	in-frame	-	AP53_1313	-		125
+AP53	1295296	DIP	5	-----	1	GCTGA	frame-shift	-	AP53_1313	-		125
+AP53	1295300	DIP	5	-----	1	ATCGT	frame-shift	-	AP53_1313	-		123
+AP53	1295303	DIP	10	----------	1	CCAGTTAATA	frame-shift	-	AP53_1313	-		122
+AP53	1295308	DIP	4	----	1	AATC	frame-shift	-	AP53_1313	-		121
+AP53	1295321	DIP	4	TTTT	1	----	frame-shift	-	AP53_1313	-		111
+AP53	1295331	DIP	7	ATGATCT	1	-------	frame-shift	-	AP53_1313	-		97
+AP53	1295341	DIP	2	--	1	CA	frame-shift	-	AP53_1313	-		110
+AP53	1295347	DIP	5	-----	1	GTTTG	frame-shift	-	AP53_1313	-		108
+AP53	1295355	DIP	17	-----------------	1	TTTTGATTGTTTTGATT	frame-shift	-	AP53_1313	-		105
+AP53	1295357	DIP	9	---------	1	TACTTTTTT	in-frame	-	AP53_1313	-		104
+AP53	1295362	DIP	1	T	1	-	frame-shift	-	AP53_1313	-		102
+AP53	1295369	DIP	2	CC	1	--	frame-shift	-	AP53_1313	-		99
+AP53	1295383	DIP	4	----	1	TCCT	frame-shift	-	AP53_1313	-		96
+AP53	1295395	DIP	3	---	1	GTA	in-frame	-	AP53_1313	-		92
+AP53	1295401	DIP	8	--------	1	CGTTCTTT	frame-shift	-	AP53_1313	-		90
+AP53	1295412	DIP	6	------	1	CTTCGT	in-frame	-	AP53_1313	-		86
+AP53	1295420	DIP	4	AAGG	1	----	frame-shift	-	AP53_1313	-		78
+AP53	1295428	DIP	2	TG	1	--	frame-shift	-	AP53_1313	-		79
+AP53	1295437	DIP	2	--	1	CT	frame-shift	-	AP53_1313	-		78
+AP53	1295454	DIP	5	-----	1	ATTTT	frame-shift	-	AP53_1313	-		72
+AP53	1295462	DIP	6	------	1	TCTCAC	in-frame	-	AP53_1313	-		69
+AP53	1295467	DIP	1	-	1	C	frame-shift	-	AP53_1313	-		68
+AP53	1295469	DIP	1	-	1	T	frame-shift	-	AP53_1313	-		67
+AP53	1295471	DIP	2	--	1	AG	frame-shift	-	AP53_1313	-		66
+AP53	1295475	DIP	3	AGA	1	---	in-frame	-	AP53_1313	-		62
+AP53	1295490	DIP	1	-	1	G	frame-shift	-	AP53_1313	-		60
+AP53	1295492	DIP	3	AAA	1	---	in-frame	-	AP53_1313	-		56
+AP53	1295506	DIP	2	AA	1	--	frame-shift	-	AP53_1313	-		53
+AP53	1295510	DIP	6	CCAGAT	1	------	in-frame	-	AP53_1313	-		41
+AP53	1295521	DIP	2	TT	1	--	frame-shift	-	AP53_1313	-		48
+AP53	1295531	DIP	4	----	1	AGCC	frame-shift	-	AP53_1313	-		46
+AP53	1295547	DIP	3	---	1	CTT	in-frame	-	AP53_1313	-		41
+AP53	1295562	DIP	4	----	1	AGGG	frame-shift	-	AP53_1313	-		36
+AP53	1295564	DIP	2	CC	1	--	frame-shift	-	AP53_1313	-		34
+AP53	1295568	DIP	1	-	1	A	frame-shift	-	AP53_1313	-		34
+AP53	1295572	DIP	1	-	1	A	frame-shift	-	AP53_1313	-		33
+AP53	1295589	DIP	1	-	1	G	frame-shift	-	AP53_1313	-		27
+AP53	1295593	DIP	4	TGTA	1	----	frame-shift	-	AP53_1313	-		20
+AP53	1295601	DIP	4	CGTG	1	----	frame-shift	-	AP53_1313	-		18
+AP53	1295607	DIP	4	TTTC	1	----	frame-shift	-	AP53_1313	-		16
+AP53	1295613	DIP	1	-	1	G	frame-shift	-	AP53_1313	-		19
+AP53	1295619	DIP	2	GA	1	--	frame-shift	-	AP53_1313	-		16
+AP53	1295623	DIP	1	-	1	G	frame-shift	-	AP53_1313	-		16
+AP53	1295630	DIP	3	---	1	TAT	in-frame	-	AP53_1313	-		13
+AP53	1295636	DIP	17	AGGTGAATAAGACTTGT	1	-----------------	frame-shift	-	AP53_1313	-		-85
+AP53	1295661	DIP	1	T	1	-	frame-shift	-	AP53_1313	-		3
+AP53	1295665	DIP	1	-	1	G	frame-shift	-	AP53_1313	-		2
+AP53	1295679	DIP	1	-	1	T	frame-shift	-	AP53_1314	-		211
+AP53	1295808	DIP	1	C	1	-	frame-shift	-	AP53_1314	-		168
+AP53	1295813	DIP	4	----	1	ACCA	frame-shift	-	AP53_1314	-		166
+AP53	1295818	DIP	7	-------	1	CTCTTTA	frame-shift	-	AP53_1314	-		165
+AP53	1295820	DIP	3	GCG	1	---	in-frame	-	AP53_1314	-		161
+AP53	1295826	DIP	1	C	1	-	frame-shift	-	AP53_1314	-		162
+AP53	1295964	DIP	11	TTTTTTGAGAT	1	-----------	frame-shift	-	AP53_1314	-		76
+AP53	1295984	DIP	1	-	1	T	frame-shift	-	AP53_1314	-		109
+AP53	1295986	DIP	2	AA	1	--	frame-shift	-	AP53_1314	-		107
+AP53	1295992	DIP	2	--	1	TG	frame-shift	-	AP53_1314	-		107
+AP53	1295998	DIP	1	-	1	C	frame-shift	-	AP53_1314	-		105
+AP53	1296007	DIP	3	TTT	1	---	in-frame	-	AP53_1314	-		99
+AP53	1296019	DIP	3	---	1	TGT	in-frame	-	AP53_1314	-		98
+AP53	1296029	DIP	3	ACC	1	---	in-frame	-	AP53_1314	-		91
+AP53	1296046	DIP	5	ATTTT	1	-----	frame-shift	-	AP53_1314	-		80
+AP53	1296054	DIP	7	CAATCTC	1	-------	frame-shift	-	AP53_1314	-		70
+AP53	1296076	DIP	3	---	1	TTC	in-frame	-	AP53_1314	-		79
+AP53	1296103	DIP	1	T	1	-	frame-shift	-	AP53_1314	-		69
+AP53	1296106	DIP	10	----------	1	CCATAGCAAT	frame-shift	-	AP53_1314	-		69
+AP53	1296120	DIP	5	-----	1	ATTTT	frame-shift	-	AP53_1314	-		64
+AP53	1296129	DIP	4	CGCG	1	----	frame-shift	-	AP53_1314	-		56
+AP53	1296139	DIP	10	AGCATCTAGC	1	----------	frame-shift	-	AP53_1314	-		24
+AP53	1296162	DIP	2	GG	1	--	frame-shift	-	AP53_1314	-		49
+AP53	1296166	DIP	1	A	1	-	frame-shift	-	AP53_1314	-		48
+AP53	1296183	DIP	4	----	1	AGGT	frame-shift	-	AP53_1314	-		43
+AP53	1296187	DIP	1	A	1	-	frame-shift	-	AP53_1314	-		41
+AP53	1296190	DIP	1	A	1	-	frame-shift	-	AP53_1314	-		40
+AP53	1296206	DIP	1	-	1	A	frame-shift	-	AP53_1314	-		35
+AP53	1296215	DIP	1	-	1	G	frame-shift	-	AP53_1314	-		32
+AP53	1296217	DIP	1	C	1	-	frame-shift	-	AP53_1314	-		31
+AP53	1296229	DIP	3	---	1	AGT	in-frame	-	AP53_1314	-		28
+AP53	1296231	DIP	1	T	1	-	frame-shift	-	AP53_1314	-		27
+AP53	1296235	DIP	2	GC	1	--	frame-shift	-	AP53_1314	-		24
+AP53	1296257	DIP	1	-	1	G	frame-shift	-	AP53_1314	-		18
+AP53	1296264	DIP	1	-	1	G	frame-shift	-	AP53_1314	-		16
+AP53	1296266	DIP	1	-	1	G	frame-shift	-	AP53_1314	-		15
+AP53	1296270	DIP	2	GA	1	--	frame-shift	-	AP53_1314	-		13
+AP53	1296274	DIP	2	--	1	TG	frame-shift	-	AP53_1314	-		13
+AP53	1296280	DIP	3	AGG	1	---	in-frame	-	AP53_1314	-		8
+AP53	1296321	DIP	3	TTT	1	---	in-frame	-	AP53_1315	-		139
+AP53	1296359	DIP	1	-	1	T	frame-shift	-	AP53_1315	-		129
+AP53	1296363	DIP	1	A	1	-	frame-shift	-	AP53_1315	-		127
+AP53	1296565	DIP	1	-	1	T	frame-shift	-	AP53_1315	-		60
+AP53	1296572	DIP	1	C	1	-	frame-shift	-	AP53_1315	-		58
+AP53	1296707	DIP	2	--	1	AC	frame-shift	-	AP53_1315	-		13
+AP53	1296711	DIP	1	A	1	-	frame-shift	-	AP53_1315	-		11
+AP53	1296717	DIP	1	T	1	-	frame-shift	-	AP53_1315	-		9
+AP53	1296743	DIP	1	T	1	-	frame-shift	-	AP53_1315	-		1
+AP53	1296748	DIP	1	-	1	G	inter-gene-5-3	-||-||	AP53_1315||AP53_1316||	0		
+AP53	1296836	DIP	1	A	1	-	frame-shift	-	AP53_1316	-		602
+AP53	1296843	DIP	1	-	1	A	frame-shift	-	AP53_1316	-		600
+AP53	1297845	DIP	1	G	1	-	frame-shift	-	AP53_1316	-		266
+AP53	1297848	DIP	1	-	1	G	frame-shift	-	AP53_1316	-		265
+AP53	1298122	DIP	1	G	1	-	frame-shift	-	AP53_1316	-		174
+AP53	1298126	DIP	1	-	1	T	frame-shift	-	AP53_1316	-		173
+AP53	1298166	DIP	1	A	1	-	frame-shift	-	AP53_1316	-		159
+AP53	1298170	DIP	1	-	1	T	frame-shift	-	AP53_1316	-		158
+AP53	1298554	DIP	1	-	1	G	frame-shift	-	AP53_1316	-		30
+AP53	1298557	DIP	1	C	1	-	frame-shift	-	AP53_1316	-		29
+AP53	1299023	DIP	1	-	1	T	frame-shift	-	AP53_1317	-		202
+AP53	1299026	DIP	1	G	1	-	frame-shift	-	AP53_1317	-		200
+AP53	1299251	DIP	1	T	1	-	frame-shift	-	AP53_1317	-		125
+AP53	1299261	DIP	1	-	1	C	frame-shift	-	AP53_1317	-		122
+AP53	1299286	DIP	3	CTA	1	---	in-frame	-	AP53_1317	-		111
+AP53	1299301	DIP	4	GTTT	1	----	frame-shift	-	AP53_1317	-		104
+AP53	1299309	DIP	2	--	1	AG	frame-shift	-	AP53_1317	-		106
+AP53	1299313	DIP	4	TTTT	1	----	frame-shift	-	AP53_1317	-		100
+AP53	1299320	DIP	6	------	1	GGCGGC	in-frame	-	AP53_1317	-		103
+AP53	1299427	DIP	13	TGCTTGATTCTAA	1	-------------	frame-shift	-	AP53_1317	-		11
+AP53	1299447	DIP	10	ATTTTACTAT	1	----------	frame-shift	-	AP53_1317	-		27
+AP53	1299465	DIP	6	------	1	GAGCGG	in-frame	-	AP53_1317	-		54
+AP53	1299468	DIP	4	----	1	CGAC	frame-shift	-	AP53_1317	-		53
+AP53	1299474	DIP	1	-	1	C	frame-shift	-	AP53_1317	-		51
+AP53	1299497	DIP	18	------------------	1	GTTAGTCAGTAGATTGTA	in-frame	-	AP53_1317	-		44
+AP53	1299499	DIP	9	---------	1	CGAGTGGGC	in-frame	-	AP53_1317	-		43
+AP53	1299539	DIP	1	A	1	-	frame-shift	-	AP53_1317	-		29
+AP53	1299544	DIP	1	-	1	C	frame-shift	-	AP53_1317	-		28
+AP53	1299832	DIP	1	-	1	A	frame-shift	-	AP53_1318	-		659
+AP53	1299835	DIP	1	T	1	-	frame-shift	-	AP53_1318	-		657
+AP53	1300165	DIP	1	C	1	-	frame-shift	-	AP53_1318	-		547
+AP53	1300169	DIP	1	-	1	T	frame-shift	-	AP53_1318	-		546
+AP53	1318394	DIP	1	C	1	-	frame-shift	-	AP53_1339	-		37
+AP53	1318410	DIP	3	TTG	1	---	in-frame	-	AP53_1339	-		29
+AP53	1318469	DIP	7	GTGTTAA	1	-------	frame-shift	-	AP53_1339	-		-4
+AP53	1318484	DIP	3	CGA	1	---	in-frame	-	AP53_1339	-		4
+AP53	1318527	DIP	1	-	1	T	inter-gene-5-3	-||-||	AP53_1339||AP53_1340||	0		
+AP53	1333856	DIP	52	AAACACTAGCTCAATCTCAATTTGTACTAAATCGTAAACCAACTCATGTCCA	1	----------------------------------------------------	inter-gene-3-3	-||-||	AP53_1366||AP53_rna62||	0		
+AP53	1340365	DIP	1	-	1	A	inter-gene-5-3	-||raiA||	AP53_rna72||AP53_1367||	0		
+AP53	1340660	DIP	1	A	1	-	inter-gene-5-3	-||raiA||	AP53_rna72||AP53_1367||	0		
+AP53	1340738	DIP	1	T	1	-	inter-gene-5-3	-||raiA||	AP53_rna72||AP53_1367||	0		
+AP53	1346342	DIP	2	GT	1	--	frame-shift	-	AP53_1373	-		240
+AP53	1346346	DIP	2	--	1	CG	frame-shift	-	AP53_1373	-		240
+AP53	1362316	DIP	1	-	1	A	frame-shift	atoD1	AP53_1387	+		72
+AP53	1363736	DIP	1	A	1	-	pseudo-gene|ncRNA	-/pseudogene	AP53_pseudo1389	+		
+AP53	1363743	DIP	1	-	1	G	pseudo-gene|ncRNA	-/pseudogene	AP53_pseudo1389	+		
+AP53	1366235	DIP	1	A	1	-	inter-gene-3-3	luxS||-||	AP53_1392||AP53_1393||	0		
+AP53	1369784	DIP	3	---	1	TAT	inter-gene-5-3	gpsB||-||	AP53_1395||AP53_1396||	0		
+AP53	1373141	DIP	9	CAAGTAATT	1	---------	in-frame	pbp1A	AP53_1398	+		699
+AP53	1373228	DIP	1	C	1	-	inter-gene-3-3	pbp1A||pepC||	AP53_1398||AP53_1399||	0		
+AP53	1373341	DIP	1	C	1	-	inter-gene-3-3	pbp1A||pepC||	AP53_1398||AP53_1399||	0		
+AP53	1375670	DIP	1	G	1	-	frame-shift	nadE	AP53_1400	-		122
+AP53	1375676	DIP	1	-	1	A	frame-shift	nadE	AP53_1400	-		120
+AP53	1375727	DIP	2	--	1	GT	frame-shift	nadE	AP53_1400	-		103
+AP53	1375730	DIP	2	TG	1	--	frame-shift	nadE	AP53_1400	-		101
+AP53	1377587	DIP	1	-	1	A	inter-gene-5-3	pncB||-||	AP53_1401||AP53_1402||	0		
+AP53	1393778	DIP	1	A	1	-	inter-gene-5-3	-||tkt||	AP53_1418||AP53_1419||	0		
+AP53	1404698	DIP	1	T	1	-	inter-gene-5-3	hypo18||-||	AP53_1427||AP53_1428||	0		
+AP53	1407312	DIP	1	-	1	G	inter-gene-5-3	glyS||glyQ||	AP53_1429||AP53_1430||	0		
+AP53	1416121	DIP	1	-	1	A	inter-gene-3-3	acrR||-||	AP53_1437||AP53_1438||	0		
+AP53	1416959	DIP	1	-	1	C	frame-shift	-	AP53_1439	-		205
+AP53	1416962	DIP	1	T	1	-	frame-shift	-	AP53_1439	-		203
+AP53	1420304	DIP	1	-	1	T	inter-gene-5-3	lacA1||gatC||	AP53_1444||AP53_1445||	0		
+AP53	1426641	DIP	3	GAC	1	---	in-frame	copY	AP53_1451	-		60
+AP53	1426647	DIP	3	---	1	CCC	in-frame	copY	AP53_1451	-		61
+AP53	1426798	DIP	3	---	1	TAT	in-frame	copY	AP53_1451	-		11
+AP53	1426807	DIP	1	-	1	T	frame-shift	copY	AP53_1451	-		8
+AP53	1426810	DIP	2	--	1	CT	frame-shift	copY	AP53_1451	-		7
+AP53	1426815	DIP	6	CTTTCG	1	------	in-frame	copY	AP53_1451	-		-7
+AP53	1426826	DIP	4	CACC	1	----	frame-shift	copY	AP53_1451	-		-4
+AP53	1426834	DIP	3	CAC	1	---	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426843	DIP	3	---	1	TTG	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426849	DIP	1	-	1	T	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426885	DIP	2	--	1	AG	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426887	DIP	1	G	1	-	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426890	DIP	3	---	1	TAA	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426899	DIP	2	TA	1	--	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426906	DIP	1	-	1	A	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426916	DIP	4	ACAC	1	----	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426925	DIP	2	--	1	CA	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426930	DIP	2	--	1	GA	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426969	DIP	1	-	1	C	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426972	DIP	1	T	1	-	inter-gene-5-5	copY||sse||	AP53_1451||AP53_1452||	0		
+AP53	1426979	DIP	1	C	1	-	frame-shift	sse	AP53_1452	+		3
+AP53	1426993	DIP	2	--	1	GC	frame-shift	sse	AP53_1452	+		7
+AP53	1427000	DIP	1	-	1	T	frame-shift	sse	AP53_1452	+		10
+AP53	1427004	DIP	2	GC	1	--	frame-shift	sse	AP53_1452	+		11
+AP53	1427027	DIP	5	TCTTT	1	-----	frame-shift	sse	AP53_1452	+		19
+AP53	1427040	DIP	5	-----	1	CACTC	frame-shift	sse	AP53_1452	+		23
+AP53	1427134	DIP	3	TCC	1	---	in-frame	sse	AP53_1452	+		54
+AP53	1427139	DIP	5	GCTTC	1	-----	frame-shift	sse	AP53_1452	+		56
+AP53	1427149	DIP	4	ATAC	1	----	frame-shift	sse	AP53_1452	+		59
+AP53	1427165	DIP	1	C	1	-	frame-shift	sse	AP53_1452	+		65
+AP53	1427172	DIP	2	AA	1	--	frame-shift	sse	AP53_1452	+		67
+AP53	1427180	DIP	3	---	1	GGA	in-frame	sse	AP53_1452	+		70
+AP53	1427186	DIP	2	TA	1	--	frame-shift	sse	AP53_1452	+		72
+AP53	1427195	DIP	8	--------	1	AAGGCTTT	frame-shift	sse	AP53_1452	+		75
+AP53	1427207	DIP	6	------	1	GAACAG	in-frame	sse	AP53_1452	+		79
+AP53	1427215	DIP	1	T	1	-	frame-shift	sse	AP53_1452	+		81
+AP53	1427233	DIP	1	-	1	C	frame-shift	sse	AP53_1452	+		87
+AP53	1427269	DIP	4	----	1	CCCC	frame-shift	sse	AP53_1452	+		99
+AP53	1427273	DIP	2	--	1	AT	frame-shift	sse	AP53_1452	+		101
+AP53	1427300	DIP	1	C	1	-	frame-shift	sse	AP53_1452	+		110
+AP53	1427305	DIP	1	-	1	A	frame-shift	sse	AP53_1452	+		111
+AP53	1427410	DIP	1	-	1	A	frame-shift	sse	AP53_1452	+		146
+AP53	1427415	DIP	1	G	1	-	frame-shift	sse	AP53_1452	+		148
+AP53	1427458	DIP	1	C	1	-	frame-shift	sse	AP53_1452	+		162
+AP53	1427461	DIP	3	---	1	GAG	in-frame	sse	AP53_1452	+		163
+AP53	1427470	DIP	1	C	1	-	frame-shift	sse	AP53_1452	+		166
+AP53	1427477	DIP	1	-	1	C	frame-shift	sse	AP53_1452	+		169
+AP53	1427479	DIP	4	----	1	CTGC	frame-shift	sse	AP53_1452	+		169
+AP53	1427524	DIP	1	-	1	G	frame-shift	sse	AP53_1452	+		184
+AP53	1427527	DIP	1	A	1	-	frame-shift	sse	AP53_1452	+		185
+AP53	1427535	DIP	2	CT	1	--	frame-shift	sse	AP53_1452	+		188
+AP53	1427540	DIP	2	--	1	TA	frame-shift	sse	AP53_1452	+		190
+AP53	1427555	DIP	2	TC	1	--	frame-shift	sse	AP53_1452	+		195
+AP53	1427560	DIP	3	CCC	1	---	in-frame	sse	AP53_1452	+		196
+AP53	1427564	DIP	5	-----	1	TAAAA	frame-shift	sse	AP53_1452	+		198
+AP53	1427672	DIP	3	---	1	CGT	in-frame	sse	AP53_1452	+		234
+AP53	1427674	DIP	3	ACG	1	---	in-frame	sse	AP53_1452	+		234
+AP53	1427695	DIP	2	CT	1	--	frame-shift	sse	AP53_1452	+		241
+AP53	1427703	DIP	1	C	1	-	frame-shift	sse	AP53_1452	+		244
+AP53	1427706	DIP	6	------	1	ACCCAA	in-frame	sse	AP53_1452	+		245
+AP53	1427743	DIP	2	TC	1	--	frame-shift	sse	AP53_1452	+		257
+AP53	1427749	DIP	3	CAC	1	---	in-frame	sse	AP53_1452	+		259
+AP53	1427756	DIP	5	-----	1	CAGGG	frame-shift	sse	AP53_1452	+		262
+AP53	1427807	DIP	8	--------	1	GTTAAGAA	frame-shift	sse	AP53_1452	+		279
+AP53	1427812	DIP	1	-	1	A	frame-shift	sse	AP53_1452	+		280
+AP53	1427816	DIP	1	-	1	A	frame-shift	sse	AP53_1452	+		282
+AP53	1427819	DIP	6	GCCGCA	1	------	in-frame	sse	AP53_1452	+		283
+AP53	1427831	DIP	2	--	1	CC	frame-shift	sse	AP53_1452	+		287
+AP53	1427837	DIP	6	GCTAAC	1	------	in-frame	sse	AP53_1452	+		289
+AP53	1427845	DIP	1	-	1	T	frame-shift	sse	AP53_1452	+		291
+AP53	1427857	DIP	1	C	1	-	frame-shift	sse	AP53_1452	+		295
+AP53	1427860	DIP	2	--	1	CG	frame-shift	sse	AP53_1452	+		296
+AP53	1427870	DIP	2	GG	1	--	frame-shift	sse	AP53_1452	+		300
+AP53	1427943	DIP	1	-	1	T	frame-shift	sse	AP53_1452	+		324
+AP53	1427946	DIP	2	AC	1	--	frame-shift	sse	AP53_1452	+		325
+AP53	1427952	DIP	2	CC	1	--	frame-shift	sse	AP53_1452	+		327
+AP53	1427972	DIP	12	TTCCTACCTGCC	1	------------	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1427987	DIP	1	A	1	-	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1427993	DIP	3	TCT	1	---	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428000	DIP	16	GTTTTTTGTAGTTTGC	1	----------------	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428018	DIP	1	-	1	T	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428019	DIP	13	ACAAAATAACAAT	1	-------------	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428040	DIP	4	GCCC	1	----	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428051	DIP	5	ATGAT	1	-----	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428060	DIP	3	CTC	1	---	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428066	DIP	11	GCGTCATAACA	1	-----------	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428079	DIP	8	CGCACCGC	1	--------	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1428090	DIP	5	ACTTC	1	-----	inter-gene-3-3	sse||rbfA||	AP53_1452||AP53_1453||	0		
+AP53	1451502	DIP	10	AAGTCTTATT	1	----------	inter-gene-3-3	serS||accA||	AP53_1476||AP53_1477||	0		
+AP53	1451572	DIP	11	-----------	1	AGCTTGATAAA	inter-gene-3-3	serS||accA||	AP53_1476||AP53_1477||	0		
+AP53	1459589	DIP	1	-	1	T	inter-gene-5-3	fabK||acpP||	AP53_1485||AP53_1486||	0		
+AP53	1461379	DIP	1	-	1	A	inter-gene-5-3	FabT||phaB||	AP53_1488||AP53_1489||	0		
+AP53	1461430	DIP	3	GCT	1	---	inter-gene-5-3	FabT||phaB||	AP53_1488||AP53_1489||	0		
+AP53	1461436	DIP	1	T	1	-	frame-shift	phaB	AP53_1489	-		264
+AP53	1463327	DIP	21	CCACCAAAGCCGCCTGCTCCG	1	---------------------	in-frame	dnaJ	AP53_1490	-		-61
+AP53	1465865	DIP	1	-	1	T	inter-gene-5-3	dnaK||grpE||	AP53_1491||AP53_1492||	0		
+AP53	1477691	DIP	1	T	1	-	frame-shift	codY	AP53_1505	-		1
+AP53	1484459	DIP	1	-	1	A	inter-gene-5-3	-||recG||	AP53_1511||AP53_1512||	0		
+AP53	1500731	DIP	1	-	1	T	inter-gene-5-5	shr||-||	AP53_1522||AP53_1523||	0		
+AP53	1501062	DIP	1	-	1	A	frame-shift	-	AP53_1523	+		11
+AP53	1502351	DIP	18	------------------	1	TCAGTCGGTTTCGAATGA	in-frame-Stp	isp2	AP53_1524	-		110
+AP53	1506962	DIP	1	T	1	-	inter-gene-5-3	secA||-||	AP53_1527||AP53_1528||	0		
+AP53	1510710	DIP	1	G	1	-	frame-shift	endoS	AP53_1531	-		921
+AP53	1510713	DIP	1	-	1	T	frame-shift	endoS	AP53_1531	-		920
+AP53	1511083	DIP	1	-	1	T	frame-shift	endoS	AP53_1531	-		797
+AP53	1511085	DIP	1	G	1	-	frame-shift	endoS	AP53_1531	-		796
+AP53	1511093	DIP	3	AAT	1	---	in-frame	endoS	AP53_1531	-		790
+AP53	1511098	DIP	2	TA	1	--	frame-shift	endoS	AP53_1531	-		790
+AP53	1511113	DIP	5	-----	1	TACTC	frame-shift	endoS	AP53_1531	-		787
+AP53	1511135	DIP	4	----	1	AAAG	frame-shift	endoS	AP53_1531	-		779
+AP53	1511136	DIP	1	T	1	-	frame-shift	endoS	AP53_1531	-		779
+AP53	1511140	DIP	1	A	1	-	frame-shift	endoS	AP53_1531	-		777
+AP53	1511146	DIP	2	AG	1	--	frame-shift	endoS	AP53_1531	-		774
+AP53	1512196	DIP	1	-	1	G	frame-shift	endoS	AP53_1531	-		426
+AP53	1512198	DIP	1	T	1	-	frame-shift	endoS	AP53_1531	-		425
+AP53	1512211	DIP	3	---	1	AGT	in-frame	endoS	AP53_1531	-		421
+AP53	1512221	DIP	16	----------------	1	ATCTGAGGCTGATTAT	frame-shift	endoS	AP53_1531	-		417
+AP53	1512227	DIP	4	TAAC	1	----	frame-shift	endoS	AP53_1531	-		410
+AP53	1512242	DIP	24	------------------------	1	TCTTTTTCAGCTATTTGTTTGGGT	in-frame-Stp	endoS	AP53_1531	-		410
+AP53	1512361	DIP	3	---	1	TCC	in-frame	endoS	AP53_1531	-		371
+AP53	1512370	DIP	3	AGA	1	---	in-frame	endoS	AP53_1531	-		365
+AP53	1512379	DIP	5	-----	1	GTCCT	frame-shift	endoS	AP53_1531	-		365
+AP53	1512384	DIP	1	-	1	G	frame-shift	endoS	AP53_1531	-		363
+AP53	1512504	DIP	11	-----------	1	CGGTAACTAAC	frame-shift	endoS	AP53_1531	-		323
+AP53	1512506	DIP	3	TCA	1	---	in-frame	endoS	AP53_1531	-		319
+AP53	1512511	DIP	2	--	1	TA	frame-shift	endoS	AP53_1531	-		321
+AP53	1512523	DIP	10	AGGCTCCCAA	1	----------	frame-shift	endoS	AP53_1531	-		283
+AP53	1513254	DIP	3	GCC	1	---	in-frame	endoS	AP53_1531	-		70
+AP53	1514685	DIP	1	C	1	-	frame-shift	scrA	AP53_1532	-		300
+AP53	1514689	DIP	1	-	1	A	frame-shift	scrA	AP53_1532	-		299
+AP53	1521566	DIP	1	A	1	-	inter-gene-5-3	pepP||uvrA||	AP53_1539||AP53_1540||	0		
+AP53	1525686	DIP	1	A	1	-	inter-gene-3-5	corA||-||	AP53_1541||AP53_1542||	0		
+AP53	1529548	DIP	59	-----------------------------------------------------------	1	GTCCTCAGATTGTCTTTTAATACCTTATAAATAGTGATCTATCCCTAATGTCAAATACA	inter-gene-3-5	mutY||-||	AP53_1547||AP53_1548||	0		
+AP53	1529551	DIP	42	------------------------------------------	1	GATAGACCCGTTAGCTTATCATTCTTATACTAATATTATGAA	inter-gene-3-5	mutY||-||	AP53_1547||AP53_1548||	0		
+AP53	1540423	DIP	1	A	1	-	inter-gene-5-5	dinP||pflB||	AP53_1558||AP53_1559||	0		
+AP53	1542988	DIP	1	T	1	-	frame-shift	-	AP53_1560	+		4
+AP53	1543038	DIP	1	-	1	T	frame-shift	-	AP53_1560	+		21
+AP53	1547413	DIP	30	TTAATCCAATTGTCATGTATCTAAACGTGC	1	------------------------------	inter-gene-5-3	gla||norA||	AP53_1564||AP53_1565||	0		
+AP53	1553362	DIP	1	-	1	T	inter-gene-3-3	-||-||	AP53_1570||AP53_1571||	0		
+AP53	1554244	DIP	1	G	1	-	inter-gene-5-3	-||dnaQ||	AP53_1571||AP53_1572||	0		
+AP53	1556866	DIP	2	TT	1	--	inter-gene-3-3	-||deoC||	AP53_1574||AP53_1575||	0		
+AP53	1559835	DIP	1	-	1	A	inter-gene-5-5	udp||crgR||	AP53_1577||AP53_1578||	0		
+AP53	1560695	DIP	1	-	1	T	inter-gene-3-5	crgR||rpsN||	AP53_1578||AP53_1579||	0		
+AP53	1563685	DIP	1	T	1	-	inter-gene-5-5	-||-||	AP53_1582||AP53_1583||	0		
+AP53	1571935	DIP	1	A	1	-	inter-gene-5-3	ybbK||-||	AP53_1590||AP53_1591||	0		
+AP53	1575876	DIP	2	--	1	AC	inter-gene-5-3	fba||-||	AP53_1594||AP53_rna74||	0		
+AP53	1595699	DIP	2	--	1	AC	frame-shift	hsdS	AP53_1609	+		21
+AP53	1595715	DIP	6	CTAAAA	1	------	in-frame	hsdS	AP53_1609	+		27
+AP53	1595727	DIP	2	CG	1	--	frame-shift	hsdS	AP53_1609	+		31
+AP53	1595738	DIP	3	TAC	1	---	in-frame	hsdS	AP53_1609	+		34
+AP53	1595763	DIP	2	TT	1	--	frame-shift	hsdS	AP53_1609	+		43
+AP53	1595768	DIP	1	T	1	-	frame-shift	hsdS	AP53_1609	+		44
+AP53	1595782	DIP	2	--	1	CT	frame-shift	hsdS	AP53_1609	+		49
+AP53	1595790	DIP	3	---	1	CCC	in-frame	hsdS	AP53_1609	+		52
+AP53	1595794	DIP	1	-	1	A	frame-shift	hsdS	AP53_1609	+		53
+AP53	1595815	DIP	4	GTGG	1	----	frame-shift	hsdS	AP53_1609	+		60
+AP53	1595822	DIP	1	-	1	A	frame-shift	hsdS	AP53_1609	+		62
+AP53	1595826	DIP	5	TCAAC	1	-----	frame-shift	hsdS	AP53_1609	+		64
+AP53	1595845	DIP	3	---	1	CCC	in-frame	hsdS	AP53_1609	+		70
+AP53	1595850	DIP	7	TCTGGTC	1	-------	frame-shift	hsdS	AP53_1609	+		72
+AP53	1595864	DIP	1	G	1	-	frame-shift	hsdS	AP53_1609	+		76
+AP53	1595868	DIP	2	GG	1	--	frame-shift	hsdS	AP53_1609	+		78
+AP53	1595876	DIP	1	-	1	G	frame-shift	hsdS	AP53_1609	+		80
+AP53	1595892	DIP	2	--	1	CT	frame-shift	hsdS	AP53_1609	+		86
+AP53	1595895	DIP	5	TTTGG	1	-----	frame-shift	hsdS	AP53_1609	+		87
+AP53	1595902	DIP	2	--	1	AT	frame-shift	hsdS	AP53_1609	+		89
+AP53	1595911	DIP	13	-------------	1	AAAATTCTATTGC	frame-shift	hsdS	AP53_1609	+		92
+AP53	1595921	DIP	5	-----	1	CGAGT	frame-shift	hsdS	AP53_1609	+		95
+AP53	1595925	DIP	1	-	1	G	frame-shift	hsdS	AP53_1609	+		97
+AP53	1595931	DIP	2	TC	1	--	frame-shift	hsdS	AP53_1609	+		99
+AP53	1595944	DIP	4	CACC	1	----	frame-shift	hsdS	AP53_1609	+		103
+AP53	1595967	DIP	5	AAAAT	1	-----	frame-shift	hsdS	AP53_1609	+		111
+AP53	1595987	DIP	7	CCTGGAG	1	-------	frame-shift	hsdS	AP53_1609	+		117
+AP53	1596003	DIP	5	TTAGA	1	-----	frame-shift	hsdS	AP53_1609	+		123
+AP53	1596031	DIP	8	--------	1	TTTACTGT	frame-shift	hsdS	AP53_1609	+		132
+AP53	1596036	DIP	1	-	1	C	frame-shift	hsdS	AP53_1609	+		134
+AP53	1596040	DIP	1	-	1	T	frame-shift	hsdS	AP53_1609	+		135
+AP53	1596044	DIP	2	--	1	AC	frame-shift	hsdS	AP53_1609	+		136
+AP53	1596058	DIP	2	--	1	CT	frame-shift	hsdS	AP53_1609	+		141
+AP53	1596061	DIP	2	--	1	TC	frame-shift	hsdS	AP53_1609	+		142
+AP53	1596070	DIP	2	TT	1	--	frame-shift	hsdS	AP53_1609	+		145
+AP53	1596074	DIP	1	T	1	-	frame-shift	hsdS	AP53_1609	+		146
+AP53	1596079	DIP	3	---	1	CAA	in-frame	hsdS	AP53_1609	+		148
+AP53	1596094	DIP	16	----------------	1	AAGGGTATCTCCTTTC	frame-shift	hsdS	AP53_1609	+		153
+AP53	1596100	DIP	8	--------	1	GATACTTA	frame-shift	hsdS	AP53_1609	+		155
+AP53	1596312	DIP	1	-	1	A	frame-shift	hsdS	AP53_1609	+		226
+AP53	1596317	DIP	6	GTTTTC	1	------	in-frame	hsdS	AP53_1609	+		227
+AP53	1596325	DIP	2	--	1	AA	frame-shift	hsdS	AP53_1609	+		230
+AP53	1596332	DIP	10	TCCTAGCGTA	1	----------	frame-shift	hsdS	AP53_1609	+		232
+AP53	1596348	DIP	2	TC	1	--	frame-shift	hsdS	AP53_1609	+		238
+AP53	1596360	DIP	10	----------	1	TTTGATTCGG	frame-shift	hsdS	AP53_1609	+		242
+AP53	1596362	DIP	1	C	1	-	frame-shift	hsdS	AP53_1609	+		242
+AP53	1596366	DIP	1	-	1	G	frame-shift	hsdS	AP53_1609	+		244
+AP53	1596369	DIP	4	----	1	TTAA	frame-shift	hsdS	AP53_1609	+		245
+AP53	1596385	DIP	1	-	1	A	frame-shift	hsdS	AP53_1609	+		250
+AP53	1596400	DIP	8	--------	1	ACCTCTAT	frame-shift	hsdS	AP53_1609	+		255
+AP53	1596402	DIP	1	-	1	A	frame-shift	hsdS	AP53_1609	+		256
+AP53	1596409	DIP	7	CAGAGTT	1	-------	frame-shift	hsdS	AP53_1609	+		258
+AP53	1596418	DIP	1	-	1	A	frame-shift	hsdS	AP53_1609	+		261
+AP53	1596421	DIP	6	------	1	GAGCAG	in-frame	hsdS	AP53_1609	+		262
+AP53	1596432	DIP	3	GGT	1	---	in-frame	hsdS	AP53_1609	+		266
+AP53	1596445	DIP	6	CATCAG	1	------	in-frame	hsdS	AP53_1609	+		270
+AP53	1596461	DIP	9	---------	1	TGCCTCCGG	in-frame	hsdS	AP53_1609	+		275
+AP53	1596465	DIP	2	--	1	TT	frame-shift	hsdS	AP53_1609	+		277
+AP53	1596470	DIP	3	---	1	TGG	in-frame	hsdS	AP53_1609	+		278
+AP53	1596473	DIP	3	---	1	TCA	in-frame	hsdS	AP53_1609	+		279
+AP53	1596483	DIP	1	-	1	A	frame-shift	hsdS	AP53_1609	+		283
+AP53	1596485	DIP	3	TCT	1	---	in-frame	hsdS	AP53_1609	+		283
+AP53	1596499	DIP	1	C	1	-	frame-shift	hsdS	AP53_1609	+		288
+AP53	1596506	DIP	1	A	1	-	frame-shift	hsdS	AP53_1609	+		290
+AP53	1596514	DIP	2	--	1	TC	frame-shift	hsdS	AP53_1609	+		293
+AP53	1596519	DIP	7	-------	1	ATTACAG	frame-shift	hsdS	AP53_1609	+		295
+AP53	1596531	DIP	2	GG	1	--	frame-shift	hsdS	AP53_1609	+		299
+AP53	1596534	DIP	1	-	1	C	frame-shift	hsdS	AP53_1609	+		300
+AP53	1596550	DIP	3	TTT	1	---	in-frame	hsdS	AP53_1609	+		305
+AP53	1596564	DIP	3	---	1	AGA	in-frame	hsdS	AP53_1609	+		310
+AP53	1596566	DIP	2	TG	1	--	frame-shift	hsdS	AP53_1609	+		310
+AP53	1596571	DIP	1	-	1	T	frame-shift	hsdS	AP53_1609	+		312
+AP53	1596579	DIP	4	----	1	TTCC	frame-shift	hsdS	AP53_1609	+		315
+AP53	1596582	DIP	3	---	1	TAC	in-frame	hsdS	AP53_1609	+		316
+AP53	1596589	DIP	4	----	1	TCCA	frame-shift	hsdS	AP53_1609	+		318
+AP53	1596598	DIP	2	AT	1	--	frame-shift	hsdS	AP53_1609	+		321
+AP53	1596604	DIP	11	TATATAAACAA	1	-----------	frame-shift	hsdS	AP53_1609	+		323
+AP53	1596619	DIP	1	C	1	-	frame-shift	hsdS	AP53_1609	+		328
+AP53	1596623	DIP	2	--	1	GT	frame-shift	hsdS	AP53_1609	+		329
+AP53	1596626	DIP	2	--	1	GG	frame-shift	hsdS	AP53_1609	+		330
+AP53	1596629	DIP	2	--	1	CA	frame-shift	hsdS	AP53_1609	+		331
+AP53	1596632	DIP	1	G	1	-	frame-shift	hsdS	AP53_1609	+		332
+AP53	1596637	DIP	1	A	1	-	frame-shift	hsdS	AP53_1609	+		334
+AP53	1596650	DIP	1	T	1	-	frame-shift	hsdS	AP53_1609	+		338
+AP53	1596664	DIP	3	CTG	1	---	in-frame	hsdS	AP53_1609	+		343
+AP53	1596669	DIP	6	------	1	AAATTA	in-frame	hsdS	AP53_1609	+		345
+AP53	1596674	DIP	1	-	1	C	frame-shift	hsdS	AP53_1609	+		346
+AP53	1596763	DIP	1	A	1	-	frame-shift	hsdS	AP53_1609	+		376
+AP53	1596768	DIP	1	-	1	T	frame-shift	hsdS	AP53_1609	+		378
+AP53	1600683	DIP	2	CC	1	--	frame-shift	-	AP53_1613	-		210
+AP53	1600693	DIP	1	-	1	C	frame-shift	-	AP53_1613	-		208
+AP53	1600698	DIP	3	---	1	GGC	in-frame	-	AP53_1613	-		206
+AP53	1602354	DIP	2	CC	1	--	pseudo-gene|ncRNA	salB/pseudogene	AP53_pseudo1615	-		
+AP53	1604499	DIP	15	AGGTCACTTTATAAC	1	---------------	inter-gene-5-3	salA||lacG||	AP53_1616||AP53_1617||	0		
+AP53	1604810	DIP	12	ATAATTCAGTAA	1	------------	inter-gene-5-3	salA||lacG||	AP53_1616||AP53_1617||	0		
+AP53	1613560	DIP	13	CTCAAAACTATTC	1	-------------	frame-shift	-	AP53_1626	+		26
+AP53	1614990	DIP	12	------------	1	GGTATCAAAAAA	inter-gene-3-3	-||rpsI||	AP53_1629||AP53_1630||	0		
+AP53	1622619	DIP	1	A	1	-	inter-gene-5-3	hypo27||cysE||	AP53_1640||AP53_1641||	0		
+AP53	1633098	DIP	1	A	1	-	inter-gene-3-3	def||-||	AP53_1651||AP53_1652||	0		
+AP53	1633108	DIP	4	----	1	CCTT	inter-gene-3-3	def||-||	AP53_1651||AP53_1652||	0		
+AP53	1633110	DIP	4	AAGG	1	----	inter-gene-3-3	def||-||	AP53_1651||AP53_1652||	0		
+AP53	1644092	DIP	3	TGT	1	---	inter-gene-5-3	uppS||yajC||	AP53_1658||AP53_1659||	0		
+AP53	1650505	DIP	1	-	1	A	inter-gene-5-3	dexB||msmK||	AP53_1662||AP53_1663||	0		
+AP53	1653089	DIP	1	-	1	A	inter-gene-5-5	lrp||ska||	AP53_1664||AP53_1665||	0		
+AP53	1653712	DIP	1	-	1	C	frame-shift	ska	AP53_1665	+		178
+AP53	1653716	DIP	1	C	1	-	frame-shift	ska	AP53_1665	+		180
+AP53	1653743	DIP	2	--	1	GA	frame-shift	ska	AP53_1665	+		189
+AP53	1653747	DIP	3	TAC	1	---	in-frame	ska	AP53_1665	+		190
+AP53	1653752	DIP	2	--	1	CT	frame-shift	ska	AP53_1665	+		192
+AP53	1653760	DIP	3	CTT	1	---	in-frame	ska	AP53_1665	+		194
+AP53	1653776	DIP	2	--	1	TA	frame-shift	ska	AP53_1665	+		200
+AP53	1653787	DIP	1	A	1	-	frame-shift	ska	AP53_1665	+		203
+AP53	1653793	DIP	1	C	1	-	frame-shift	ska	AP53_1665	+		205
+AP53	1653805	DIP	1	-	1	T	frame-shift	ska	AP53_1665	+		209
+AP53	1653809	DIP	1	-	1	T	frame-shift	ska	AP53_1665	+		211
+AP53	1653869	DIP	3	---	1	TTT	in-frame	ska	AP53_1665	+		231
+AP53	1653879	DIP	3	ACG	1	---	in-frame	ska	AP53_1665	+		234
+AP53	1657845	DIP	6	------	1	GCATTT	in-frame	sclA	AP53_1668	-		299
+AP53	1657847	DIP	10	----------	1	GGCGTTGGTG	frame-shift	sclA	AP53_1668	-		298
+AP53	1657850	DIP	1	C	1	-	frame-shift	sclA	AP53_1668	-		297
+AP53	1657860	DIP	54	------------------------------------------------------	1	TCTTTTCTGGAGCTTTTTCACCTGGTTGCTCTGGCATTTCTGGCGTTGGTGTCA	in-frame	sclA	AP53_1668	-		294
+AP53	1657869	DIP	12	------------	1	TCTTTTCTGGAG	in-frame	sclA	AP53_1668	-		291
+AP53	1657924	DIP	1	-	1	T	frame-shift	sclA	AP53_1668	-		273
+AP53	1657929	DIP	1	C	1	-	frame-shift	sclA	AP53_1668	-		271
+AP53	1658041	DIP	11	TGGAGCTCCGT	1	-----------	frame-shift	sclA	AP53_1668	-		193
+AP53	1658056	DIP	2	--	1	TC	frame-shift	sclA	AP53_1668	-		229
+AP53	1658095	DIP	4	----	1	TTGG	frame-shift	sclA	AP53_1668	-		216
+AP53	1658098	DIP	3	---	1	CCA	in-frame	sclA	AP53_1668	-		215
+AP53	1658100	DIP	2	--	1	TG	frame-shift	sclA	AP53_1668	-		214
+AP53	1658122	DIP	4	TGGA	1	----	frame-shift	sclA	AP53_1668	-		201
+AP53	1658130	DIP	5	CATCT	1	-----	frame-shift	sclA	AP53_1668	-		196
+AP53	1658149	DIP	1	A	1	-	frame-shift	sclA	AP53_1668	-		197
+AP53	1658154	DIP	1	-	1	T	frame-shift	sclA	AP53_1668	-		196
+AP53	1658167	DIP	3	---	1	AGG	in-frame	sclA	AP53_1668	-		192
+AP53	1658170	DIP	3	CTC	1	---	in-frame	sclA	AP53_1668	-		188
+AP53	1658207	DIP	9	GGGCCTGCT	1	---------	in-frame	sclA	AP53_1668	-		151
+AP53	1658250	DIP	1	-	1	G	frame-shift	sclA	AP53_1668	-		164
+AP53	1658253	DIP	1	C	1	-	frame-shift	sclA	AP53_1668	-		163
+AP53	1658285	DIP	4	TGAG	1	----	frame-shift	sclA	AP53_1668	-		147
+AP53	1658292	DIP	14	CGTCTTGTCCTTTA	1	--------------	frame-shift	sclA	AP53_1668	-		85
+AP53	1658308	DIP	9	TCCTTGTAC	1	---------	in-frame	sclA	AP53_1668	-		118
+AP53	1658337	DIP	8	CTTGAGGA	1	--------	frame-shift	sclA	AP53_1668	-		114
+AP53	1658350	DIP	1	A	1	-	frame-shift	sclA	AP53_1668	-		130
+AP53	1658363	DIP	14	CCTCTCTCTCCACG	1	--------------	frame-shift	sclA	AP53_1668	-		61
+AP53	1658384	DIP	2	CC	1	--	frame-shift	sclA	AP53_1668	-		118
+AP53	1658391	DIP	2	TA	1	--	frame-shift	sclA	AP53_1668	-		116
+AP53	1658396	DIP	13	CCGGCAGTTATCT	1	-------------	frame-shift	sclA	AP53_1668	-		59
+AP53	1658419	DIP	1	-	1	G	frame-shift	sclA	AP53_1668	-		108
+AP53	1658428	DIP	6	------	1	AGTAAA	in-frame	sclA	AP53_1668	-		105
+AP53	1658430	DIP	1	G	1	-	frame-shift	sclA	AP53_1668	-		104
+AP53	1658445	DIP	2	CC	1	--	frame-shift	sclA	AP53_1668	-		98
+AP53	1658458	DIP	12	TATTTTCTCTAG	1	------------	in-frame	sclA	AP53_1668	-		47
+AP53	1658480	DIP	1	-	1	G	frame-shift	sclA	AP53_1668	-		87
+AP53	1658483	DIP	2	TC	1	--	frame-shift	sclA	AP53_1668	-		85
+AP53	1658495	DIP	6	TAAATT	1	------	in-frame	sclA	AP53_1668	-		70
+AP53	1658504	DIP	2	--	1	CC	frame-shift	sclA	AP53_1668	-		79
+AP53	1658507	DIP	1	C	1	-	frame-shift	sclA	AP53_1668	-		78
+AP53	1658518	DIP	3	AAG	1	---	in-frame	sclA	AP53_1668	-		72
+AP53	1658556	DIP	1	-	1	C	frame-shift	sclA	AP53_1668	-		62
+AP53	1658565	DIP	13	GTGATTGCAATCC	1	-------------	frame-shift	sclA	AP53_1668	-		3
+AP53	1658590	DIP	7	AAGCAAT	1	-------	frame-shift	sclA	AP53_1668	-		34
+AP53	1658603	DIP	2	--	1	GC	frame-shift	sclA	AP53_1668	-		46
+AP53	1658607	DIP	1	C	1	-	frame-shift	sclA	AP53_1668	-		45
+AP53	1658612	DIP	1	-	1	G	frame-shift	sclA	AP53_1668	-		43
+AP53	1658618	DIP	1	T	1	-	frame-shift	sclA	AP53_1668	-		41
+AP53	1658759	DIP	3	---	1	TAT	inter-gene-5-5	sclA||-||	AP53_1668||AP53_1669||	0		
+AP53	1659101	DIP	1	A	1	-	inter-gene-5-5	sclA||-||	AP53_1668||AP53_1669||	0		
+AP53	1659662	DIP	1	-	1	A	inter-gene-3-3	-||-||	AP53_1669||AP53_1670||	0		
+AP53	1663267	DIP	1	T	1	-	inter-gene-5-3	ptbA||-||	AP53_1672||AP53_1673||	0		
+AP53	1668569	DIP	1	-	1	A	frame-shift	pabB	AP53_1677	+		186
+AP53	1668573	DIP	3	---	1	AAT	in-frame	pabB	AP53_1677	+		187
+AP53	1668577	DIP	4	AGGT	1	----	frame-shift	pabB	AP53_1677	+		189
+AP53	1672064	DIP	1	-	2	T|-	inter-gene-3-5	-||smeZ||	AP53_rna81||AP53_1680||	0		
+AP53	1672246	DIP	1	-	1	A	inter-gene-3-5	-||smeZ||	AP53_rna81||AP53_1680||	0		
+AP53	1672598	DIP	2	AG	1	--	frame-shift	smeZ	AP53_1680	+		28
+AP53	1672606	DIP	2	--	1	TT	frame-shift	smeZ	AP53_1680	+		31
+AP53	1673081	DIP	1	-	1	T	inter-gene-3-5	smeZ||dppA||	AP53_1680||AP53_1681||	0		
+AP53	1673370	DIP	1	T	1	-	inter-gene-3-5	smeZ||dppA||	AP53_1680||AP53_1681||	0		
+AP53	1673536	DIP	1	-	1	G	inter-gene-3-5	smeZ||dppA||	AP53_1680||AP53_1681||	0		
+AP53	1678683	DIP	1	A	1	-	inter-gene-3-3	dppE||-||	AP53_1685||AP53_1686||	0		
+AP53	1678705	DIP	1	T	1	-	inter-gene-3-3	dppE||-||	AP53_1685||AP53_1686||	0		
+AP53	1682577	DIP	16	----------------	1	ATCACTGTATGATAAA	frame-shift	-	AP53_1689	+		11
+AP53	1683210	DIP	5	-----	1	GGAGT	frame-shift	fbaA	AP53_1690	-		222
+AP53	1683214	DIP	1	-	1	G	frame-shift	fbaA	AP53_1690	-		221
+AP53	1683226	DIP	3	---	1	TTT	in-frame	fbaA	AP53_1690	-		217
+AP53	1683239	DIP	5	-----	1	AGTTT	frame-shift	fbaA	AP53_1690	-		213
+AP53	1683241	DIP	4	----	1	GGGG	frame-shift	fbaA	AP53_1690	-		212
+AP53	1683362	DIP	9	---------	1	TGGAGTTTC	in-frame	fbaA	AP53_1690	-		172
+AP53	1683370	DIP	1	-	1	A	frame-shift	fbaA	AP53_1690	-		169
+AP53	1683372	DIP	17	-----------------	1	TTTCCTCAGAAGAAGCT	frame-shift	fbaA	AP53_1690	-		168
+AP53	1683382	DIP	9	---------	1	ATTTCTCAC	in-frame	fbaA	AP53_1690	-		165
+AP53	1683386	DIP	12	------------	1	AGGTGATGGAGA	in-frame	fbaA	AP53_1690	-		164
+AP53	1683753	DIP	18	------------------	1	GTCGAAGAGTTTTGCTGC	in-frame	fbaA	AP53_1690	-		41
+AP53	1684217	DIP	51	---------------------------------------------------	1	TTCTGGTTTTTTATCTGGTGTTTGACCTGAACCGTCTTGTTCTGGTTTAGC	in-frame	scpA	AP53_1691	-		1084
+AP53	1687286	DIP	3	---	1	TGA	in-frame	scpA	AP53_1691	-		61
+AP53	1688451	DIP	3	---	1	AGC	in-frame	emm49	AP53_1692	-		141
+AP53	1688457	DIP	4	----	1	CTCT	frame-shift	emm49	AP53_1692	-		139
+AP53	1688462	DIP	5	-----	1	AGCTG	frame-shift	emm49	AP53_1692	-		137
+AP53	1688470	DIP	1	-	1	G	frame-shift	emm49	AP53_1692	-		134
+AP53	1688471	DIP	4	GTTT	1	----	frame-shift	emm49	AP53_1692	-		129
+AP53	1688487	DIP	2	--	1	GC	frame-shift	emm49	AP53_1692	-		129
+AP53	1688488	DIP	3	TGG	1	---	in-frame	emm49	AP53_1692	-		125
+AP53	1688493	DIP	4	----	1	ACCC	frame-shift	emm49	AP53_1692	-		127
+AP53	1688499	DIP	6	------	1	GCTAGC	in-frame	emm49	AP53_1692	-		125
+AP53	1688505	DIP	2	TT	1	--	frame-shift	emm49	AP53_1692	-		121
+AP53	1688518	DIP	1	-	1	C	frame-shift	emm49	AP53_1692	-		118
+AP53	1688527	DIP	4	TCTT	1	----	frame-shift	emm49	AP53_1692	-		110
+AP53	1688534	DIP	1	-	1	A	frame-shift	emm49	AP53_1692	-		113
+AP53	1688546	DIP	1	G	1	-	frame-shift	emm49	AP53_1692	-		109
+AP53	1688550	DIP	5	-----	1	AGATC	frame-shift	emm49	AP53_1692	-		108
+AP53	1688568	DIP	3	---	1	AGT	in-frame	emm49	AP53_1692	-		102
+AP53	1688571	DIP	1	-	1	A	frame-shift	emm49	AP53_1692	-		101
+AP53	1688577	DIP	1	T	1	-	frame-shift	emm49	AP53_1692	-		98
+AP53	1688584	DIP	11	-----------	1	AAGTTAAGGGC	frame-shift	emm49	AP53_1692	-		96
+AP53	1688585	DIP	1	C	1	-	frame-shift	emm49	AP53_1692	-		96
+AP53	1688597	DIP	1	-	1	C	frame-shift	emm49	AP53_1692	-		92
+AP53	1688603	DIP	4	GACG	1	----	frame-shift	emm49	AP53_1692	-		85
+AP53	1688613	DIP	1	A	1	-	frame-shift	emm49	AP53_1692	-		86
+AP53	1688621	DIP	1	-	1	G	frame-shift	emm49	AP53_1692	-		84
+AP53	1688632	DIP	7	-------	1	TCTCTTG	frame-shift	emm49	AP53_1692	-		80
+AP53	1688635	DIP	1	-	1	T	frame-shift	emm49	AP53_1692	-		79
+AP53	1688655	DIP	8	GTCCGCTC	1	--------	frame-shift	emm49	AP53_1692	-		51
+AP53	1688671	DIP	1	-	1	G	frame-shift	emm49	AP53_1692	-		67
+AP53	1688673	DIP	4	----	1	CACC	frame-shift	emm49	AP53_1692	-		67
+AP53	1688677	DIP	3	---	1	AAA	in-frame	emm49	AP53_1692	-		65
+AP53	1688698	DIP	5	-----	1	GCGGC	frame-shift	emm49	AP53_1692	-		58
+AP53	1688705	DIP	3	---	1	GCC	in-frame	emm49	AP53_1692	-		56
+AP53	1688716	DIP	1	-	1	G	frame-shift	emm49	AP53_1692	-		52
+AP53	1688724	DIP	9	TGTATCCGA	1	---------	in-frame	emm49	AP53_1692	-		23
+AP53	1688751	DIP	1	-	1	T	frame-shift	emm49	AP53_1692	-		41
+AP53	1688754	DIP	1	A	1	-	frame-shift	emm49	AP53_1692	-		39
+AP53	1688890	DIP	1	-	1	T	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1688893	DIP	1	-	1	G	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1688974	DIP	1	-	1	G	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1688976	DIP	7	-------	1	CCATTCC	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1688981	DIP	4	----	1	TTTG	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1688985	DIP	5	-----	1	AACTG	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689004	DIP	2	--	1	CA	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689008	DIP	13	TTCTTCTATACAT	1	-------------	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689049	DIP	1	-	1	A	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689052	DIP	1	G	1	-	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689055	DIP	2	--	1	AG	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689057	DIP	1	C	1	-	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689063	DIP	8	ATTACAAA	1	--------	inter-gene-5-3	emm49||pam||	AP53_1692||AP53_1693||	0		
+AP53	1689102	DIP	3	---	1	GAG	in-frame	pam	AP53_1693	-		421
+AP53	1689105	DIP	5	CTGCT	1	-----	frame-shift	pam	AP53_1693	-		412
+AP53	1689112	DIP	1	-	1	A	frame-shift	pam	AP53_1693	-		418
+AP53	1689114	DIP	2	CT	1	--	frame-shift	pam	AP53_1693	-		416
+AP53	1689215	DIP	1	-	1	C	frame-shift	pam	AP53_1693	-		383
+AP53	1689218	DIP	1	T	1	-	frame-shift	pam	AP53_1693	-		382
+AP53	1689227	DIP	12	GGTTTTGTACCT	1	------------	in-frame	pam	AP53_1693	-		331
+AP53	1689251	DIP	3	TGA	1	---	in-frame	pam	AP53_1693	-		368
+AP53	1689259	DIP	9	ACCTGGAAC	1	---------	in-frame	pam	AP53_1693	-		342
+AP53	1689271	DIP	11	TTTGTTTCCTG	1	-----------	frame-shift	pam	AP53_1693	-		324
+AP53	1689286	DIP	7	TGCATCA	1	-------	frame-shift	pam	AP53_1693	-		343
+AP53	1689301	DIP	7	TGAGTCT	1	-------	frame-shift	pam	AP53_1693	-		338
+AP53	1689313	DIP	8	TTTTTCAG	1	--------	frame-shift	pam	AP53_1693	-		329
+AP53	1689610	DIP	1	C	1	-	frame-shift	pam	AP53_1693	-		251
+AP53	1689614	DIP	1	-	1	A	frame-shift	pam	AP53_1693	-		250
+AP53	1689733	DIP	21	AGTCAAGTTTGCTAAATCTTT	1	---------------------	in-frame	pam	AP53_1693	-		64
+AP53	1689804	DIP	1	-	1	T	frame-shift	pam	AP53_1693	-		187
+AP53	1689807	DIP	1	G	1	-	frame-shift	pam	AP53_1693	-		186
+AP53	1689836	DIP	1	-	1	G	frame-shift	pam	AP53_1693	-		176
+AP53	1689843	DIP	5	-----	1	TTGTT	frame-shift	pam	AP53_1693	-		174
+AP53	1689867	DIP	3	---	1	AAC	in-frame	pam	AP53_1693	-		166
+AP53	1689872	DIP	3	CGC	1	---	in-frame	pam	AP53_1693	-		161
+AP53	1689883	DIP	4	TTTT	1	----	frame-shift	pam	AP53_1693	-		155
+AP53	1689894	DIP	1	-	1	C	frame-shift	pam	AP53_1693	-		157
+AP53	1689901	DIP	1	-	1	T	frame-shift	pam	AP53_1693	-		155
+AP53	1689910	DIP	1	G	1	-	frame-shift	pam	AP53_1693	-		151
+AP53	1689918	DIP	9	---------	1	TTTTTTGAC	in-frame	pam	AP53_1693	-		149
+AP53	1689925	DIP	1	C	1	-	frame-shift	pam	AP53_1693	-		146
+AP53	1689932	DIP	5	GCTAA	1	-----	frame-shift	pam	AP53_1693	-		136
+AP53	1689953	DIP	2	--	1	AG	frame-shift	pam	AP53_1693	-		137
+AP53	1689956	DIP	3	CGC	1	---	in-frame	pam	AP53_1693	-		133
+AP53	1689963	DIP	10	----------	1	AGGTAGTGAC	frame-shift	pam	AP53_1693	-		134
+AP53	1689976	DIP	1	A	1	-	frame-shift	pam	AP53_1693	-		129
+AP53	1689989	DIP	2	--	1	CT	frame-shift	pam	AP53_1693	-		125
+AP53	1689998	DIP	16	AGTCGCTCCAACTCTG	1	----------------	frame-shift	pam	AP53_1693	-		37
+AP53	1690021	DIP	11	ATGTCTCTCGT	1	-----------	frame-shift	pam	AP53_1693	-		74
+AP53	1690037	DIP	4	AGTC	1	----	frame-shift	pam	AP53_1693	-		104
+AP53	1690044	DIP	9	GCAACTCAG	1	---------	in-frame	pam	AP53_1693	-		80
+AP53	1690057	DIP	6	AGCGGT	1	------	in-frame	pam	AP53_1693	-		91
+AP53	1690082	DIP	13	TTAAGGCCTTGTA	1	-------------	frame-shift	pam	AP53_1693	-		38
+AP53	1690100	DIP	2	TC	1	--	frame-shift	pam	AP53_1693	-		87
+AP53	1690111	DIP	5	CCGTA	1	-----	frame-shift	pam	AP53_1693	-		76
+AP53	1690118	DIP	2	TC	1	--	frame-shift	pam	AP53_1693	-		81
+AP53	1690125	DIP	3	TAA	1	---	in-frame	pam	AP53_1693	-		77
+AP53	1690130	DIP	4	CCTT	1	----	frame-shift	pam	AP53_1693	-		73
+AP53	1690140	DIP	4	CCAA	1	----	frame-shift	pam	AP53_1693	-		70
+AP53	1690162	DIP	1	-	1	A	frame-shift	pam	AP53_1693	-		68
+AP53	1690173	DIP	8	GGTACCAA	1	--------	frame-shift	pam	AP53_1693	-		43
+AP53	1690183	DIP	3	CTC	1	---	in-frame	pam	AP53_1693	-		58
+AP53	1690188	DIP	5	CCCGT	1	-----	frame-shift	pam	AP53_1693	-		51
+AP53	1690195	DIP	1	A	1	-	frame-shift	pam	AP53_1693	-		56
+AP53	1690200	DIP	3	TCC	1	---	in-frame	pam	AP53_1693	-		52
+AP53	1690214	DIP	1	-	1	G	frame-shift	pam	AP53_1693	-		50
+AP53	1690217	DIP	18	TTTCTAGCGTCGTCTGCT	1	------------------	in-frame	pam	AP53_1693	-		-59
+AP53	1690362	DIP	5	TTATT	1	-----	frame-shift	pam	AP53_1693	-		-7
+AP53	1691444	DIP	29	-----------------------------	1	AGCTTCTGCTTCTGCCGCTGCTTTGAGCT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691446	DIP	12	------------	1	CCAAGCTCTTTC	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691453	DIP	4	----	1	CATT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691466	DIP	6	------	1	TGGCTT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691479	DIP	2	--	1	GT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691494	DIP	10	----------	1	GCGATTTCAC	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691499	DIP	9	---------	1	GCGTTTTGG	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691506	DIP	4	----	1	GCAC	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691511	DIP	5	-----	1	CTTCA	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691514	DIP	25	-------------------------	1	GCTTCTTTTAACTGTGCGTTTTCGT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691521	DIP	27	---------------------------	1	GTCTGAGATTTGCTTGTTTTTGTTATT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691526	DIP	1	T	1	-	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691533	DIP	12	------------	1	ATGCTTTTTGAG	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691537	DIP	3	ACG	1	---	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691544	DIP	8	--------	1	TCTGCCGC	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691550	DIP	6	------	1	GAGCTG	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691556	DIP	13	-------------	1	CTCTTTCTTGTAA	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691558	DIP	1	-	1	A	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691563	DIP	2	--	1	TG	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691567	DIP	7	-------	1	AATCTTT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691570	DIP	1	-	1	T	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691575	DIP	13	-------------	1	GTGTGCGTAAGAG	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691579	DIP	1	-	1	A	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691584	DIP	11	-----------	1	GGTATCCAGTT	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691591	DIP	59	-----------------------------------------------------------	1	CTTTTGTAAAGTCTCCTTATACATCTGTTGCATTAATTTGCTAAGTTTTGTAGGAGTTA	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691595	DIP	4	----	1	ATTA	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691600	DIP	13	-------------	1	ATTCCCAGATTGA	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691603	DIP	1	C	1	-	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691606	DIP	3	---	1	AGA	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691611	DIP	42	------------------------------------------	1	CTCCAGTATAGCCATCAAACACGTCTTCGATTGCTTTTTCAC	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691616	DIP	6	------	1	TTTCTA	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691628	DIP	6	------	1	CTAAAG	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691632	DIP	6	------	1	CTACGG	pseudo-gene|ncRNA	FcR/pseudogene	AP53_pseudo1695	-		
+AP53	1691800	DIP	3	---	1	ATT	inter-gene-5-3	FcR/pseudogene||mga||	AP53_pseudo1695||AP53_1696||	0		
+AP53	1691973	DIP	9	TCTAGCTTT	1	---------	in-frame	mga	AP53_1696	-		497
+AP53	1701736	DIP	1	-	1	T	inter-gene-5-3	acrA||hypo6||	AP53_1703||AP53_1704||	0		
+AP53	1702360	DIP	2	--	1	TT	frame-shift	hypo6	AP53_1704	-		13
+AP53	1702847	DIP	1	A	1	-	inter-gene-5-5	sHIP||hypo7||	AP53_1705||AP53_1706||	0		
+AP53	1702855	DIP	2	TA	1	--	inter-gene-5-5	sHIP||hypo7||	AP53_1705||AP53_1706||	0		
+AP53	1702860	DIP	4	----	1	AACA	inter-gene-5-5	sHIP||hypo7||	AP53_1705||AP53_1706||	0		
+AP53	1702868	DIP	1	T	1	-	inter-gene-5-5	sHIP||hypo7||	AP53_1705||AP53_1706||	0		
+AP53	1709386	DIP	1	G	1	-	frame-shift	-	AP53_1714	+		28
+AP53	1719665	DIP	1	A	1	-	frame-shift	-	AP53_1725	+		34
+AP53	1734902	DIP	1	A	1	-	inter-gene-5-3	cspA||-||	AP53_1741||AP53_rna82||	0		
+AP53	1735046	DIP	11	-----------	1	TTTGACCGACT	inter-gene-5-3	cspA||-||	AP53_1741||AP53_rna82||	0		
+AP53	1735064	DIP	1	-	1	T	inter-gene-5-3	cspA||-||	AP53_1741||AP53_rna82||	0		
+AP53	1741476	DIP	1	-	1	A	inter-gene-3-5	hutU||ftcD||	AP53_1745||AP53_1746||	0		
+AP53	1744764	DIP	1	-	1	A	frame-shift	-	AP53_1749	+		13
+AP53	1744766	DIP	1	C	1	-	frame-shift	-	AP53_1749	+		13
+AP53	1744830	DIP	2	AA	1	--	frame-shift	-	AP53_1749	+		35
+AP53	1744842	DIP	2	--	1	CG	frame-shift	-	AP53_1749	+		39
+AP53	1748462	DIP	1	G	1	-	inter-gene-3-5	hutH||hutG||	AP53_1751||AP53_1752||	0		
+AP53	1762654	DIP	1	-	1	G	inter-gene-5-5	-||-||	AP53_1762||AP53_1763||	0		
+AP53	1770845	DIP	1	-	1	T	inter-gene-5-3	-||-||	AP53_1770||AP53_1771||	0		
+AP53	1772259	DIP	1	A	1	-	inter-gene-5-3	-||spxA2||	AP53_1774||AP53_1775||	0		
+AP53	1780936	DIP	2	GA	1	--	frame-shift	-	AP53_1782	-		76
+AP53	1780940	DIP	3	---	1	GCC	in-frame	-	AP53_1782	-		76
+AP53	1780953	DIP	1	G	1	-	frame-shift	-	AP53_1782	-		71
+AP53	1780961	DIP	5	CACAA	1	-----	frame-shift	-	AP53_1782	-		60
+AP53	1780973	DIP	2	--	1	TC	frame-shift	-	AP53_1782	-		65
+AP53	1780977	DIP	3	---	1	CAT	in-frame	-	AP53_1782	-		63
+AP53	1781039	DIP	2	TC	1	--	frame-shift	-	AP53_1782	-		41
+AP53	1781044	DIP	1	-	1	C	frame-shift	-	AP53_1782	-		41
+AP53	1781049	DIP	1	-	1	A	frame-shift	-	AP53_1782	-		39
+AP53	1781174	DIP	6	------	1	CATCAG	inter-gene-5-5	-||-||	AP53_1782||AP53_1783||	0		
+AP53	1781214	DIP	1	-	1	A	inter-gene-5-5	-||-||	AP53_1782||AP53_1783||	0		
+AP53	1807381	DIP	1	-	1	T	inter-gene-3-5	rpmG||cadD||	AP53_1815||AP53_1816||	0		
+AP53	1808595	DIP	7	CTACTTT	1	-------	inter-gene-3-5	cadC||-||	AP53_1817||AP53_1818||	0		
+AP53	1808705	DIP	1	A	1	-	frame-shift	-	AP53_1818	+		25
+AP53	1808711	DIP	1	-	1	G	frame-shift	-	AP53_1818	+		27
+AP53	1810838	DIP	1	-	1	C	frame-shift	-	AP53_1820	+		156
+AP53	1821238	DIP	1	-	1	A	inter-gene-5-3	-||-||	AP53_1830||AP53_1831||	0		
+AP53	1821302	DIP	1	T	1	-	inter-gene-5-3	-||-||	AP53_1830||AP53_1831||	0		
+AP53	1845955	DIP	1	A	1	-	inter-gene-3-3	recF||GlcU||	AP53_1853||AP53_1854||	0		
+AP53	1847018	DIP	1	A	1	-	inter-gene-5-3	GlcU||guaB||	AP53_1854||AP53_1855||	0		
+AP53	1855533	DIP	1	-	1	A	inter-gene-3-3	-||-||	AP53_1860||AP53_rna83||	0		
+AP53	1855988	DIP	1	A	1	-	inter-gene-3-3	-||-||	AP53_1860||AP53_rna83||	0		
+AP53	1856280	DIP	1	-	1	A	inter-gene-5-3	-||-||	AP53_rna84||AP53_1861||	0		
+AP53	1856936	DIP	1	-	1	A	frame-shift	-	AP53_1861	-		151
+AP53	1858313	DIP	1	-	1	C	inter-gene-5-5	rlmH||htrA||	AP53_1862||AP53_1863||	0		
