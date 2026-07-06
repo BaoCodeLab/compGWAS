@@ -2,6 +2,8 @@ import argparse
 import glob
 from allGWAS.preGWASlib import gbk2seqGene
 from allGWAS.preGWASlib import parseGpff
+from allGWAS.preAnnolib import snps.py
+from allGWAS.preAnnnlib import indels.py
 from allGWAS.GWASlib.SNPgwas import SNPgwas
 from allGWAS.GWASlib.CDSgwas import CDSgwas
 from allGWAS.GWASlib.nonCDSgwas import nonCDSgwas
@@ -22,6 +24,12 @@ def _preGWAS_wrapper(args):
     gbk2seqGene.gbk2seqGene(args)
     parseGpff.parseGpff(args)
     
+def _preAnno_wrapper(args):
+    if args.type == "SNP" or args.type == "snp":
+        snps.snps(args)
+    elif args.type == "InDel" or args.type == "indel":
+        indels.indels(args)
+        
 def _SNPCDSanno_wrapper(args):
     if args.type == "CDS":
         SNPCDSanno.SNPCDSanno(args)
@@ -57,8 +65,8 @@ if __name__ == "__main__":
     preAnno_parser.add_argument('-m','--mol',help="dictionary of molecular file parsed from parse_gtff")
     preAnno_parser.add_argument('-s','--CDS_seq',required=True,help="dictionary of CDS sequence file parsed from parse_gtff")
     preAnno_parser.add_argument('-f','--format',required=True,help="The format type of mutation file, the value should be vcf or table")
-    preAnno_parser.add_argument('-i','--input',required=True,help="The directory of mutation files for annotation")
-    preAnno_parser.set_defaults(func=preAnno)
+    preAnno_parser.add_argument('-i','--input',nargs='+',required=True,help="The directory of mutation files for annotation")
+    preAnno_parser.set_defaults(func=_preAnno_wrapper)
                     
     
     SNPgwas_parser=subparsers.add_parser("SNPgwas",help="GWAS of SNPs") 
