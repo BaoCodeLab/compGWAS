@@ -3,6 +3,10 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
 * [preGWAS](#preGWAS)
 
         Prepare the reference genome and annotation files
+
+* [preAnno](#preAnno)
+
+        Make annotation for SNPs/InDels from mutation detection results before performing GWAS
         
 * [GWAS](#GWAS)
 
