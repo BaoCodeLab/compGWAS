@@ -19,6 +19,7 @@ PYTHON_REQUIRES = '>=3.7'
 INSTALL_REQUIRES = [
     'numpy>=1.16.0',
     'pandas>=0.24.0',
+    'vcf>=0.6.8',
 ]
 
 setup(
