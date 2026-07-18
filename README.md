@@ -68,6 +68,20 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
 | 1314   | -  | -  | -  | -  | AP53   | 1742  | 2878 | +      | dnaN   | AP53_2 | GENE     | complete | AP53_2         | DNA polymerase III beta subunit (EC 2.7.7.7)   |    | DNA Metabolism // DNA replication // DNA-replication |           |                 |
 | 1314   | -  | -  | -  | -  | AP53   | 2953  | 3150 | +      | -      | AP53_3 | GENE     | complete | AP53_3         | FIG01114317: hypothetical protein              |    | Hypothetical protein                                 |           |                 |
 
+# preAnno
+### Make annotation for SNPs/InDels from mutation detection results before performing GWAS
+#### Usage:&emsp;python compGWAS.py preAnno [-h] -t MutType -f MutFormat -c contigDic -g geneDic -C CDSDic -m [molDic] -s CDSseqDic
+#### {arguments}
+    -h, --help                            Show this help message and exit.
+    -t MutType, --type MutType            The mutation type for annotation (the value should be SNP or InDel).
+    -f MutFormat, --format MutFormat      The format type of mutation file (the value should be vcf or table).
+    -c contigDic, --contg contigDic       The dictionary file of contig for annotation derived from preGWAS.
+    -g geneDic, --gene geneDic            The dictionary file of gene for annotation derived from preGWAS.
+    -C CDSDic, --CDS CDSDic               The dictionary file of CDS for annotation derived from preGWAS.
+    -m [molDic], --mol [molDic]           The dictionary file of molecules for annotation derived from preGWAS.
+    -s CDSseqDic, --CDS_seq CDSseqDic     The dictionary file of CDS sequences for annotation derived from preGWAS.
+    
+    
 
 # GWAS
 ### GWA analysis of SNPs in the coding regions
