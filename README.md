@@ -80,7 +80,8 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
     -C CDSDic, --CDS CDSDic               The dictionary file of CDS for annotation derived from preGWAS.
     -m [molDic], --mol [molDic]           The dictionary file of molecules for annotation derived from preGWAS.
     -s CDSseqDic, --CDS_seq CDSseqDic     The dictionary file of CDS sequences for annotation derived from preGWAS.
-* For mutation call results in tab-delimited format, ten columns are required: #RefName, Mutation Location, Mutation Type	RefLen	Ref	AlleleNum	Allele	AlleleRatio	AlleleDepth	Depth
+* For mutation call results in tab-delimited format, ten columns are required: #RefName, Mutation Location, Mutation Type, Ref Allele Length, Ref allele, Number of alternative alleles, Alternative alleles, Allele Ratio (Alternative:Reference), Alternative allele depth, Total depth.
+
 | strain | r1 | r2 | r3 | r4 | contig | start | end  | strand | symbol | geneID | mol_type | assemblyType               | productID | function |
 | ---------- | -- | -- | -- | -- | ------ | ----- | ---- | ------ | ------ | ------ | -------- | ------------------ | --------- | 
 | 1314   | -  | -  | -  | -  | AP53   | 232   | 1587 | +      | dnaA   | AP53_1 | GENE     | complete | AP53_1         | 
