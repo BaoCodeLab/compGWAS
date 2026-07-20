@@ -80,13 +80,13 @@ An integrated toolkit for comprehensive GWAS analysis of SNPs and Indels to iden
     -C CDSDic, --CDS CDSDic               The dictionary file of CDS for annotation derived from preGWAS.
     -m [molDic], --mol [molDic]           The dictionary file of molecules for annotation derived from preGWAS.
     -s CDSseqDic, --CDS_seq CDSseqDic     The dictionary file of CDS sequences for annotation derived from preGWAS.
-* In order to make annotation for mutation call results in tab-delimited format (table), the input file should contain ten columns: #RefName, Mutation location, Mutation Type, Ref Allele Length, Ref allele, Number of alternative alleles, Alternative alleles, Allele Ratio (Alternative:Reference), Alternative allele depth, Total depth.
+* In order to make annotation for mutation call results in tab-delimited format (table), the input file should contain ten columns: #RefName, Mutation location, Mutation Type, Ref Allele Length, Ref allele, Number of alternative alleles, Alternative alleles, Allele Ratio (Alternative:Reference), Alternative allele depth, Total depth. Among the ten columns, the first (#RefName), second (Mutation location), fifth (Ref allele), seven (Alternative alleles) are required for annotation.
 
 | #RefName | Loc | Type | RefAlleleLen | RefAllele | AltAlleleNum | AltAllele | AlleleRatio  | AltAlleleDepth | totalDepth | geneID |
 | :---------- | :-- | :-- | :-- | :-- | :------ | :----- | :---- | :------ | :------ | :------ | 
-| 1314   | -  | -  | -  | -  | AP53   | 232   | 1587 | +      | dnaA   | AP53_1 | 
-| 1314   | -  | -  | -  | -  | AP53   | 1742  | 2878 | +      | dnaN   | AP53_2 |
-| 1314   | -  | -  | -  | -  | AP53   | 2953  | 3150 | +      | -      | AP53_3 |
+| AP53   | 4237  | SNP  | 1  | C  | 1   | T  | 100.00 | 1      | 1   | AP53_1 | 
+| AP53   | 4490  | SNP  | 1  | A  | 1   | C  | 100.00 | 1      | 1   | AP53_2 |
+| AP53   | 4523  | SNP  | 1  | G  | 1   | A  | 100.00 | 1      | 1   | AP53_3 |
 
     
 
