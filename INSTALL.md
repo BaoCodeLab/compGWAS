@@ -4,10 +4,11 @@ A quick and easy installation guide for **compGWAS** - A Python toolkit for comp
 
 ## Prerequisites
 
-- **Python** > 3.7+
-- **numpy** > 1.16.0
-- **pandas** >=0.24.0
-- **R** > 3.5+
+- **Python** >= 3.7+
+- **numpy** >= 1.16.0
+- **pandas** >= 0.24.0
+- **vcf** >= 0.6.8
+- **R** >= 3.5+
 - **R packages**: "foreach", "doParallel", "BaylorEdPsych"
 - **Java** = 1.8
 - **Haploview** (for Haploview/LD analysis)
@@ -103,6 +104,7 @@ compGWAS <command> [options]
 ### Available Commands
 
 - **preGWAS** - Prepare reference genome and annotation files
+- **preAnno** - Make annotations for user-generated mutation call results
 - **SNPgwas** - GWAS analysis of SNPs in coding regions
 - **CDSgwas** - GWAS analysis of SNPs/Indels synergistic effects
 - **nonCDSgwas** - GWAS analysis in non-coding regions
@@ -119,6 +121,14 @@ compGWAS <command> [options]
 ```bash
 # Prepare reference genome and annotation files
 compGWAS preGWAS -g input.gbk -o output_tab-delimited.txt -s reference_proteins.faa -r genome.fasta -t AP53 -p PREFIX
+
+# Make annotations for user-generated mutation call results:
+compGWAS preAnno -t SNP -f table -c forAnnotation/AP53.rast.anno2.contg.dic \
+  -g forAnnotation/AP53.rast.anno2.gene.dic \
+  -C forAnnotation/AP53.rast.anno2.CDS.dic \
+  -m forAnnotation/AP53.rast.anno2.mol.dic \
+  -s forAnnotation/AP53.rast.anno2.CDSseq.dic \
+  -i SNPcall_INV-SSTI_test/
 
 # Run SNP GWAS analysis
 compGWAS SNPgwas -S /path/to/snps/ -c 0 1 6 \
