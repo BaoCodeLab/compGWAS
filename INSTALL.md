@@ -124,11 +124,11 @@ compGWAS preGWAS -g input.gbk -o output_tab-delimited.txt -s reference_proteins.
 
 # Make annotations for user-generated mutation call results:
 compGWAS preAnno -t SNP -f table -c forAnnotation/AP53.rast.anno2.contg.dic \
-  -g forAnnotation/AP53.rast.anno2.gene.dic \
-  -C forAnnotation/AP53.rast.anno2.CDS.dic \
-  -m forAnnotation/AP53.rast.anno2.mol.dic \
-  -s forAnnotation/AP53.rast.anno2.CDSseq.dic \
-  -i SNPcall_INV-SSTI_test/
+  -g data/reference/AP53.rast.anno2.gene.dic \
+  -C data/reference/AP53.rast.anno2.CDS.dic \
+  -m data/reference/AP53.rast.anno2.mol.dic \
+  -s data/reference/AP53.rast.anno2.CDSseq.dic \
+  -i data/demo/SNPcall_INV-SSTI_test/
 
 # Run SNP GWAS analysis
 compGWAS SNPgwas -S /path/to/snps/ -c 0 1 6 \
